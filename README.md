@@ -64,7 +64,7 @@ uart2 = UART(2, baudrate=9600, tx=Pin(14), rx=Pin(13))
 3. Use the `uart2` object to send and receive data over UART2.
 
 ## Notes
-- Video Explain this in more depth - https://www.youtube.com/watch?v=3sXtVuMhuoc
+- Unexpected Make video explains this - https://www.youtube.com/watch?v=3sXtVuMhuoc
 - Forum post - https://esp32.com/viewtopic.php?t=30573
 - Pin out from Espressif - https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html
 
