@@ -77,7 +77,8 @@ uart2 = UART(2, baudrate=9600, tx=Pin(14), rx=Pin(13))
 # uart2 = UART(2, baudrate=9600, tx=Pin(14), rx=Pin(13), cts=Pin(8), rts=Pin(7))
 ```
 
-3. Use the `uart2` object to send and receive data over UART2.
+3. Full Example 
+In Thonny or other IDE, run/import `send_and_receive.py` on each esp32
 
 ## Notes
 - Unexpected Make video explains this - https://www.youtube.com/watch?v=3sXtVuMhuoc
