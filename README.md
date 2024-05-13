@@ -14,7 +14,7 @@ This repository provides an examples of how to use UART microcontrollers
 - An ESP32 board or module 
     (I used 2 x [ESP32-S3-DevKitC-1 (S3-N16R8)](https://www.aliexpress.us/item/3256806014820995.html) from AliExpress)
  
-- MicroPython firmware (I used ["Firmware Support for Octal-SPIRAM"](https://micropython.org/download/ESP32_GENERIC_S3/) and used Thonny to point to the file I downloaded) 
+- MicroPython firmware (I used ["Firmware Support for Octal-SPIRAM"](https://micropython.org/download/ESP32_GENERIC_S3/) and pointed Thonny to the file explicitly.) 
 
 
 ## UART2 Pin Configuration
