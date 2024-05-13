@@ -50,8 +50,9 @@ NOTE: Pin 14 may be hard to read. See pic.
 
 <table>
   <tr>
-    <th>Item 1</th>
-    <th>Item 2</th>
+    <th>View 1</th>
+    <th>View 2</th>
+    <th>Pin 13 and 14</th>
   </tr>
   <tr>
     <td align="center"><img src="pics/esp321.jpg" width="200" height="200"></td>
