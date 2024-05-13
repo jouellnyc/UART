@@ -4,12 +4,19 @@ This repository provides an examples of how to use UART microcontrollers
 
 ## ESP32 UART Example
 
+## WHY?
+- It was quite the effort to get 2 esp32 devices with SPIRAM to speak to each other over a simple UART.
+- It seemed like the information was hidden, but it was just not obvious.
+
+
 ## Prerequisites
 
-- An ESP32 board or module (I used 2 ESP32-S3-DevKitC-1 from AliExpress)
+- An ESP32 board or module with SPIRAM (optional - I used 2 x ESP32-S3-DevKitC-1 (S3-N16R8) from AliExpress)
   https://www.aliexpress.us/item/3256806014820995.html
  
 - MicroPython firmware installed on the ESP32
+  (I used "Firmware (Support for Octal-SPIRAM)" at https://micropython.org/download/ESP32_GENERIC_S3/ and used Thonny to point to the file I downloaded) 
+
 
 ## UART2 Pin Configuration
 
