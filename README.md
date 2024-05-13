@@ -46,6 +46,8 @@ Additionally, you can optionally assign the CTS and RTS pins for hardware flow c
    - Connect the ESP32's UART2 RX pin to the TX pin of the other device
    - Connect the ground (GND) pins of both devices
 
+NOTE: Pin 14 may be hard to read. See pic.
+
 <table>
   <tr>
     <th>Item 1</th>
@@ -54,6 +56,7 @@ Additionally, you can optionally assign the CTS and RTS pins for hardware flow c
   <tr>
     <td align="center"><img src="pics/esp321.jpg" width="200" height="200"></td>
     <td align="center"><img src="pics/esp322.jpg" width="200" height="200"></td>
+    <td align="center"><img src="pics/pin13and14.jpg" width="200" height="200"></td>
   </tr>
 </table>
 
