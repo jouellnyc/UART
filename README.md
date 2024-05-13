@@ -46,6 +46,9 @@ Additionally, you can optionally assign the CTS and RTS pins for hardware flow c
    - Connect the ESP32's UART2 RX pin to the TX pin of the other device
    - Connect the ground (GND) pins of both devices
 
+![View ](pics/esp321.jpg)
+
+
 2. Configure UART2 in your MicroPython code:
 
 ```python
