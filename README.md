@@ -83,7 +83,7 @@ In Thonny or other IDE, run/import `send_and_receive.py` on each esp32
 ## Notes
 - Unexpected Make video explains this - https://www.youtube.com/watch?v=3sXtVuMhuoc
 - Forum post - https://esp32.com/viewtopic.php?t=30573
-- Pin out from Espressif - https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html
+- [Pin out from Espressif](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html)
 
 
 ## License
