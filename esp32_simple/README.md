@@ -44,11 +44,13 @@ NOTE: Pin 14 may be hard to read. See pics for some visual help.
     <th>View 1</th>
     <th>View 2</th>
     <th>Pin 13 and 14</th>
+    <th>Creative Cabling</th>
   </tr>
   <tr>
     <td align="center"><img src="pics/esp321.jpg" width="200" height="200"></td>
     <td align="center"><img src="pics/esp322.jpg" width="200" height="200"></td>
     <td align="center"><img src="pics/pin13and14.jpg" width="200" height="200"></td>
+    <td align="center"><img src="pics/esp32-bb.jpg" width="200" height="200"></td>
   </tr>
 </table>
 
