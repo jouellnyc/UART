@@ -83,6 +83,17 @@ uart2 = UART(2, baudrate=9600, tx=Pin(14), rx=Pin(13))
 
 In Thonny or other IDE, run/import `send_and_receive.py` on each esp32
 
+With any luck it will run like this:
+
+<table>
+  <tr>
+    <th>Thonny</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="pics/thonny_uart.png" width="200" height="200"></td>
+  </tr>
+</table>
+
 ## Notes
 - [Unexpected Make video explains hidden UARTS](https://www.youtube.com/watch?v=3sXtVuMhuoc)
 - [ ESP32 Forum post re: UART](https://esp32.com/viewtopic.php?t=30573)
