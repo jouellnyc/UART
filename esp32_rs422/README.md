@@ -73,7 +73,7 @@ Note we still use UART2 and remap as in  [simple uart](https://github.com/jouell
 - Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
 
 ## Notes
-Here are more details in terms of the why I did it this way:
+Here are more details in terms of the "Why I did it this way":
 - [Reddit Post on the Confusiion](https://www.reddit.com/r/embedded/comments/1cuo52g/comment/l4qclpu/?context=3)
 
 ## License
