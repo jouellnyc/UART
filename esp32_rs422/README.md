@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- Same as https://github.com/jouellnyc/UART/tree/main/esp32_simple
+- Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
 - Also, 2 x RS-422 modulses. I used [these](https://www.amazon.com/gp/product/B0C1C3VHZW/)
 
 ## UART2 Pin Configuration
@@ -55,11 +55,10 @@ Such is life with esp32 boards. I intend to retry with esp32's from Espressif th
     ```
 
 3. Configure UART2 in your MicroPython code:
-Same as in https://github.com/jouellnyc/UART/tree/main/esp32_simple
+- Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
 
 4. Full Example 
-Same as in https://github.com/jouellnyc/UART/tree/main/esp32_simple
-
+- Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
 
 ## Notes
 - [Reddit Post on the Confusiion](https://www.reddit.com/r/embedded/comments/1cuo52g/comment/l4qclpu/?context=3)
