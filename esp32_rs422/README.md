@@ -9,30 +9,28 @@
 ## Physical Connections
 
 ###  Upfront Notes
+
 - A 5V wall power brick make ground and 5V available on a shared bread board.
+Why? Neither of these esp32 devices seemed to give adequate output power to power the modules.
+Such is life with esp32 boards. I intend to retry with esp32's from Espressif themselves versus those used here.
 - I used USB to power the esp32s.
 
 ![pic](./pics/esp32_rs422.jpg)
 
 
 ## UART2 Pin Configuration
+
 - Same  Pin Remapping as in [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
 
 Note that:
-
 - Each ESP32 will connect TX to TX on the RS-422 modoule
 - Each ESP32 will connect RX to RX on the RS-422 modoule
 
 
 ### RS422 Pin Configuration
 
-
-Why? Neither of these esp32 devices seemed to give adequate output power to power the modules.
-
-Such is life with esp32 boards. I intend to retry with esp32's from Espressif themselves versus those used here.
-
-
 1. **Power Supply Connections**
+
     - Connect the VCC pin of each module to the power rail on the shared breadboard.
     - Connect the GND pin of each module to the ground rail on the shared breadboard.
 
@@ -44,6 +42,7 @@ Such is life with esp32 boards. I intend to retry with esp32's from Espressif th
     ```
 
 2. **Data Line Connections**
+
     - Connect the **Y** pin of Module 1 to the **B** pin of Module 2.
     - Connect the **Z** pin of Module 1 to the **A** pin of Module 2.
     - Connect the **Y** pin of Module 2 to the **B** pin of Module 1.
