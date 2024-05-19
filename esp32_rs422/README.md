@@ -28,6 +28,8 @@ Each esp32 simply connects it's RX/TX to the modules RX/TX, respectively:
 | GPIO 13  | TX |
 | GPIO 14  | RX |
 
+Note we still use UART2 and remap as in  [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
+
 
 ### RS422 Pin Configuration
 
@@ -65,12 +67,6 @@ Each esp32 simply connects it's RX/TX to the modules RX/TX, respectively:
     +-----------------------------------------+
     ```
 
-## UART2 Pin Configuration
-
-- Same  Pin Remapping as in [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
-
-3. Configure UART2 in your MicroPython code:
-- Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
 
 4. Full Example 
 - Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
@@ -81,4 +77,5 @@ Each esp32 simply connects it's RX/TX to the modules RX/TX, respectively:
 ## License
 This project is licensed under the [MIT License](LICENSE).
 Feel free to modify the content as needed, such as adding installation instructions, code examples, or any other relevant information for your project.
+
 
