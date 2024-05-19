@@ -5,6 +5,16 @@
 - Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
 - Also, 2 x RS-422 modulses. I used [these](https://www.amazon.com/gp/product/B0C1C3VHZW/)
 
+
+## Physical Connections
+
+###  Upfront Notes
+- A 5V wall power brick make ground and 5V available on a shared bread board.
+- I used USB to power the esp32s.
+
+![pic](./pics/esp32_rs422.jpg)
+
+
 ## UART2 Pin Configuration
 - Same  Pin Remapping as in [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
 
@@ -16,9 +26,6 @@ Note that:
 
 ### RS422 Pin Configuration
 
-## Upfront Notes
-- I used a 5V wall power brick as a power supply for both RS422 modules.
-- I used USB to power the esp32s.
 
 Why? Neither of these esp32 devices seemed to give adequate output power to power the modules.
 
