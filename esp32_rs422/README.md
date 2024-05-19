@@ -4,7 +4,7 @@ This is almost exactly the same as the Simple UART example, except here we add R
 ## Prerequisites
 
 - Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
-- Also, 2 x RS-422 modulses. I used [these](https://www.amazon.com/gp/product/B0C1C3VHZW/)
+- Also, 2 x RS-422 modulses. [These](https://www.amazon.com/gp/product/B0C1C3VHZW/) were used.
 
 
 ## Physical Connections
@@ -15,7 +15,7 @@ This is almost exactly the same as the Simple UART example, except here we add R
 
 Why? Neither of these esp32 devices seemed to give adequate output power to power the modules (which use a MAX390 chip).
 Such is life with esp32 boards. I intend to retry with esp32's from Espressif themselves versus those used here.
--  USB is usedto power the esp32s.
+-  USB is used to power the esp32s.
 
 ![pic](./pics/esp32_rs422.jpg)
 
