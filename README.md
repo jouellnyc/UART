@@ -1,6 +1,13 @@
 # UART projects
 This repository provides an examples of how to use UART with microcontrollers in various configurations.
 
+Here's a nice short video on UART (not mine) to get started if unfamiliar with UART:
+
+https://www.youtube.com/watch?app=desktop&v=JuvWbRhhpdI
+
+![image](https://github.com/jouellnyc/UART/assets/32470508/64903885-f112-42c4-98f4-de987f2aeeee)
+
+Here are the projects:
 
 ## 1. [ESP32 UART Simple Example](esp32_simple/)
 ### Why?
@@ -11,10 +18,4 @@ This repository provides an examples of how to use UART with microcontrollers in
 ### Why?
 - Oddly enough, it was quite the effort to get 2 esp32 devices to speak to each other over rs-422 modules.
 - Yet again, it seemed like the information was hidden, but it was just not obvious.
-
-Here's a nice short video on UART (not mine) to get started as well:
-
-https://www.youtube.com/watch?app=desktop&v=JuvWbRhhpdI
-
-![image](https://github.com/jouellnyc/UART/assets/32470508/64903885-f112-42c4-98f4-de987f2aeeee)
 
