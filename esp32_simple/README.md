@@ -83,7 +83,7 @@ uart2 = UART(2, baudrate=9600, tx=Pin(14), rx=Pin(13))
 
 In Thonny or other IDE, run/import `send_and_receive.py` on each esp32
 
-With any luck it will run like this:
+With any luck they will both run like this:
 
 <table>
   <tr>
