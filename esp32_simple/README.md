@@ -38,7 +38,7 @@ Additionally, you can optionally assign the CTS and RTS pins for hardware flow c
 
 ## Usage
 
-Wire the connections:
+1. Wire the connections:
 
 | Connection | Details |
 |---|---|
