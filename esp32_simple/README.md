@@ -94,13 +94,12 @@ With any luck they will both run like this:
   </tr>
 </table>
 
-## Notes
+## References
+
 - [Unexpected Make video explains hidden UARTS](https://www.youtube.com/watch?v=3sXtVuMhuoc)
 - [ ESP32 Forum post re: UART](https://esp32.com/viewtopic.php?t=30573)
 - [ Andreas Spiess UART video ](https://www.youtube.com/watch?v=GwShqW39jlE)
 - [Pin out from Espressif](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html)
-
-
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
