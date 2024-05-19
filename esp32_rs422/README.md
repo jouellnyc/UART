@@ -9,7 +9,7 @@ This is almost exactly the same as the Simple UART example, except here we add R
 
 ## Physical Connections
 
-###  Upfront Notes
+###  Upfront Notes on Power
 
 - A 5V wall power brick "makes ground and 5V available" on a shared bread board.
 
@@ -19,10 +19,14 @@ Such is life with esp32 boards. I intend to retry with esp32's from Espressif th
 
 ![pic](./pics/esp32_rs422.jpg)
 
+###  Ground Pins on ESP32 
 
-###  TTL Pins 
+Each esp32  connects it's GND pin to the shared breadboard.
 
-Each esp32 simply connects it's RX/TX to the modules RX/TX, respectively:
+
+###  TTL Pins from ESP32 to RS-422 Module
+
+Each esp32  connects it's RX/TX to the modules RX/TX, respectively:
  
 |  ESP32  | RS-422 Module Pin |
 |---|---|
