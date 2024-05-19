@@ -1,4 +1,5 @@
 ## ESP32 RS-422  Example
+This is almost exactly the same as the Simple UART example, except here we add RS-422 
 
 ## Prerequisites
 
