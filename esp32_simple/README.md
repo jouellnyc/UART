@@ -12,9 +12,10 @@
 ## UART2 Pin Configuration
 
 By default, the ESP32 assigns the following pins to UART2:
-
-- TX: GPIO 17
-- RX: GPIO 16
+| Pin | Description |
+|---|---|
+| TX | GPIO 17 |
+| RX | GPIO 16 |
 
 However, if your ESP32 device has SPI RAM enabled, these pins (GPIO 16 and GPIO 17) are dedicated to the SPI RAM interface and cannot be used for UART2. 
 In this case, you need to remap the UART2 signals to different GPIO pins.
@@ -22,14 +23,18 @@ In this case, you need to remap the UART2 signals to different GPIO pins.
 ### UART2 Pin Remapping (with SPI RAM)
 
 When SPI RAM is enabled, you can remap the UART2 signals to the following pins:
+| Pin | Description |
+|---|---|
+| TX | GPIO 14 |
+| RX | GPIO 13 |
 
-- TX: GPIO 14
-- RX: GPIO 13
 
 Additionally, you can optionally assign the CTS and RTS pins for hardware flow control:
 
-- CTS: GPIO 8
-- RTS: GPIO 7
+| Pin | Description |
+|---|---|
+| CTS | GPIO 8 |
+| RTS| GPIO 7 |
 
 ## Usage
 
