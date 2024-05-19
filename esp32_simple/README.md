@@ -12,6 +12,7 @@
 ## UART2 Pin Configuration
 
 By default, the ESP32 assigns the following pins to UART2:
+
 | Pin | Description |
 |---|---|
 | TX | GPIO 17 |
@@ -23,6 +24,7 @@ In this case, you need to remap the UART2 signals to different GPIO pins.
 ### UART2 Pin Remapping (with SPI RAM)
 
 When SPI RAM is enabled, you can remap the UART2 signals to the following pins:
+
 | Pin | Description |
 |---|---|
 | TX | GPIO 14 |
@@ -36,9 +38,22 @@ Additionally, you can optionally assign the CTS and RTS pins for hardware flow c
 | CTS | GPIO 8 |
 | RTS| GPIO 7 |
 
-## Usage
+For example, you would do this in your MicroPython code:
 
-1. Wire the connections:
+```python
+from machine import UART, Pin
+
+# Without SPI RAM
+uart2 = UART(2, baudrate=9600, tx=Pin(17), rx=Pin(16))
+
+# With SPI RAM (remapped pins)
+uart2 = UART(2, baudrate=9600, tx=Pin(14), rx=Pin(13))
+
+# Optional: Configure CTS and RTS pins for hardware flow control
+# uart2 = UART(2, baudrate=9600, tx=Pin(14), rx=Pin(13), cts=Pin(8), rts=Pin(7))
+```
+
+## Physical Connections
 
 | Connection | Details |
 |---|---|
@@ -64,22 +79,8 @@ NOTE: Pin 14 may be hard to read. See pics for some visual help.
 </table>
 
 
-2. Configure UART2 in your MicroPython code:
 
-```python
-from machine import UART, Pin
-
-# Without SPI RAM
-uart2 = UART(2, baudrate=9600, tx=Pin(17), rx=Pin(16))
-
-# With SPI RAM (remapped pins)
-uart2 = UART(2, baudrate=9600, tx=Pin(14), rx=Pin(13))
-
-# Optional: Configure CTS and RTS pins for hardware flow control
-# uart2 = UART(2, baudrate=9600, tx=Pin(14), rx=Pin(13), cts=Pin(8), rts=Pin(7))
-```
-
-## Full Example
+## Full Micropython Example
 
 In Thonny or other IDE, run/import `send_and_receive.py` on each esp32
 
