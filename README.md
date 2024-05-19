@@ -1,5 +1,5 @@
 # UART projects
-This repository provides an examples of how to use UART microcontrollers
+This repository provides an examples of how to use UART with microcontrollers in various configurations.
 
 
 ## 1. [ESP32 UART Simple Example](esp32_simple/)
