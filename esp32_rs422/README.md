@@ -74,7 +74,7 @@ Note we still use UART2 and remap as in  [simple uart](https://github.com/jouell
 
 ## Notes
 Here are more details in terms of the "Why I did it this way":
-- [Reddit Post on the Confusiion](https://www.reddit.com/r/embedded/comments/1cuo52g/comment/l4qclpu/?context=3)
+- [Reddit Post on the RS-422 and Esp32's](https://www.reddit.com/r/embedded/comments/1cuo52g/comment/l4qclpu/?context=3)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
