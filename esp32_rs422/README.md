@@ -3,7 +3,7 @@
 ## Prerequisites
 
 - Same as https://github.com/jouellnyc/UART/tree/main/esp32_simple
-- Also, 2 x RS-422 modulses. I used (these)[https://www.amazon.com/gp/product/B0C1C3VHZW/]
+- Also, 2 x RS-422 modulses. I used [these](https://www.amazon.com/gp/product/B0C1C3VHZW/)
 
 ## UART2 Pin Configuration
 
