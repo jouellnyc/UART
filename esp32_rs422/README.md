@@ -19,13 +19,16 @@ Such is life with esp32 boards. I intend to retry with esp32's from Espressif th
 ![pic](./pics/esp32_rs422.jpg)
 
 
+Each esp32 simply connects it's RX/TX to the modules RX/TX, respectively:
+ 
+|  ESP32  | RS-422 Module Pin |
+|---|---|
+| TX | TX |
+| RX | RX |
+
 ## UART2 Pin Configuration
 
 - Same  Pin Remapping as in [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
-
-Note that:
-- Each ESP32 will connect TX to TX on the RS-422 modoule
-- Each ESP32 will connect RX to RX on the RS-422 modoule
 
 
 ### RS422 Pin Configuration
