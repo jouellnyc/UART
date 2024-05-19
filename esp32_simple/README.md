@@ -1,6 +1,6 @@
 ## ESP32 UART Simple Example
 
-## [ Prerequisites ](#Prerequisites)
+##  Prerequisites
 
 - An ESP32 board or module 
     (I used 2 x [ESP32-S3-DevKitC-1 (S3-N16R8)](https://www.aliexpress.us/item/3256806014820995.html) from AliExpress)
@@ -70,7 +70,7 @@ uart2 = UART(2, baudrate=9600, tx=Pin(14), rx=Pin(13))
 # uart2 = UART(2, baudrate=9600, tx=Pin(14), rx=Pin(13), cts=Pin(8), rts=Pin(7))
 ```
 
-## [ Full Example ](#Full_Example)
+## Full Example
 
 In Thonny or other IDE, run/import `send_and_receive.py` on each esp32
 
