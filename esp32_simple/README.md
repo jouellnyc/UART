@@ -1,7 +1,6 @@
 ## ESP32 UART Simple Example
 
-## Prerequisites 
-[ Prerequisites ](#Prerequisites)
+## Prerequisites [ Prerequisites ](#Prerequisites)
 
 - An ESP32 board or module 
     (I used 2 x [ESP32-S3-DevKitC-1 (S3-N16R8)](https://www.aliexpress.us/item/3256806014820995.html) from AliExpress)
