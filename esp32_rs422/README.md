@@ -5,7 +5,7 @@ This is almost exactly the same as the Simple UART example, except here we add [
 ## Prerequisites
 
 - Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
-- Also, 2 x RS-422 modulses. [These](https://www.amazon.com/gp/product/B0C1C3VHZW/) were used.
+- Also, 2 x RS-422 modules. [These](https://www.amazon.com/gp/product/B0C1C3VHZW/) were used.
 
 
 ## Physical Connections
