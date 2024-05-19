@@ -6,6 +6,9 @@
 - Also, 2 x RS-422 modulses. I used [these](https://www.amazon.com/gp/product/B0C1C3VHZW/)
 
 ## UART2 Pin Configuration
+- Same  Pin Remapping as in [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
+
+Note that:
 
 - Each ESP32 will connect TX to TX on the RS-422 modoule
 - Each ESP32 will connect RX to RX on the RS-422 modoule
