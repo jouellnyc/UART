@@ -19,16 +19,14 @@ Such is life with esp32 boards. I intend to retry with esp32's from Espressif th
 ![pic](./pics/esp32_rs422.jpg)
 
 
+###  TTL Connections
+
 Each esp32 simply connects it's RX/TX to the modules RX/TX, respectively:
  
 |  ESP32  | RS-422 Module Pin |
 |---|---|
-| TX | TX |
-| RX | RX |
-
-## UART2 Pin Configuration
-
-- Same  Pin Remapping as in [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
+| GPIO 13  | TX |
+| GPIO 14  | RX |
 
 
 ### RS422 Pin Configuration
@@ -66,6 +64,10 @@ Each esp32 simply connects it's RX/TX to the modules RX/TX, respectively:
     |  [ Z ] --+------------- [ A ]           |
     +-----------------------------------------+
     ```
+
+## UART2 Pin Configuration
+
+- Same  Pin Remapping as in [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
 
 3. Configure UART2 in your MicroPython code:
 - Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
