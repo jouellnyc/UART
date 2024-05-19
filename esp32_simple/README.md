@@ -29,7 +29,7 @@ When SPI RAM is enabled, you can remap the UART2 signals to the following pins:
 | RX | GPIO 13 |
 
 
-Additionally, you can optionally assign the CTS and RTS pins for hardware flow control:
+Additionally, you can optionally assign the CTS and RTS pins for hardware flow control (I did not):
 
 | Pin | Description |
 |---|---|
