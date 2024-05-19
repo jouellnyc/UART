@@ -20,7 +20,7 @@ Such is life with esp32 boards. I intend to retry with esp32's from Espressif th
 ![pic](./pics/esp32_rs422.jpg)
 
 
-###  TTL Connections
+###  TTL Pins 
 
 Each esp32 simply connects it's RX/TX to the modules RX/TX, respectively:
  
@@ -32,7 +32,7 @@ Each esp32 simply connects it's RX/TX to the modules RX/TX, respectively:
 Note we still use UART2 and remap as in  [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
 
 
-### RS422 Pin Configuration
+### RS-422 Module Pins 
 
 1. **Power Supply Connections**
 
