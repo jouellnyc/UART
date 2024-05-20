@@ -1,4 +1,4 @@
-# pppd-uart
+# pizero_simple
 
 PPP server over UART (TTL) with Raspberry Pi Zero 
 
