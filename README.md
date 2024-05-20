@@ -19,5 +19,5 @@ Here are the projects:
 - Oddly enough, it was quite the effort to get 2 esp32 devices to speak to each other over rs-422 modules.
 - Yet again, it seemed like the information was hidden, but it was just not obvious.
 
-## 3. [Raspberry Pi Zero 2 Simple Example](https://github.com/jouellnyc/pppd-uart/blob/main/README.md)
+## 3. [Raspberry Pi Zero 2 UART Simple Example](https://github.com/jouellnyc/pppd-uart/blob/main/README.md)
 - This is full OS and more details are needed
