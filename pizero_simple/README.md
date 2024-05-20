@@ -1,6 +1,6 @@
 # pppd-uart
 
-PPP server over UART (TTL)
+PPP server over UART (TTL) with Raspberry Pi Zero 
 
 # Why? 
 
