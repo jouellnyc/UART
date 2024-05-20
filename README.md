@@ -1,6 +1,13 @@
 # UART projects
 This repository provides an examples of how to use UART with microcontrollers in various configurations.
 
+Here's a nice short video on UART (not mine) to get started if unfamiliar with UART:
+
+https://www.youtube.com/watch?app=desktop&v=JuvWbRhhpdI
+
+![image](https://github.com/jouellnyc/UART/assets/32470508/64903885-f112-42c4-98f4-de987f2aeeee)
+
+Here are the projects:
 
 ## 1. [ESP32 UART Simple Example](esp32_simple/)
 ### Why?

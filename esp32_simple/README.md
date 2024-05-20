@@ -9,6 +9,8 @@
 | BreadBoard | Pretty much any will do |
 | Jumper Wires | Pretty much any will do |
 
+![image](https://github.com/jouellnyc/UART/assets/32470508/a54d2c90-bbec-4d85-8390-7a130d5624d1)
+
 ## UART2 Pin Configuration
 
 By default, the ESP32 assigns the following pins to UART2:
