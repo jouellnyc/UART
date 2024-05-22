@@ -4,7 +4,7 @@ PPP server over UART (TTL) with Raspberry Pi Zero
 
 # Why? 
 
-1 - This is a physically connected alternative to wifi-based https://github.com/jouellnyc/wpa-ent-mschapv2-bridge
+1 - This is a physically connected alternative to wifi-based [wpa-ent-mschapv2-bridge](https://github.com/jouellnyc/wpa-ent-mschapv2-bridge)
 
 2 - It could simply be fun
 
