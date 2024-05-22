@@ -1,10 +1,10 @@
-# pppd-uart
+# pizero_simple
 
-PPP server over UART (TTL)
+PPP server over UART (TTL) with Raspberry Pi Zero 
 
 # Why? 
 
-1 - This is a physically connected alternative to wifi-based https://github.com/jouellnyc/wpa-ent-mschapv2-bridge
+1 - This is a physically connected alternative to wifi-based [wpa-ent-mschapv2-bridge](https://github.com/jouellnyc/wpa-ent-mschapv2-bridge)
 
 2 - It could simply be fun
 
@@ -121,6 +121,8 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 
 ![Pi ppp setup with Jumper Cables](pi_ppp.jpg)
 
+## Takeaways/ Learnings
+This was pretty straight forward in terms of the hardware. Really did not hit any snags.
 
 ## References
 
@@ -128,5 +130,6 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 
 [ PPP HOWTO - def route ](https://tldp.org/HOWTO/PPP-HOWTO/x452.html)
 
-
-
+## License
+This project is licensed under the [MIT License](LICENSE).
+Feel free to modify the content as needed, such as adding installation instructions, code examples, or any other relevant information for your project.

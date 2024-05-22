@@ -75,14 +75,23 @@ Note we still use UART2 and remap as in  [simple uart](https://github.com/jouell
     ```
 
 
-4. Full Example 
-- Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
+4. Full Example Code
+- Same as [simple send and receive example](https://github.com/jouellnyc/UART/blob/main/esp32_simple/send_and_receive.py).
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+Feel free to modify the content as needed, such as adding installation instructions, code examples, or any other relevant information for your project.
 
 ## References 
 Here are more details in terms of the "Why I did it this way":
 - [Reddit Post on the RS-422 and Esp32's](https://www.reddit.com/r/embedded/comments/1cuo52g/comment/l4qclpu/?context=3)
 - [Very helpful starting material - esp32io.com](https://esp32io.com/tutorials/esp32-rs422)
+- [Excellent rs-422 vs rs-485 blog](https://www.netburner.com/learn/introduction-to-rs485-and-rs422-standards/)
 
+## Takeaways / Learnings
+- Success here was dependant on having the right power (in this case 5V external to the esp32) to the RS-422 Modules.
+- The modules (and RS-422) allowed for bi-directional sending and receiving of data due to 4 wires - one pair for sending and one for receiving without any modifications to the [simple send and receive example](https://github.com/jouellnyc/UART/blob/main/esp32_simple/send_and_receive.py).
+ 
 ## License
 This project is licensed under the [MIT License](LICENSE).
 Feel free to modify the content as needed, such as adding installation instructions, code examples, or any other relevant information for your project.
