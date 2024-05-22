@@ -56,9 +56,34 @@ Note: DE and RE are jumpered together and then reach across to be both managed b
 
 Note we still use UART2 and remap as in  [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
 
+### Changes to the Basic UART code
+
+- We need to use GPIO to turn on/off the DE/RE voltage to send / receive as appropriate.
+- We do that with the orange GPIO 4 pin jumpered to DE/RE as mentioned above.
+
+
+```
+uart = machine.UART(2, baudrate=9600, tx=tx_pin, rx=rx_pin)
+de_pin = machine.Pin(4, machine.Pin.OUT)
+```
+  
+```  
+#To Receive
+de_pin.value(0)
+print(uart.readline())
+```
+
+OR
+
+```
+#To Send 
+de_pin.value(1)
+uart.write('hi')
+```
+
 
 ## Full Example Code
-- Here we need to use GPIO to turn on/off the DE/RE voltage to send / receive as appropriate.
+XXX
 
 ## References 
 XXX
