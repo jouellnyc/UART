@@ -58,7 +58,7 @@ Note we still use UART2 and remap as in  [simple uart](https://github.com/jouell
 
 ### Changes to the Basic UART code
 
-- We need to use GPIO to turn on/off the DE/RE voltage to send / receive as appropriate.
+- We need to use GPIO to set DE/RE pins high/low  to send/receive as appropriate.
 - We do that with the orange GPIO 4 pin jumpered to DE/RE as mentioned above.
 
 
