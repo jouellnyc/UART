@@ -97,6 +97,9 @@ With any luck they will both run like this:
   </tr>
 </table>
 
+## Takeaways/ Learnings
+As mentioned, the key to success here is remapping the UART for an SPIRAM based esp32.
+
 ## References
 
 - [Unexpected Make video explains hidden UARTS](https://www.youtube.com/watch?v=3sXtVuMhuoc)
