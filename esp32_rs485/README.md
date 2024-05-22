@@ -39,7 +39,7 @@ Note: DE and RE are jumpered together and then reach across to be both managed b
 
 ###  RS-485 Pins from  Module 1 to  Module 2
 
-(On the side with he Terminal Block:)
+(On the side with the Terminal Block:)
 
 | RS-485 Module | ESP32          |
 |------------------------|----------------|
