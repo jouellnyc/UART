@@ -121,12 +121,13 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 
 ![Pi ppp setup with Jumper Cables](pi_ppp.jpg)
 
+## Takeaways/ Learnings
+This was pretty straight forward in terms of the hardware. Really did not hit any snags.
 
 ## References
 
 [Super User Default Route](https://superuser.com/questions/949520/wvdial-ppp0-and-setting-default-route-automatically)
 
 [ PPP HOWTO - def route ](https://tldp.org/HOWTO/PPP-HOWTO/x452.html)
-
 
 
