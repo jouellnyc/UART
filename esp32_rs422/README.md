@@ -76,7 +76,7 @@ Note we still use UART2 and remap as in  [simple uart](https://github.com/jouell
 
 
 4. Full Example 
-- Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
+- Same as [simple send and receive example](https://github.com/jouellnyc/UART/blob/main/esp32_simple/send_and_receive.py).
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
