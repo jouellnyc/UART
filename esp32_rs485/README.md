@@ -83,7 +83,15 @@ uart.write('hi')
 
 
 ## Full Example Code
+
+To simply send from one esp32 to the other (Simplex Operation):
+
 - Run `simple_receive.py` on esp1 and `simple_send.py` on esp2
+
+To  simpulate a Full Duplex Operation: 
+
+- Run `ping_serv.py` on esp1 and `uart_ping.py` on esp2
+
 
 
 ## References 
