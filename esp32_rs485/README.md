@@ -99,8 +99,9 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 
 ![image](https://github.com/jouellnyc/UART/assets/32470508/d5f2d8e3-6082-4d22-8da7-73687d017691)
 
-
-
+- Keeping in mind we are quickly trying to change the send wire to be receive wire. If you switch too quickly or too slowly, it will not work.
+- Why? We can't make the send wire a receive wire until the recieve action is done completely.
+- See the [comments](https://github.com/jouellnyc/UART/blob/main/esp32_rs485/uart_ping.py#L20) 
 
 ## References 
 XXX
