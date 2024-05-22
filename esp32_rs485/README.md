@@ -25,7 +25,7 @@ Each esp32  connects it's GND pin to the shared breadboard.
 
 ###  TTL Pins from ESP32 to RS-485 Module
 
-On the side opposite the Terminal Block:
+(On the side opposite the Terminal Block:)
  
 | RS-485 Module | ESP32          |
 |------------------------|----------------|
@@ -37,7 +37,9 @@ On the side opposite the Terminal Block:
 Note: DE and RE are jumpered together and then reach across to be both managed by GPIO 4 (Orange wire in the pic) 
 
 
-On the side with he Terminal Block:
+###  RS-485 Pins from RS-485 Module to RS-485 Module
+
+(On the side with he Terminal Block:)
 
 | RS-485 Module | ESP32          |
 |------------------------|----------------|
