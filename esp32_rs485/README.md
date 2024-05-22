@@ -57,10 +57,15 @@ Note: DE and RE are jumpered together and then reach across to be both managed b
 Note we still use UART2 and remap as in  [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
 
 
-4. Full Example 
+## Full Example Code
 - Here we need to use GPIO to turn on/off the DE/RE voltage to send / receive as appropriate.
 
 ## References 
+XXX
+
+## Takeaways / Learnings
+XXX
+
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
