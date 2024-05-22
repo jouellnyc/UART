@@ -92,7 +92,7 @@ To  simpulate a Full Duplex Operation:
 
 - Run `ping_serv.py` on esp1 and `uart_ping.py` on esp2
 
-
+![image](https://github.com/jouellnyc/UART/assets/32470508/d5f2d8e3-6082-4d22-8da7-73687d017691)
 
 ## References 
 XXX
