@@ -82,6 +82,7 @@ uart.write('hi')
 ```
 
 
+
 ## Full Example Code
 
 To simply send from one esp32 to the other (Simplex Operation):
@@ -91,11 +92,15 @@ To simply send from one esp32 to the other (Simplex Operation):
 ![image](https://github.com/jouellnyc/UART/assets/32470508/dbe046e6-9ef2-455e-a657-74ceb6a9d491)
 
 
-To  simpulate a Full Duplex Operation: 
+What you'll notice if you try to send and receive in a full duplex mode is that it won't work. However, to  simpulate a Full Duplex Operation: 
+
 
 - Run `ping_serv.py` on esp1 and `uart_ping.py` on esp2
 
 ![image](https://github.com/jouellnyc/UART/assets/32470508/d5f2d8e3-6082-4d22-8da7-73687d017691)
+
+
+
 
 ## References 
 XXX
