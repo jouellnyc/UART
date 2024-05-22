@@ -37,7 +37,7 @@ Each esp32  connects it's GND pin to the shared breadboard.
 Note: DE and RE are jumpered together and then reach across to be both managed by GPIO 4 (Orange wire in the pic) 
 
 
-###  RS-485 Pins from RS-485 Module to RS-485 Module
+###  RS-485 Pins from  Module 1 to  Module 2
 
 (On the side with he Terminal Block:)
 
