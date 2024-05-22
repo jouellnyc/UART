@@ -104,13 +104,18 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 - See the [comments](https://github.com/jouellnyc/UART/blob/main/esp32_rs485/uart_ping.py#L20) 
 
 ## References 
-XXX
+- https://esp32io.com/tutorials/esp32-rs422
+- https://electronics.stackexchange.com/questions/448868/rs422-and-rs485-full-duplex-or-half-duplex
+- https://forum.arduino.cc/t/how-to-wire-full-duplex-rs-485-module/1096851
+- https://www.renesas.com/us/en/document/rep/rs-485-transmitting-full-duplex-data-over-single-twisted-pair-cable
+- https://knowledge.ni.com/KnowledgeArticleDetails?id=kA03q000000YGwxCAG&l=en-US
 
 ## Takeaways / Learnings
-XXX
+- If you want full duplex with RS-485 you'll need 4 wires, like RS-422, however we were able to simulate such a thing
+- Given a distance of a few inches and 9600 baud, the fast I could get a message round trip from esp1 to esp2 was about 30 ms, but I needed to wait 5-7 ms to flip the GPIO and wait for the data to be send before fully flipping. 
+- uart.readline() performed better when using a small `time.sleep(1)` vs let the cpu spin %100.
 
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
 Feel free to modify the content as needed, such as adding installation instructions, code examples, or any other relevant information for your project.
-
