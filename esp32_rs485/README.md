@@ -83,7 +83,8 @@ uart.write('hi')
 
 
 ## Full Example Code
-XXX
+- Run `simple_receive.py` on esp1 and `simple_send.py' on esp2
+
 
 ## References 
 XXX
