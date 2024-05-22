@@ -15,7 +15,7 @@ This is similar the Simple UART example and RS-422 example, except here we add [
 
 - As with the RS-422 setup, a 5V wall power brick "makes ground and 5V available" on a shared bread board for the RS-485 modules.
 
-![pic](./pics/esp32_rs422.jpg)
+![pic](./pics/rs-485.jpg)
 
 ###  Ground Pins on ESP32 
 
