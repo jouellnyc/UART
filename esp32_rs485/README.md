@@ -13,11 +13,7 @@ This is similar the Simple UART example and RS-422 example, except here we add [
 
 ###  Upfront Notes on Power
 
-- A 5V wall power brick "makes ground and 5V available" on a shared bread board.
-
-Why? Neither of these esp32 devices seemed to give adequate output power to power the modules (which use a MAX390 chip).
-Such is life with esp32 boards. I intend to retry with esp32's from Espressif themselves versus those used here.
--  USB is used to power the esp32s.
+- As with the RS-422 setup, a 5V wall power brick "makes ground and 5V available" on a shared bread board for the RS-485 modules.
 
 ![pic](./pics/esp32_rs422.jpg)
 
