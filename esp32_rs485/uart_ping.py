@@ -21,8 +21,8 @@ except Exception as e:
 # I.E The system did not have a chance to receive the data yet so we can't change voltage to receive
 # immediately after sending! -- 4ms is about the lowest that mostly works, so we can mostly use 5 ms.
 
-# However, set it too high and the receiver has now become and sender and you have missed the data
-# because you have not become a receiver yet.
+# However, set it too high and the receiver has now become a sender and you have missed the data
+# because you have not become a receiver yet. :D
 
 # Min is 5ms
 # Max is 15ms
