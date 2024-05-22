@@ -113,7 +113,7 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 ## Takeaways / Learnings
 - If you want full duplex with RS-485 you'll need 4 wires, like RS-422, however we were able to simulate such a thing
 - Given a distance of a few inches and 9600 baud, the fast I could get a message round trip from esp1 to esp2 was about 30 ms, but I needed to wait 5-7 ms to flip the GPIO and wait for the data to be send before fully flipping. 
-- uart.readline() performed better when using a small `time.sleep(1)` vs let the cpu spin %100.
+- uart.readline() performed better when using a small `time.sleep(1)` vs let the cpu spin %100. see [Claude's reasoning Why](why_claude.txt)
 
 
 ## License
