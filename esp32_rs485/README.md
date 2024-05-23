@@ -128,7 +128,7 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 
 
 | Cable/Wire | Speed | Baud|length|Other|
-|---|---|---|---|
+|---|---|---|---|---|
 | Basic Dupont Jumper                                  | 29 ms | 9600 |10 cm | no uart.readline() sleeps - 1 ping| 
 | Basic Dupont Jumper                                  | 15 ms | 19200|10 cm | no uart.readline() sleeps - 1 ping| 
 | Basic Dupont Jumper                                  | message received, not returned| 38400| 10 cm |  no uart.readline() sleeps - 1 ping| 
