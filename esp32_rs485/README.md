@@ -114,6 +114,7 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 - If reading off of an infinite `while True` loop, uart.readline() performed better when using a small `time.sleep(.1)` vs let the cpu spin %100. (See [Claude's reasoning Why](why_claude.txt))
 - Given a distance of a few inches and 9600 baud, `uart_ping.py`'s lowest latency round trip was about 30 ms, but I needed to wait 5-7 ms to flip the GPIOs and also wait for the data to be send before fully flipping. This was using Dupont Jumpers. See table for other tests.
 - My first test with BNTECHGO 22 AWG Stranded Tinned Copper Wire failed. Just eyeballing a short strip to test it was not long enough to support communication:
+- Actually threading the Stranded cable was rough. The best bet is to get either the precise length that fits into the terminal block hole or double that and bend it back nicely.
 
 <table>
   <tr>
@@ -132,7 +133,7 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 | Basic Dupont Jumper                                  | 29 ms | 9600 |10 cm | no uart.readline() sleeps - 1 ping| 
 | Basic Dupont Jumper                                  | 15 ms | 19200|10 cm | no uart.readline() sleeps - 1 ping| 
 | Basic Dupont Jumper                                  | message received, not returned| 38400| 10 cm |  no uart.readline() sleeps - 1 ping| 
-| BNTECHGO 22 AWG Stranded Tinned Copper        | garbage/NA  | 9600| 8 cm | NA|
+| BNTECHGO 22 AWG Stranded Tinned Copper        | garbage/NA  | 9600| 8 cm | ![8 cm](pics/8cm_tp.jpg)
 | BNTECHGO 22 AWG Stranded Tinned Copper        | 15-18 ms | 19200| 25 cm | no uart.readline() sleeps - 1 ping| 
 | BNTECHGO 22 AWG Stranded Tinned Copper        | 30 ms | 9600| 25 cm | no uart.readline() sleeps - 1 ping| 
 | BNTECHGO 22 AWG Stranded Tinned Copper | message received, not returned| 38400| 25 cm | no uart.readline() sleeps - 1 ping| 
