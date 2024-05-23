@@ -134,7 +134,7 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 | Basic Dupont Jumper                                  | 15 ms | 19200|10 cm | no uart.readline() sleeps - 1 ping| 
 | Basic Dupont Jumper                                  | message received, not returned| 38400| 10 cm |  no uart.readline() sleeps - 1 ping| 
 | BNTECHGO 22 AWG Stranded Tinned Copper        | garbage/NA  | 9600| 8 cm | <img src="pics/8cm_tp.jpg" width="100" height="100">|
-| BNTECHGO 22 AWG Stranded Tinned Copper        | 15-18 ms | 19200| 25 cm | no uart.readline() sleeps - 1 ping| 
+| BNTECHGO 22 AWG Stranded Tinned Copper        | 15-18 ms | 19200| 25 cm | <img src="pics/25cm_tp.jpg" width="100" height="100">| 
 | BNTECHGO 22 AWG Stranded Tinned Copper        | 30 ms | 9600| 25 cm | no uart.readline() sleeps - 1 ping| 
 | BNTECHGO 22 AWG Stranded Tinned Copper | message received, not returned| 38400| 25 cm | no uart.readline() sleeps - 1 ping| 
 | BNTECHGO 22 AWG Stranded Tinned Copper | garbage/NA  | 9600, 19200, 38400, 57600, 115200|25 feet |NA|
