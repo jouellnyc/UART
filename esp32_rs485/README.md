@@ -115,7 +115,15 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 - Given a distance of a few inches and 9600 baud, the fastest I could get a message round trip from esp1 to esp2 was about 30 ms, but I needed to wait 5-7 ms to flip the GPIOs and also wait for the data to be send before fully flipping. This was using Dupont Jumpers. See table for other tests.
 - My first test with Twisted Pair failed. Just eyeballing a short strip to test it was not long enough to support communication:
 
-![pic](./pics/8cm_tp.jpg)
+
+<table>
+  <tr>
+    <th>8 cm TP</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="pics/8cm_tp.jpg" width="200" height="200"></td>
+  </tr>
+</table>
 
 
 | Cable | Speed | Baud|
