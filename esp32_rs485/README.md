@@ -17,7 +17,6 @@ This is similar the Simple UART example and RS-422 example, except here we add [
 - Also each esp32 is still itself powered via USB.
 
 ![pic](./pics/rs-485.jpg)
-
 ###  Ground Pins on ESP32 
 
 Each esp32  connects it's GND pin to the shared breadboard.
@@ -115,6 +114,8 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 - uart.readline() performed better when using a small `time.sleep(1)` vs let the cpu spin %100. (See [Claude's reasoning Why](why_claude.txt))
 - Given a distance of a few inches and 9600 baud, the fastest I could get a message round trip from esp1 to esp2 was about 30 ms, but I needed to wait 5-7 ms to flip the GPIOs and also wait for the data to be send before fully flipping. This was using Dupont Jumpers. See table for other tests.
 - My first test with Twisted Pair failed. Just eyeballing a short strip to test it was not long enough to support communication:
+
+![pic](./pics/8cm_tp.jpg)
 
 
 | Cable | Speed | Baud|
