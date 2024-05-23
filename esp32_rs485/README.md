@@ -138,8 +138,8 @@ https://www.amazon.com/gp/product/B077XBWX8V/
 | BNTECHGO 22 AWG Stranded Tinned Copper        | 30 ms | 9600| 25 cm | -- | 
 | BNTECHGO 22 AWG Stranded Tinned Copper | message received, not returned| 38400| 25 cm | -- | 
 | BNTECHGO 22 AWG Stranded Tinned Copper | garbage/NA  | 9600, 19200, 38400, 57600, 115200|25 feet | <img src="pics/25ft.jpg" width="100" height="100">| 
-| [22 AWG Stranded wire] (https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099513962206&sku_id=17592200180902)  | 20 ms | 9600, 19200, 38400, 57600, 115200|40 cm | -- | 
-| [22 AWG Stranded wire] (https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099513962206&sku_id=17592200180902)  | 20 ms | 9600| 25 feet | <img src="pics/25_feet_strand.jpg" width="100" height="100">| 
+| [22 AWG Stranded wire](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099513962206&sku_id=17592200180902)  | 20 ms | 9600, 19200, 38400, 57600, 115200|40 cm | -- | 
+| [22 AWG Stranded wire](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099513962206&sku_id=17592200180902)  | 20 ms | 9600| 25 feet | <img src="pics/25_feet_strand.jpg" width="100" height="100">| 
 
 
 ## License
