@@ -127,14 +127,14 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 </table>
 
 
-| Cable | Speed | Baud|Other|
+| Cable/Wire | Speed | Baud|length|Other|
 |---|---|---|---|
-| Basic Dupont Jumper | 29 ms | 9600| no uart.readline() sleeps - 1 ping| 
-| Basic Dupont Jumper | 15 ms | 19200| no uart.readline() sleeps - 1 ping| 
-| Basic Dupont Jumper | message received, not returned| 38400| no uart.readline() sleeps - 1 ping| 
-| BNTECHGO 22 AWG Stranded Tinned Copper Wire - 8 cm Basic Dupont Jumper | garbage/NA  | 9600|NA|
-| BNTECHGO 22 AWG Stranded Tinned Copper Wire - 25 cm| 15-18 ms | 19200| no uart.readline() sleeps - 1 ping| 
-| BNTECHGO 22 AWG Stranded Tinned Copper Wire - 25 cm| 30 ms | 9600| no uart.readline() sleeps - 1 ping| 
+| Basic Dupont Jumper | 29 ms | 9600 |10 cm | no uart.readline() sleeps - 1 ping| 
+| Basic Dupont Jumper | 15 ms | 19200|10 cm | no uart.readline() sleeps - 1 ping| 
+| Basic Dupont Jumper | message received, not returned| 38400| 10 cm |  no uart.readline() sleeps - 1 ping| 
+| BNTECHGO 22 AWG Stranded Tinned Copper - 8 cm | garbage/NA  | 9600|NA|
+| BNTECHGO 22 AWG Stranded Tinned Copper - 25 cm| 15-18 ms | 19200| no uart.readline() sleeps - 1 ping| 
+| BNTECHGO 22 AWG Stranded Tinned Copper - 25 cm| 30 ms | 9600| no uart.readline() sleeps - 1 ping| 
 | BNTECHGO 22 AWG Stranded Tinned Copper Wire - 25 cm| message received, not returned| 38400| no uart.readline() sleeps - 1 ping| 
 | BNTECHGO 22 AWG Stranded Tinned Copper Wire - 25 feet| garbage/NA  | 9600, 19200, 38400, 57600, 115200|NA|
 | 22 AWG Stranded wire - 40 cm | 20 ms | 9600, 19200, 38400, 57600, 115200|no uart.readline() sleeps - 1 ping| 
