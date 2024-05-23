@@ -118,7 +118,7 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 
 <table>
   <tr>
-    <th>Threading WellP</th>
+    <th>Threading Well</th>
   </tr>
   <tr>
     <td align="center"><img src="pics/thr_well.jpg" width="200" height="200"></td>
