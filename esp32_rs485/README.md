@@ -130,7 +130,7 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 | Cable | Speed | Baud|Other|
 |---|---|---|---|
 | Basic Dupont Jumper | 32 ms | 9600| yes uart.readline() sleeps - 1 ping| 
-| Twisted Pair - 8 cm Basic Dupont Jumper | garbage/NA  | 9600|
+| Twisted Pair - 8 cm Basic Dupont Jumper | garbage/NA  | 9600|NA|
 | Twisted Pair - 25 cm| 30 ms | 9600| no uart.readline() - 1 ping| 
 
 
