@@ -113,6 +113,7 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 - If you want full duplex with RS-485 you'll need 4 wires, like RS-422, however we were able to simulate such a thing.
 - If reading off of an infinite `while True` loop, uart.readline() performed better when using a small `time.sleep(.1)` vs let the cpu spin %100. (See [Claude's reasoning Why](why_claude.txt))
 - Given a distance of a few inches and 9600 baud, `uart_ping.py`'s lowest latency round trip was about 30 ms, but I needed to wait 5-7 ms to flip the GPIOs and also wait for the data to be send before fully flipping. This was using Dupont Jumpers. See table for other tests.
+- Was unable to get the 25 foot to work properly. I moved away the power from the cables to lessen any other interference. This was a fail for now.
 - My first test with BNTECHGO 22 AWG Stranded Tinned Copper Wire failed. Just eyeballing a short strip to test it was not long enough to support communication.
 - Actually threading the Stranded cable was rough. The best bet is to get either the precise length that fits into the terminal block hole or double that and bend it back nicely:
 
@@ -131,12 +132,15 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 | Basic Dupont Jumper                                  | 29 ms | 9600 |10 cm | <img src="pics/10_cm_dp.jpg" width="100" height="100">
 | Basic Dupont Jumper                                  | 15 ms | 19200|10 cm | -- | 
 | Basic Dupont Jumper                                  | message received, not returned| 38400| 10 cm |  -- | 
+https://www.amazon.com/gp/product/B077XBWX8V/
 | BNTECHGO 22 AWG Stranded Tinned Copper        | garbage/NA  | 9600| 8 cm | <img src="pics/8cm_tp.jpg" width="100" height="100">|
 | BNTECHGO 22 AWG Stranded Tinned Copper        | 15-18 ms | 19200| 25 cm |  <img src="pics/25cm_tp_bb.jpg" width="100" height="100">| 
 | BNTECHGO 22 AWG Stranded Tinned Copper        | 30 ms | 9600| 25 cm | -- | 
 | BNTECHGO 22 AWG Stranded Tinned Copper | message received, not returned| 38400| 25 cm | -- | 
 | BNTECHGO 22 AWG Stranded Tinned Copper | garbage/NA  | 9600, 19200, 38400, 57600, 115200|25 feet | <img src="pics/25ft.jpg" width="100" height="100">| 
 | 22 AWG Stranded wire                     | 20 ms | 9600, 19200, 38400, 57600, 115200|40 cm | -- | 
+| 22 AWG Stranded wire                     | 20 ms | 9600| 25 feet | <img src="pics/25_feet_strand.jpg" width="100" height="100">| 
+https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099513962206&sku_id=17592200180902
 
 
 ## License
