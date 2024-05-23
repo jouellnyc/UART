@@ -111,10 +111,9 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 
 ## Takeaways / Learnings
 - If you want full duplex with RS-485 you'll need 4 wires, like RS-422, however we were able to simulate such a thing.
-- uart.readline() performed better when using a small `time.sleep(1)` vs let the cpu spin %100. (See [Claude's reasoning Why](why_claude.txt))
-- Given a distance of a few inches and 9600 baud, the fastest I could get a message round trip from esp1 to esp2 was about 30 ms, but I needed to wait 5-7 ms to flip the GPIOs and also wait for the data to be send before fully flipping. This was using Dupont Jumpers. See table for other tests.
+- If reading off of an infinite `while True` loop, uart.readline() performed better when using a small `time.sleep(.1)` vs let the cpu spin %100. (See [Claude's reasoning Why](why_claude.txt))
+- Given a distance of a few inches and 9600 baud, `uart_ping.py`'s lowest latency round trip was about 30 ms, but I needed to wait 5-7 ms to flip the GPIOs and also wait for the data to be send before fully flipping. This was using Dupont Jumpers. See table for other tests.
 - My first test with Twisted Pair failed. Just eyeballing a short strip to test it was not long enough to support communication:
-
 
 <table>
   <tr>
@@ -128,11 +127,11 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 </table>
 
 
-| Cable | Speed | Baud|
+| Cable | Speed | Baud|Other|
 |---|---|---|
-| Basic Dupont Jumper | 32 ms | 9600|
+| Basic Dupont Jumper | 32 ms | 9600| yes uart.readline() sleeps - 1 ping| 
 | Twisted Pair - 8 cm Basic Dupont Jumper | garbage/NA  | 9600|
-| Twisted Pair - 25 cm| 35 ms | 9600|
+| Twisted Pair - 25 cm| 30 ms | 9600| no uart.readline() - 1 ping| 
 
 
 ## License
