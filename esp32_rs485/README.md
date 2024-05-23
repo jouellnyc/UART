@@ -114,8 +114,9 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 - If reading off of an infinite `while True` loop, uart.readline() performed better when using a small `time.sleep(.1)` vs let the cpu spin %100. (See [Claude's reasoning Why](why_claude.txt))
 - Given a distance of a few inches and 9600 baud, `uart_ping.py`'s lowest latency round trip was about 30 ms, but I needed to wait 5-7 ms to flip the GPIOs and also wait for the data to be send before fully flipping. This was using Dupont Jumpers. See table for other tests.
 - Was unable to get the 25 foot from AMZN/BNTECHGO to work properly. I moved away the power from the cables to lessen any other interference. This was a fail for now. Possibly how I crimped it.
-- My first test with BNTECHGO 22 AWG Stranded Tinned Copper Wire failed. Just eyeballing a short strip to test it was not long enough to support communication.
+- My first test with AMZN/BNTECHGO 22 AWG Stranded Tinned Copper Wire failed. Just eyeballing a short strip to test it was not long enough to support communication.
 - Actually threading the Stranded cable was rough. The best bet is to get either the precise length that fits into the terminal block hole or double that and bend it back nicely:
+- The Stranded wire from Temu.com crushed it at 30 feet.
 
 <table>
   <tr>
