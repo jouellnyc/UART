@@ -113,17 +113,15 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 - If you want full duplex with RS-485 you'll need 4 wires, like RS-422, however we were able to simulate such a thing.
 - If reading off of an infinite `while True` loop, uart.readline() performed better when using a small `time.sleep(.1)` vs let the cpu spin %100. (See [Claude's reasoning Why](why_claude.txt))
 - Given a distance of a few inches and 9600 baud, `uart_ping.py`'s lowest latency round trip was about 30 ms, but I needed to wait 5-7 ms to flip the GPIOs and also wait for the data to be send before fully flipping. This was using Dupont Jumpers. See table for other tests.
-- My first test with BNTECHGO 22 AWG Stranded Tinned Copper Wire failed. Just eyeballing a short strip to test it was not long enough to support communication:
+- My first test with BNTECHGO 22 AWG Stranded Tinned Copper Wire failed. Just eyeballing a short strip to test it was not long enough to support communication.
 - Actually threading the Stranded cable was rough. The best bet is to get either the precise length that fits into the terminal block hole or double that and bend it back nicely.
 
 <table>
   <tr>
-    <th>8 cm TP</th>
-    <th>25 cm TP</th>
+    <th>Threading WellP</th>
   </tr>
   <tr>
-    <td align="center"><img src="pics/8cm_tp.jpg" width="200" height="200"></td>
-    <td align="center"><img src="pics/25cm_tp_bb.jpg" width="200" height="200"></td>
+    <td align="center"><img src="pics/thr_well.jpg" width="200" height="200"></td>
   </tr>
 </table>
 
