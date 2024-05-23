@@ -123,7 +123,7 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
   </tr>
   <tr>
     <td align="center"><img src="pics/8cm_tp.jpg" width="200" height="200"></td>
-    <td align="center"><img src="pics/25cm_tp.jpg" width="200" height="200"></td>
+    <td align="center"><img src="pics/25cm_tp_bb.jpg" width="200" height="200"></td>
   </tr>
 </table>
 
