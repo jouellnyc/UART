@@ -106,7 +106,7 @@ With any luck they will both run like this:
 |---|---|---|---|---|
 | 2 x [Basic Dupont Jumper](https://www.amazon.com/gp/product/B07GD2BWPY/) connected with terminal connector | 35 ms | 9600 | 20 cm | <img src="pics/2x_b_dpnt.jpg" width="100" height="100">|
 | Basic Dupont Jumper | 50 ms | 9600 | 10 cm  | <img src="pics/b_dpnt.jpg" width="100" height="100"> |
-| Basic Dupont Jumper + [22 AWG Gauge Tinned Copper Stranded ](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099513962206&sku_id=17592200180902) + Connector | <table><tr><td> 35 ms </td></tr><tr><td> 20 ms </td></tr></table> 35 ms | 9600 | 30 feet | <img src="pics/25_feet.jpg" width="100" height="100"> |
+| Basic Dupont Jumper + [22 AWG Gauge Tinned Copper Stranded ](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099513962206&sku_id=17592200180902) + Connector | <table><tr><td> 35 ms </td></tr><tr><td> 20 ms </td></tr></table>  | <table><tr><td> 9600 </td></tr><tr><td> 19200 </td></tr></table>  | 30 feet | <img src="pics/25_feet.jpg" width="100" height="100"> |
 | Basic Dupont Jumper + 22 AWG Gauge Tinned Copper Stranded + Connector | 20 ms | 19200 | 30 feet | <img src="pics/25_feet.jpg" width="100" height="100"> |
 
 
