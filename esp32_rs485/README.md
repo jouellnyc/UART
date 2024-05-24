@@ -136,9 +136,7 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 | BNTECHGO 22 AWG Stranded Tinned Copper        | <table><tr><td> 30 ms </td></tr> <tr><td> 15 ms </td></tr> <tr><td> NA/Garbage </td></tr></table>  | <table><tr><td> 9600 </td></tr><tr><td> 19200 </td></tr> <tr><td> 38400 </td></tr></table> | 25 cm |  <img src="pics/25cm_tp_bb.jpg" width="100" height="100">| 
 |  BNTECHGO 22 AWG Stranded Tinned Copper | garbage/NA  | 9600 -> 115200| 25 feet | <img src="pics/25ft.jpg" width="100" height="100">| 
 | [22 AWG Gauge Tinned Copper Stranded ](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099513962206&sku_id=17592200180902)  | <table><tr><td> 35  ms </td></tr> <tr><td> 20  ms </td></tr> <tr><td> NA/Garbage </td></tr></table>  | <table><tr><td> 9600 </td></tr><tr><td> 19200 </td></tr> <tr><td> 38400 </td></tr></table> |40 cm |<img src="pics/40_cm_tem.jpg" width="100" height="100"> | 
-| 22 AWG Gauge Tinned Copper Stranded  | 35  ms | 9600| 30 feet | <img src="pics/25_feet_strand.jpg" width="100" height="100">| 
-| 22 AWG Gauge Tinned Copper Stranded  | 20 ms | 19200| 30 feet | --- |
-| 22 AWG Gauge Tinned Copper Stranded  | garbage/NA | 38400| 30 feet | ---| 
+| 22 AWG Gauge Tinned Copper Stranded  | <table><tr><td> 35  ms </td></tr> <tr><td> 20  ms </td></tr> <tr><td> NA/Garbage </td></tr></table>  | <table><tr><td> 9600 </td></tr><tr><td> 19200 </td></tr> <tr><td> 38400 </td></tr></table>| 30 feet | <img src="pics/25_feet_strand.jpg" width="100" height="100">| 
 
 
 ## License
