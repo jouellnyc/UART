@@ -108,14 +108,6 @@ With any luck they will both run like this:
 | Basic Dupont Jumper | 50 ms | 9600 | 10 cm  | <img src="pics/b_dpnt.jpg" width="100" height="100"> |
 | Basic Dupont Jumper + [22 AWG Gauge Tinned Copper Stranded ](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099513962206&sku_id=17592200180902) + Connector | <table><tr><td> 35 ms </td></tr><tr><td> 20 ms </td></tr><tr><td> NA/Garbage </td></tr> </table>  | <table><tr><td> 9600 </td></tr><tr><td> 19200 </td></tr><tr><td> 38400 </td></tr></table>  | 30 feet | <img src="pics/25_feet.jpg" width="100" height="100"> |
 
-
-| Feature | Details |
-|---|---|
-| Color Options |  
-  - Primary: Red  
-  - Secondary: Blue  
-| Network Connectivity | Requires Wi-Fi connection |
-
 ## References
 
 - [Unexpected Make video explains hidden UARTS](https://www.youtube.com/watch?v=3sXtVuMhuoc)
