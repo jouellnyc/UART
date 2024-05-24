@@ -104,7 +104,7 @@ With any luck they will both run like this:
 
 | Cable/Wire | Speed | Baud|length|Pic/Other|
 |---|---|---|---|---|
-| [Basic Dupont Jumper](https://www.amazon.com/gp/product/B07GD2BWPY/) + 30 feet 22 AWG Gauge Tinned Copper Stranded + Connector | 35 ms | 9600 | 30 feet | <img src="pics/25_feet.jpg" width="100" height="100"> |
+| [Basic Dupont Jumper](https://www.amazon.com/gp/product/B07GD2BWPY/) + [22 AWG Gauge Tinned Copper Stranded ](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099513962206&sku_id=17592200180902) + Connector | 35 ms | 9600 | 30 feet | <img src="pics/25_feet.jpg" width="100" height="100"> |
 | [Basic Dupont Jumper](https://www.amazon.com/gp/product/B07GD2BWPY/) + 30 feet 22 AWG Gauge Tinned Copper Stranded + Connector | 20 ms | 19200 | 30 feet | ---|
 
 
