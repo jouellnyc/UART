@@ -100,6 +100,13 @@ With any luck they will both run like this:
 ## Takeaways/ Learnings
 As mentioned, the key to success here is remapping the UART for an SPIRAM based esp32.
 
+
+| Cable/Wire | Speed | Baud|length|Pic/Other|
+|---|---|---|---|---|
+| [Basic Dupont Jumper](https://www.amazon.com/gp/product/B07GD2BWPY/)| 35 ms | 9600 | 25 feet | <img src="pics/25_feet.jpg" width="100" height="100"> |
+| Basic Dupont Jumper| 20 ms | 19200 | 25 feet |  --- |
+
+
 ## References
 
 - [Unexpected Make video explains hidden UARTS](https://www.youtube.com/watch?v=3sXtVuMhuoc)
