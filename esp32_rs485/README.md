@@ -116,6 +116,7 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 - Was unable to get the 25 foot from AMZN/BNTECHGO to work properly. I moved away the power from the cables to lessen any other interference. This was a fail for now. Possibly how I crimped it.
 - My first test with AMZN/BNTECHGO 22 AWG Stranded Tinned Copper Wire failed. Just eyeballing a short strip to test it was not long enough to support communication.
 - The Stranded wire from Temu.com crushed it at 30 feet.
+- 19200 was the highest baud I measured successfully.
 - Actually threading the Stranded cable was rough. The best bet is to get either the precise length that fits into the terminal block hole or double that and bend it back nicely:
 
 <table>
