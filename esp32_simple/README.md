@@ -100,6 +100,7 @@ With any luck they will both run like this:
 ## Takeaways/ Learnings
 - As mentioned, the key to success here is remapping the UART for an SPIRAM based esp32.
 - A 30 foot cable was able to carry the data uing 9600 or 19200 baud, but 38400 did not work well.
+- Distance was not a factor, BAUD was -- and possibly crimping/noise.
 
 
 | Cable/Wire | Speed | Baud|length|Pic/Other|
