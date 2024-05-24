@@ -132,9 +132,7 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 |---|---|---|---|---|
 | [Basic Dupont Jumper](https://www.amazon.com/gp/product/B07GD2BWPY/)| <table><tr><td> 29 ms </td></tr> <tr><td> 15 ms </td></tr> <tr><td> NA/Garbage </td></tr></table> | <table><tr><td> 9600 </td></tr><tr><td> 19200 </td></tr> <tr><td> 38400 </td></tr></table>| 10 cm | <img src="pics/10_cm_dp.jpg" width="100" height="100">
 | [BNTECHGO 22 AWG Stranded Tinned Copper](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099513962206&sku_id=17592200180902)        | garbage/NA  | 9600| 8 cm | <img src="pics/8cm_tp.jpg" width="100" height="100">|
-| BNTECHGO 22 AWG Stranded Tinned Copper        | 30 ms | 9600| 25 cm | -- | 
-| BNTECHGO 22 AWG Stranded Tinned Copper        | 15-18 ms | 19200| 25 cm |  <img src="pics/25cm_tp_bb.jpg" width="100" height="100">| 
-| BNTECHGO 22 AWG Stranded Tinned Copper | message received, not returned| 38400| 25 cm | -- | 
+| BNTECHGO 22 AWG Stranded Tinned Copper        | <table><tr><td> 30 ms </td></tr> <tr><td> 15 ms </td></tr> <tr><td> NA/Garbage </td></tr></table>  | <table><tr><td> 9600 </td></tr><tr><td> 19200 </td></tr> <tr><td> 38400 </td></tr></table> | 25 cm |  <img src="pics/25cm_tp_bb.jpg" width="100" height="100">| 
 |  BNTECHGO 22 AWG Stranded Tinned Copper | garbage/NA  | 9600, 19200, 38400, 57600, 115200|25 feet | <img src="pics/25ft.jpg" width="100" height="100">| 
 | [22 AWG Gauge Tinned Copper Stranded ](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099513962206&sku_id=17592200180902)  | 35 ms | 9600|40 cm |<img src="pics/40_cm_tem.jpg" width="100" height="100"> | 
 | 22 AWG Gauge Tinned Copper Stranded | 20 ms | 19200|40 cm | -- | 
