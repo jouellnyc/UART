@@ -18,7 +18,7 @@ Here are the projects:
 - Yet again, it seemed like the information was hidden, but it was just not obvious.
 
 ## 3. [ESP32 UART RS-485 Example](esp32_rs485/)
-- Oddly enough, it was easy to get 2 esp32 devices to speak to each other over rs-485 modules, but full duplex was quite tricky.
+- It was easy to get 2 esp32 devices to speak to each other over rs-485 modules, but full duplex was quite tricky.
 - We simulate that and try to create a 'uart ping' to see how quickly the data comes 'back'.
 
 ## 4. [ESP32 UART RS-232 Example](esp32_rs232/)
