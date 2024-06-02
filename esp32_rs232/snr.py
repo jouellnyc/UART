@@ -4,13 +4,12 @@
 import time
 import machine
 
-board_id = "esp-1\n"  # Replace with your desired board ID
-from uart_conf import uart
+from uart_conf import uart, me
 
 while True:
     
     time.sleep(.5)
-    uart.write(f"hello from {board_id}".encode())
+    uart.write(f"hello from {me}".encode())
     
     time.sleep(.5)
     rx_data = uart.readline()
