@@ -84,11 +84,12 @@ You can run in full duplex mode with no problem:
 - [This RS-232 Card](https://www.amazon.com/gp/product/B07QQHQHK2/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) worked great:
 <img src="https://github.com/jouellnyc/UART/assets/32470508/4260a9b3-8079-4cd6-acad-0251496df26e" width="300">
 
-- [This RS-232 Cable](https://www.amazon.com/gp/product/B017C402NQ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) worked great to get a console using the above Card and a connection to a Linux PC.
+- [This RS-232 Cable](https://www.amazon.com/gp/product/B017C402NQ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) worked great for Linux PC console access and above card.
+  
 <img src="https://github.com/jouellnyc/UART/assets/32470508/4b2b6f3f-8593-4dae-b79c-8db2c47fb942" width="300">
 
 
-- [This RS-232 Cable](https://www.aliexpress.us/item/3256804406490558.html) worked great to get a console using the above Card and a connection to a Linux PC.
+- [This RS-232 Cable](https://www.aliexpress.us/item/3256804406490558.html) worked great for Linux PC console access and above card.
 <img src="https://github.com/jouellnyc/UART/assets/32470508/0ee191d7-df3b-4e24-b6a0-6e481c377e87" width="300">
   
 ## License
