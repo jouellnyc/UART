@@ -15,16 +15,18 @@ RS232 to TTL Serial Female to TTL Serial Module Brush Board MAX3232 Chip
 
 <img src="https://github.com/jouellnyc/UART/assets/32470508/426196c1-08da-4bce-9e91-5fbc50ef5278" width="300" height="300">
  
-## Physical Connections
-
-![image](https://github.com/jouellnyc/UART/assets/32470508/55b289d6-07d1-4612-a918-f569b2e734af)
-
 ###  Upfront Notes on Power
 
 - As with the RS-485 setup, a 5V wall power brick "makes ground and 5V available" on a shared bread board for the RS-232 modules.
 - Each esp32 is still itself powered via USB.
 - Each module connects to it's own USB 5V power supply (they could share one 5V power supply), but again these ESP32 did not give enough power to power the MAX3232 chip.
 - Each module shares ground with attached esp32 only.
+
+## Physical Connections
+
+- Connect each RS-232 to each other via the Null modem adapter:
+
+![image](https://github.com/jouellnyc/UART/assets/32470508/55b289d6-07d1-4612-a918-f569b2e734af)
   
 ###  RS-232 Pins to Each ESP21
 
@@ -42,6 +44,7 @@ In words:
 - Each ESP32 RX connects to RX of each module
 
 ### Changes to the Basic UART code
+
 - None
 - We still use UART2 and remap as in  [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
 
