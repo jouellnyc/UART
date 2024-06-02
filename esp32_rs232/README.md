@@ -68,7 +68,8 @@ XXXXX
 - https://esp32io.com/tutorials/esp32-rs232
 
 ## Takeaways / Learnings
-- Firstly, you send with RS-232 like you need a null modem cable
+- Firstly, to send with RS-232 like this, you need a null modem cable. I thought I had one, but it was a straight through cable.
+- Note again: Using a console via USB will take   
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
