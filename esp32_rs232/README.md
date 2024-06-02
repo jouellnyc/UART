@@ -5,7 +5,7 @@ This is similar the  RS-422 example, except here we add [RS-232](https://en.wiki
 ## Prerequisites
 
 - Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
-- Also, 2 x RS-232 modules. [These](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099542772145&sku_id=17592327600831&_x_sessn_id=21k411z4l6) were used:
+- 2 RS-232 modules. [These](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099542772145&sku_id=17592327600831&_x_sessn_id=21k411z4l6) were used:
 
 RS232 to TTL Serial Female to TTL Serial Module Brush Board MAX3232 Chip
 
@@ -17,6 +17,8 @@ RS232 to TTL Serial Female to TTL Serial Module Brush Board MAX3232 Chip
 
  
 ## Physical Connections
+
+![image](https://github.com/jouellnyc/UART/assets/32470508/55b289d6-07d1-4612-a918-f569b2e734af)
 
 ###  Upfront Notes on Power
 
