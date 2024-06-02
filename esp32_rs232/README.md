@@ -17,10 +17,13 @@ RS232 to TTL Serial Female to TTL Serial Module Brush Board MAX3232 Chip
  
 ###  Upfront Notes on Power
 
-- As with the RS-422 setup, a 5V wall power brick "makes ground and 5V available" on a shared bread board for the RS-485 modules.
-- Also each esp32 is still itself powered via USB.
+- As with the RS-485 setup, a 5V wall power brick "makes ground and 5V available" on a shared bread board for the RS-232 modules.
+- Each esp32 is still itself powered via USB.
+- ESP32 TX connect to TX of each module
+- Each module connects to it's own USB 5V power supply.
+- Each module shares ground with attached esp32 only.
 
-![pic](./pics/rs-485.jpg)
+
 ###  Ground Pins on ESP32 
 
 Each esp32  connects it's GND pin to the shared breadboard.
