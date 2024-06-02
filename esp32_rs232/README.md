@@ -78,7 +78,7 @@ You can run in full duplex mode with no problem:
 
 ## Takeaways / Learnings
 - Firstly, to send with RS-232 like this, you need a null modem cable. I thought I had one, but it was a straight through cable.
-- Note again: Using a console via USB will take
+- Using an IDE/console via USB will use UART0, you'll need to use UART1 or UART2 as described to see any output/test/program.
 
 - [These RS-232 to USB cables](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099534302791&sku_id=17592291701402&_x_sessn_id=tbxee81olz&refer_page_name=bgt_order_detail&refer_page_id=10045_1717371335257_u1x9z3oruh&refer_page_sn=10045) never seemed to work :(
 <img src="https://github.com/jouellnyc/UART/assets/32470508/ed79f8ab-8ea2-4ce5-8cad-faeff4246a6e" width="300"> 
