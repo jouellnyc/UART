@@ -63,9 +63,11 @@ uart = machine.UART(2, baudrate=9600, tx=tx_pin, rx=rx_pin)
 
 You can run in full duplex mode with no problem:
 
-- Run `import snr` on esp1 and esp2 at the same time:
+- Run `import snr` on esp1 and esp2 at the same time to perform full duplex:
 
-XXXXX
+![image](https://github.com/jouellnyc/UART/assets/32470508/bea893f1-dbe4-4250-bae1-d22cf286f36a)
+
+![image](https://github.com/jouellnyc/UART/assets/32470508/a82f34fc-4f28-4987-978e-1641419ca460)
 
 
 ## References 
