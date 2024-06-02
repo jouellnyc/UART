@@ -86,10 +86,8 @@ You can run in full duplex mode with no problem:
 - [This RS-232 Card](https://www.amazon.com/gp/product/B07QQHQHK2/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) worked great:
 <img src="https://github.com/jouellnyc/UART/assets/32470508/91c9f491-ffd9-4614-b198-86f97700518e" width="300">
 
-
 - [This RS-232 Cable](https://www.amazon.com/gp/product/B017C402NQ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) worked great for Linux PC console access and above card.
-<img src="https://github.com/jouellnyc/UART/assets/32470508/e2fc97eb-86ad-4d9d-97c5-4e90289f6099
-" width="300">
+<img src="https://github.com/jouellnyc/UART/assets/32470508/e2fc97eb-86ad-4d9d-97c5-4e90289f6099" width="300">
 
 - [This RS-232 Cable](https://www.aliexpress.us/item/3256804406490558.html) worked great for Linux PC console access and above card.
 <img src="https://github.com/jouellnyc/UART/assets/32470508/0ee191d7-df3b-4e24-b6a0-6e481c377e87" width="300">
