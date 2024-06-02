@@ -9,7 +9,7 @@ This is similar the  RS-422 example, except here we add [RS-232](https://en.wiki
 
 RS232 to TTL Serial Female to TTL Serial Module Brush Board MAX3232 Chip
 
-![image](https://github.com/jouellnyc/UART/assets/32470508/9ff61f73-2542-426c-bbb5-d68ff70ddc3f)
+<img src="https://github.com/jouellnyc/UART/assets/32470508/9ff61f73-2542-426c-bbb5-d68ff70ddc3f" width="100" height="100">
 
 - A [Null Cable Modem](https://www.amazon.com/dp/B000F43X4G)
 
