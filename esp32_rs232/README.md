@@ -30,7 +30,7 @@ RS232 to TTL Serial Female to TTL Serial Module Brush Board MAX3232 Chip
   
 ###  RS-232 Pins to Each ESP21
 
-| RS-2323 Module | ESP32          |
+| RS-232 Module | ESP32          |
 |------------------------|----------------|
 | GND   | GND (shared on bb not directly to ESP32)  |
 | VCC   | None|
