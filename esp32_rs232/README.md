@@ -90,8 +90,10 @@ You can run in full duplex mode with no problem:
 <img src="https://github.com/jouellnyc/UART/assets/32470508/e2fc97eb-86ad-4d9d-97c5-4e90289f6099" width="300">
 
 - [This RS-232 Cable](https://www.aliexpress.us/item/3256804406490558.html) worked great for Linux PC console access and above card.
-<img src="https://github.com/jouellnyc/UART/assets/32470508/0ee191d7-df3b-4e24-b6a0-6e481c377e87" width="300">
-  
+<img src="https://github.com/jouellnyc/UART/assets/32470508/6631da8f-42dd-433c-9ffa-0656a2fe5949" width="300">
+
+
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
 Feel free to modify the content as needed, such as adding installation instructions, code examples, or any other relevant information for your project.
