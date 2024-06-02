@@ -13,8 +13,7 @@ RS232 to TTL Serial Female to TTL Serial Module Brush Board MAX3232 Chip
 
 - A [Null Cable Modem](https://www.amazon.com/dp/B000F43X4G)
 
-![image](https://github.com/jouellnyc/UART/assets/32470508/426196c1-08da-4bce-9e91-5fbc50ef5278)
-
+<img src="https://github.com/jouellnyc/UART/assets/32470508/426196c1-08da-4bce-9e91-5fbc50ef5278" width="300" height="300">
  
 ## Physical Connections
 
