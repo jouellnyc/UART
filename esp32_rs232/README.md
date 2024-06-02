@@ -81,7 +81,7 @@ You can run in full duplex mode with no problem:
 - Note again: Using a console via USB will take
 - [These RS-232 to USB cables](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099534302791&sku_id=17592291701402&_x_sessn_id=tbxee81olz&refer_page_name=bgt_order_detail&refer_page_id=10045_1717371335257_u1x9z3oruh&refer_page_sn=10045) never seemed to work :(
 - [This RS-232 Card](https://www.amazon.com/gp/product/B07QQHQHK2/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) worked great. ![image]
-<img src="https://github.com/jouellnyc/UART/assets/32470508/4260a9b3-8079-4cd6-acad-0251496df26e" width="300" height="300">
+<img src="https://github.com/jouellnyc/UART/assets/32470508/4260a9b3-8079-4cd6-acad-0251496df26e" width="300">
 - [This RS-232 Cable](https://www.amazon.com/gp/product/B017C402NQ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) worked great to get a console using the above Card and a connection to a Linux PC.
 - [This RS-232 Cable](https://www.aliexpress.us/item/3256804406490558.html) worked great to get a console using the above Card and a connection to a Linux PC.
   
