@@ -5,9 +5,8 @@ This is similar the  RS-422 example, except here we add [RS-232](https://en.wiki
 ## Prerequisites
 
 - Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
-- Also, 2 x RS-485 modules. [These](https://www.aliexpress.us/item/3256805229452181.html) were used.
+- Also, 2 x RS-232 modules. [These](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099542772145&sku_id=17592327600831&_x_sessn_id=21k411z4l6) were used.
 
-![image](https://github.com/jouellnyc/UART/assets/32470508/23dc6cf1-073f-46af-8612-8aa6f770caf7)
 
 ## Physical Connections
 
