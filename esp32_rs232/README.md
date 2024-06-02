@@ -89,7 +89,7 @@ You can run in full duplex mode with no problem:
 
 
 - [This RS-232 Cable](https://www.aliexpress.us/item/3256804406490558.html) worked great to get a console using the above Card and a connection to a Linux PC.
-<img src="(https://github.com/jouellnyc/UART/assets/32470508/0ee191d7-df3b-4e24-b6a0-6e481c377e87" width="300">
+<img src="https://github.com/jouellnyc/UART/assets/32470508/0ee191d7-df3b-4e24-b6a0-6e481c377e87" width="300">
   
 ## License
 This project is licensed under the [MIT License](LICENSE).
