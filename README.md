@@ -22,7 +22,7 @@ Here are the projects:
 - We simulate that and try to create a 'uart ping' to see how quickly the data comes 'back'.
 
 ## 4. [ESP32 UART RS-232 Example](esp32_rs232/)
-- RS-232 poised a few challenges, but we overcam them.
+- RS-232 poised a few challenges, but we overcame them.
 
 ## 5. [Raspberry Pi Zero 2 UART Simple Example](pizero_simple/)
 - This project can be a physical connection proxy for WPA2-Enterprise deployments
