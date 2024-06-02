@@ -7,6 +7,8 @@ This is similar the  RS-422 example, except here we add [RS-232](https://en.wiki
 - Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
 - Also, 2 x RS-232 modules. [These](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099542772145&sku_id=17592327600831&_x_sessn_id=21k411z4l6) were used.
 
+![image](https://github.com/jouellnyc/UART/assets/32470508/9a926f76-91e8-4026-b63a-120cc8da0087)
+
 
 ## Physical Connections
 
