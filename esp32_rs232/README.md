@@ -43,6 +43,13 @@ In words:
 - Each ESP32 TX connects to TX of each module
 - Each ESP32 RX connects to RX of each module
 
+###  RS-232 Modules to BreadBoard
+| RS-232 Module | BreadBoard|
+|------------------------|----------------|
+| GND   | GND |
+| VCC   | 5V|
+
+
 ### Changes to the Basic UART code
 
 - None
