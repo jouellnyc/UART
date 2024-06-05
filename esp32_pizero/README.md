@@ -97,6 +97,7 @@ The connections are very straight forward. Here's a photo just the same:
 | Dupont Wires - 10 cm - 9600 BAUD   | 180 ms |
 | Dupont Wires - 10 cm - 19200 BAUD | 90  ms |
 | Dupont Wires - 10 cm - 38400 BAUD | 47  ms |
+| Dupont Wires - 10 cm - 57600 BAUD | 32   ms |
 
 
 ## References
