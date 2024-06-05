@@ -89,6 +89,7 @@ The connections are very straight forward. Here's a photo just the same:
 ## Takeaways/ Learnings
 - Make sure both sides have the same line speed (`pppd /dev/ttyAMA0 9600` or whatever baud you choose). It's easy to forget that!
 - Everything works without the esp32 needing to call ppp.ifconfig(()) to set anything at all. It picked up the details from the 'server'.
+- We needed 'modules-load=dwc2,g_serial' in cmdline.txt for the communication to flow.
 
 ## References
 
