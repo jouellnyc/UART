@@ -24,6 +24,8 @@ This is another physically connected alternative to wifi-based [wpa-ent-mschapv2
 ## Physical Connections / Pins 
 
 - Make sure the TX of the pi zero is connected to the RX of the esp32. 
+- Make sure the TX of the esp32  is connected to the RX of the pi. 
+
 - Here we are using:
 
 | ESP32 Pin | Description |
