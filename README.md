@@ -28,6 +28,10 @@ Here are the projects:
 - This project can be a physical connection proxy for WPA2-Enterprise deployments
 - This is a full OS and more details are needed than just a simple script to properly deploy.
 
+## 6. [Raspberry Pi Zero and ESP32 - simple serial - with PPP Example ](esp32_pizero/)
+- This project can also be a physical connection proxy for WPA2-Enterprise deployments using jumpers and PPP.
+- This is a full OS as server and microcontroller as client.
+
 ## ESP32 Pinout for ESP32-S3-DevKitC-1 
 Finding the right pin mapping for each esp32 can be a little tricky with so may boards and manufacturers. 
 
