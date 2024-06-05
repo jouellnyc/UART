@@ -90,7 +90,7 @@ The connections are very straight forward. Here's a photo just the same:
 - Make sure both sides have the same line speed (`pppd /dev/ttyAMA0 9600` or whatever baud you choose). It's easy to forget that!
 - Everything works without the esp32 needing to call ppp.ifconfig(()) to set anything at all. It picked up the details from the 'server'.
 - We needed 'modules-load=dwc2,g_serial' in cmdline.txt for the communication to flow.
-- Interesting how the latency of an icmp packet compared to bare 'naked UARTS  for [rs-485](https://github.com/jouellnyc/UART/blob/main/esp32_rs485/README.md).
+- Interesting how the latency of an icmp packet (much slower) compared to bare 'naked UARTS  for [rs-485](https://github.com/jouellnyc/UART/blob/main/esp32_rs485/README.md) but how the ppp link could withstand higher baud rates.
 
 | Connection | Lowest Latency  |
 |------------------------|----------------|
