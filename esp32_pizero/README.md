@@ -20,6 +20,8 @@ This is another physically connected alternative to wifi-based [wpa-ent-mschapv2
 | 1. | The ppp configs are not hardened - this is just starting out to get you going|
 
 ## Pi Zero Setup
+- see [config.txt](config.txt)
+- see [cmdline.txt](cmdline.txt)
 
 ## Physical Connections / Pins 
 
