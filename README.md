@@ -9,26 +9,26 @@ https://www.youtube.com/watch?app=desktop&v=JuvWbRhhpdI
 
 Here are the projects:
 
-## 1. [ESP32 UART Simple Example](esp32_simple/)
+## 1. [ESP32 to ESP32 - UART - Simple Example](esp32_simple/)
 - It was quite the effort to get 2 esp32 devices with SPIRAM to speak to each other over a simple UART.
 - It seemed like the information was hidden, but it was just not obvious.
 
-## 2. [ESP32 UART RS-422 Example](esp32_rs422/)
+## 2. [ESP32 to ESP32 - UART - RS-422 Example](esp32_rs422/)
 - Oddly enough, it was quite the effort to get 2 esp32 devices to speak to each other over rs-422 modules.
 - Yet again, it seemed like the information was hidden, but it was just not obvious.
 
-## 3. [ESP32 UART RS-485 Example](esp32_rs485/)
+## 3. [ESP32 to ESP32 - UART - RS-485 Example](esp32_rs485/)
 - It was easy to get 2 esp32 devices to speak to each other over rs-485 modules, but full duplex was quite tricky.
 - We simulate that and try to create a 'uart ping' to see how quickly the data comes 'back'.
 
-## 4. [ESP32 UART RS-232 Example](esp32_rs232/)
+## 4. [ESP32 to ESP32 - UART - RS-232 Example](esp32_rs232/)
 - RS-232 poised a few challenges, but we overcame them.
 
-## 5. [Raspberry Pi Zero 2 UART Simple Example](pizero_simple/)
+## 5. [Raspberry Pi Zero to Pi Zero - UART Simple Example with PPP ](pizero_simple/)
 - This project can be a physical connection proxy for WPA2-Enterprise deployments
 - This is a full OS and more details are needed than just a simple script to properly deploy.
 
-## 6. [Raspberry Pi Zero and ESP32 - simple serial - with PPP Example ](esp32_pizero/)
+## 6. [Raspberry Pi Zero to ESP32 - UART Simple Example - with PPP ](esp32_pizero/)
 - This project can also be a physical connection proxy for WPA2-Enterprise deployments using jumpers and PPP.
 - This is a full OS as server and microcontroller as client.
 
