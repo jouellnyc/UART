@@ -24,8 +24,24 @@ This is another physically connected alternative to wifi-based [wpa-ent-mschapv2
 ## Physical Connections / Pins 
 
 - Make sure the TX of the pi zero is connected to the RX of the esp32. 
-- Also have a shared ground.
+- Here we are using:
+
+| ESP32 Pin | Description |
+|---|---|
+| TX | GPIO 14 |
+| RX | GPIO 13 |
+
+These are remapped becuase of SPIRAM usage and to remove and pin conflicts for the UART. 
+
+| ESP32 Pin | Description |
+|---|---|
+| TX | GPIO 14 |
+| RX | GPIO 15 |
+
+These are the default pi zero pins
+
 - See https://pinout.xyz/
+- Also have a shared ground.
 
 
 ## Client 
