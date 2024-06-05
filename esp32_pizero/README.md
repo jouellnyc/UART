@@ -63,6 +63,7 @@ pppd /dev/ttyAMA0 1000000 10.0.5.1:10.0.5.2 proxyarp local noauth debug nodetach
 
 
 ## Pic
+The connections are very straight forward. Here's a photo just the same:
 ![image](https://github.com/jouellnyc/UART/assets/32470508/ef3294ae-32ff-4389-a5f1-02386e8969a1)
 
 ## Takeaways/ Learnings
