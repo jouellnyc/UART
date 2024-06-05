@@ -11,7 +11,7 @@ These are the same we've been using in the previous projects.
 
 # Why? 
 
-This is another physically connected alternative to wifi-based [wpa-ent-mschapv2-bridge](https://github.com/jouellnyc/wpa-ent-mschapv2-bridge), however now we don't need a full operating system like on tge pi zero, we can use a microcontroller, specifically the esp32, because it has the  ppp software available.
+This is another physically connected alternative to wifi-based [wpa-ent-mschapv2-bridge](https://github.com/jouellnyc/wpa-ent-mschapv2-bridge), however, now we don't need a full operating system like on tge pi zero, we can use a microcontroller, specifically the esp32, because it has the  ppp software available.
 
 
 | Cautionary Notes | Description                                             |
