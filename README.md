@@ -27,3 +27,10 @@ Here are the projects:
 ## 5. [Raspberry Pi Zero 2 UART Simple Example](pizero_simple/)
 - This project can be a physical connection proxy for WPA2-Enterprise deployments
 - This is a full OS and more details are needed than just a simple script to properly deploy.
+
+## ESP32 Pinout for ESP32-S3-DevKitC-1 
+Finding the right pin mapping for each esp32 can be a little tricky with so may boards and manufacturers. 
+
+These projects follow https://doc.riot-os.org/group__boards__esp32s3__devkit.html
+
+![image](https://github.com/jouellnyc/UART/assets/32470508/cdc2d37a-1bed-4a70-a8e8-bac5a0165541)

@@ -21,7 +21,8 @@ By default, the ESP32 assigns the following pins to UART2:
 | RX | GPIO 16 |
 
 However, if your ESP32 device has SPI RAM enabled, these pins (GPIO 16 and GPIO 17) are dedicated to the SPI RAM interface and cannot be used for UART2. 
-In this case, you need to remap the UART2 signals to different GPIO pins.
+In this case, you need to remap the UART2 signals to different GPIO pins. You could use UART1 (see notes below) as well. UART0 is not available to
+you if you connect the esp32 via USB. It is available if you use RS-232 to gain a console/REPL.
 
 ### UART2 Pin Remapping (with SPI RAM)
 
@@ -101,7 +102,7 @@ With any luck they will both run like this:
 - As mentioned, the key to success here is remapping the UART for an SPIRAM based esp32.
 - A 30 foot cable was able to carry the data uing 9600 or 19200 baud, but 38400 did not work well.
 - Distance was not a factor, BAUD was -- and possibly crimping/noise.
-
+- I used UART1 remapped explicitly to TX=17 and RX=18 explicitly, but implicitly it did not work (which make me slightly doubt the pinout).  
 
 | Cable/Wire | Speed | Baud|length|Pic/Other|
 |---|---|---|---|---|
