@@ -102,6 +102,7 @@ The connections are very straight forward. Here's a photo just the same:
 | Dupont Wires - 10 cm - 230400 BAUD | 8.3  ms |
 | Dupont Wires - 10 cm - 460800 BAUD | 4.4  ms (inconsistent) |
 | Dupont Wires - 10 cm - 921600 BAUD | 2.5  ms (inconsistent) |
+| Dupont Wires - 10 cm - 1843200 BAUD | speed not supported by pi zero} 
 
 
 ## References
@@ -109,6 +110,8 @@ The connections are very straight forward. Here's a photo just the same:
 [Raspberry Pi Forums Post](https://forums.raspberrypi.com/viewtopic.php?p=2227171)
 
 [Micropython Forum Post](https://github.com/orgs/micropython/discussions/14538)
+
+[TI forum re: Baud](https://e2e.ti.com/support/microcontrollers/msp-low-power-microcontrollers-group/msp430/f/msp-low-power-microcontroller-forum/832781/ccs-msp430fr5994-what-is-the-max-uart-spi-baud-rates-using-only-dco)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
