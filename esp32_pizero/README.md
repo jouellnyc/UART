@@ -94,7 +94,8 @@ The connections are very straight forward. Here's a photo just the same:
 
 | Connection | Lowest Latency  |
 |------------------------|----------------|
-| Dupont Wires - 10 cm   | 180 ms |
+| Dupont Wires - 10 cm - 9600 BAUD   | 180 ms |
+| Dupont Wires - 10 cm - -19200 BAUD | 90  ms |
 
 
 ## References
