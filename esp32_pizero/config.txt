@@ -1,10 +1,3 @@
-
-root@pizero1wa:~# cat  /boot/firmware/cmdline.txt 
-#console=tty1 root=PARTUUID=bf9a851f-02 rootfstype=ext4 fsck.repair=yes rootwait                            quiet splash plymouth.ignore-serial-consoles cfg80211.ieee80211_regdom=US
-console=tty1  root=PARTUUID=bf9a851f-02 rootfstype=ext4 fsck.repair=yes rootwait modules-load=dwc2,g_serial quiet splash plymouth.ignore-serial-consoles cfg80211.ieee80211_regdom=US
-
-
-root@pizero1wa:~# cat  /boot/firmware/config.txt
 # For more options and information see
 # http://rptl.io/configtxt
 # Some settings may impact device functionality. See link above for details
@@ -52,4 +45,5 @@ enable_uart=1
 dtoverlay=pi3-disable-bt
 dtoverlay=disable-bt
 dtoverlay=dwc2
+
 
