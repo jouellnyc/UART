@@ -5,7 +5,7 @@ This is similar the  [pizero to pizero](https://github.com/jouellnyc/UART/tree/m
 
 - An esp32
 - A Pi Zero W
-- Setup the Pi Zero to allow Serial Communications
+- Setup the Pi Zero to [allow Serial Communications](https://learn.adafruit.com/raspberry-pi-zero-creation/enable-uart)
 
 These are the same we've been using in the previous projects.
  
