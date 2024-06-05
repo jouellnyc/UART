@@ -5,7 +5,6 @@ This is similar the  [pizero to pizero](https://github.com/jouellnyc/UART/tree/m
 
 - An esp32
 - A Pi Zero W
-- Setup the Pi Zero to [allow Serial Communications](https://learn.adafruit.com/raspberry-pi-zero-creation/enable-uart)
 
 These are the same we've been using in the previous projects.
  
@@ -20,6 +19,7 @@ This is another physically connected alternative to wifi-based [wpa-ent-mschapv2
 | 1. | The ppp configs are not hardened - this is just starting out to get you going|
 
 ## Pi Zero Setup
+- Setup the Pi Zero to [allow Serial Communications](https://learn.adafruit.com/raspberry-pi-zero-creation/enable-uart)
 - see [config.txt](config.txt)
 - see [cmdline.txt](cmdline.txt)
 
