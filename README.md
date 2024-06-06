@@ -32,10 +32,14 @@ Here are the projects:
 - This project can also be a physical connection proxy for WPA2-Enterprise deployments using jumpers and PPP.
 - This is a full OS as server and microcontroller as client.
 
-## ESP32 Pinout for ESP32-S3-DevKitC-1 
-Finding the right pin mapping for each esp32 can be a little tricky with so may boards and manufacturers. 
+## 7. [Multi UARTS - Raspberry Pi Zero to  ESP32 to ESP32 - UART Simple Example - with PPP ](esp32_pizero/)
+- This project uses multiple UARTS are once with an ESP32 in the middle. Building heavily on other projects.
 
-These projects follow https://doc.riot-os.org/group__boards__esp32s3__devkit.html
+Overall Notes:
+
+- Finding the right pin mapping for each esp32 can be a little tricky with so may boards and manufacturers. 
+
+- These projects follow https://doc.riot-os.org/group__boards__esp32s3__devkit.html
 
 ![image](https://github.com/jouellnyc/UART/assets/32470508/cdc2d37a-1bed-4a70-a8e8-bac5a0165541)
 
