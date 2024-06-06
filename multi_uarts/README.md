@@ -30,7 +30,10 @@ Same as https://github.com/jouellnyc/UART/blob/main/esp32_pizero
 - See https://pinout.xyz/
 - Also have a shared ground (there are many Grounds available).
 
-## PIC
+## Pic
+
+![image](https://github.com/jouellnyc/UART/assets/32470508/71363b68-4612-4f49-9cc7-f39508263ce3)
+
 
 ## Takeaways/ Learnings
 - If any connections fail, ensure line speed is the same.
