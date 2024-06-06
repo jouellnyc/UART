@@ -18,7 +18,7 @@ Same as https://github.com/jouellnyc/UART/blob/main/esp32_pizero
 ## Physical Connections / Pins 
 - For each connection, ensure RX is connected to a TX PIN.
 
-- Here we are using:
+- Here we are using ESP #2 as 'the hub':
 
 | ESP32 #2 Pin | Description | UART|
 |---|---|---|
