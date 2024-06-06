@@ -32,7 +32,9 @@ Same as https://github.com/jouellnyc/UART/blob/main/esp32_pizero
 
 ## Pic
 
-![image](https://github.com/jouellnyc/UART/assets/32470508/71363b68-4612-4f49-9cc7-f39508263ce3)
+| ![image](https://github.com/jouellnyc/UART/assets/32470508/71363b68-4612-4f49-9cc7-f39508263ce3)|![image](https://github.com/jouellnyc/UART/assets/32470508/978d8521-27af-454e-81ca-a63893099c81)|
+|---|---|
+
 
 
 ## Takeaways/ Learnings
