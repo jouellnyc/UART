@@ -25,7 +25,7 @@ Same as https://github.com/jouellnyc/UART/blob/main/esp32_pizero
 | TX | PIN 14 to ESP #1 PIN 13| 2 |
 | RX | PIN 13 to ESP #1 PIN 14| 2 |
 | TX | PIN  6 to pizero PIN 10 (GPIO 15) | 1 |
-| TX | PIN  7 to pizero PIN 8 (GPIO 14) | 1 |
+| RX | PIN  7 to pizero PIN 8 (GPIO 14) | 1 |
 
 - See https://pinout.xyz/
 - Also have a shared ground (there are many Grounds available).
