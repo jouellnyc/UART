@@ -45,7 +45,6 @@ Same as https://github.com/jouellnyc/UART/blob/main/esp32_pizero
 
 ## References
 - [Multi PPP over UART](https://forums.raspberrypi.com/viewtopic.php?p=2212134&hilit=multiple+ppp#p2212134)
-NA
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
