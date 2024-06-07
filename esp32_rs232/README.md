@@ -81,7 +81,7 @@ You can run in full duplex mode with no problem:
 - Using an IDE/console via USB will use UART0, you'll need to use UART1 or UART2 as described to see any output/test/program.
 - There was confusion on how these work in terms of needed connection and how to connect them in the forums. I was subsequently able to connect these without the esp32 sharing a ground with the rs-232 to TTL module at all:
 
-![image](https://github.com/jouellnyc/UART/assets/32470508/c0906077-99d0-4bd1-887b-88141009eaf7)
+<img src="https://github.com/jouellnyc/UART/assets/32470508/c0906077-99d0-4bd1-887b-88141009eaf7" height="300"> 
 
 
 - [These RS-232 to USB cables](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099534302791&sku_id=17592291701402&_x_sessn_id=tbxee81olz&refer_page_name=bgt_order_detail&refer_page_id=10045_1717371335257_u1x9z3oruh&refer_page_sn=10045) never seemed to work :(
