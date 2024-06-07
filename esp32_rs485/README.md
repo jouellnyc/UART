@@ -7,7 +7,7 @@ This is similar the Simple UART example and RS-422 example, except here we add [
 - Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
 - Also, 2 x RS-485 modules. [These](https://www.aliexpress.us/item/3256805229452181.html) were used.
 
-![image](https://github.com/jouellnyc/UART/assets/32470508/23dc6cf1-073f-46af-8612-8aa6f770caf7)
+![image](https://github.com/jouellnyc/UART/assets/32470508/f0d01c14-9bba-4b9a-a55d-f163642e894c)
 
 ## Physical Connections
 
