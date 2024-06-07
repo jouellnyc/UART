@@ -20,7 +20,7 @@ RS232 to TTL Serial Female to TTL Serial Module Brush Board MAX3232 Chip
 - As with the RS-485 setup, a 5V wall power brick "makes ground and 5V available" on a shared bread board for the RS-232 modules.
 - In fact, each module connects to it's own USB 5V power supply (they could share one 5V power supply), but again these ESP32 did not give enough power to power the MAX3232 chip.
 - Each esp32 is still itself powered via USB.
-- Each module shares ground with attached esp32 only.
+- Each module shares ground with attached esp32 only (however see Takeaways/Learning).
 
 ## Physical Connections
 
@@ -79,6 +79,9 @@ You can run in full duplex mode with no problem:
 ## Takeaways / Learnings
 - Firstly, to send with RS-232 like this, you need a null modem cable. I thought I had one, but it was a straight through cable.
 - Using an IDE/console via USB will use UART0, you'll need to use UART1 or UART2 as described to see any output/test/program.
+- There was confusion on how these work - especially in the forums. I was subsequently able to connect these without the esp32 sharing a ground with the rs-232 to TTL module at all:
+
+
 
 - [These RS-232 to USB cables](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099534302791&sku_id=17592291701402&_x_sessn_id=tbxee81olz&refer_page_name=bgt_order_detail&refer_page_id=10045_1717371335257_u1x9z3oruh&refer_page_sn=10045) never seemed to work :(
 <img src="https://github.com/jouellnyc/UART/assets/32470508/ed79f8ab-8ea2-4ce5-8cad-faeff4246a6e" width="300"> 
