@@ -22,10 +22,10 @@ I took the defaults trying to flash the esp01s's.
 
 ## Takeaways / Learnings
 - Use the settings in MP Forum 1:
-![image](https://github.com/jouellnyc/UART/assets/32470508/69c24751-969b-4743-935f-77e9f7e6d20c)
+- ![image](https://github.com/jouellnyc/UART/assets/32470508/69c24751-969b-4743-935f-77e9f7e6d20c)
 - esp01s's are out of date, but still fun for hobbies. No reason not to get the 4MB version.
 - esp01's are not capable of ppp. They don't have enough ram:
-!["esp32 ppp ram"](esp32-mem-ppp.png)
+- !["esp32 ppp ram"](esp32-mem-ppp.png)
 
   
 
