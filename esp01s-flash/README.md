@@ -19,13 +19,16 @@ I took the defaults trying to flash the esp01s's.
 - [Espressif flash modes](https://docs.espressif.com/projects/esptool/en/latest/esp8266/esptool/flash-modes.html)
 - [MP Forum 1](https://github.com/micropython/micropython/issues/11656)
 - [MP Forum 2](https://github.com/thonny/thonny/issues/2801)
+- [MP Download Firmware for esp8266](https://micropython.org/download/ESP8266_GENERIC/)
 
 ## Takeaways / Learnings
 - Use the settings in MP Forum 1:
   
 ![image](https://github.com/jouellnyc/UART/assets/32470508/69c24751-969b-4743-935f-77e9f7e6d20c)
 
-- esp01s's are out of date, but still fun for hobbies. No reason not to get the 4MB version.
+I explicitly downloaded the file `v1.23.0 (2024-06-02) .bin` (but that does not seem to be required).
+
+- esp01s's are out of date, but still fun for hobbies. There is really no reason not to get the 4MB version.
 - esp01's are not capable of ppp. They don't have ppp available in the default image:
 
 ![image](https://github.com/jouellnyc/UART/assets/32470508/e6dd2986-a7d4-4d1e-8351-2c8fa7e8d298)
