@@ -25,10 +25,11 @@ I took the defaults trying to flash the esp01s's.
 - Use the settings in MP Forum 1:
   
 ![image](https://github.com/jouellnyc/UART/assets/32470508/69c24751-969b-4743-935f-77e9f7e6d20c)
-
-I explicitly downloaded the file `v1.23.0 (2024-06-02) .bin` (but that does not seem to be required).
+I explicitly set the flash size to `4MB` vs `keep`.
+I also set the flash mode to `qio`, which is supposed to the most common as per Expressif.
 
 - esp01s's are out of date, but still fun for hobbies. There is really no reason not to get the 4MB version.
+
 - esp01's are not capable of ppp. They don't have ppp available in the default image:
 
 ![image](https://github.com/jouellnyc/UART/assets/32470508/e6dd2986-a7d4-4d1e-8351-2c8fa7e8d298)
