@@ -41,6 +41,8 @@ I took the defaults trying to flash the esp01s's.
 - [MP Download Firmware for esp8266](https://micropython.org/download/ESP8266_GENERIC/)
 
 ## Takeaways / Learnings
+- Typically  ESP01s is an updated version of the ESP01 and can have up to 4 MB of flash (vs 1 MB or 500 kb of flash)
+- ESP01s use a dark/black PCB (not the lighter blue color).
 - Use the settings in MP Forum 1:
   
 ![image](https://github.com/jouellnyc/UART/assets/32470508/69c24751-969b-4743-935f-77e9f7e6d20c)
