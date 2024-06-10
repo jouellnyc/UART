@@ -5,7 +5,10 @@
 - ESP01s [These](https://www.amazon.com/dp/B08QF24GZZ) came in a pack of 5.
 
 - The ability to put the ESP01 into flash mode.
-The easiest way to do this is with a [Programmer](https://www.amazon.com/gp/product/B08QMMGZLB/) like this.
+The easiest way to do this is with a [Programmer](https://www.amazon.com/gp/product/B08QMMGZLB/) like this:
+
+![image](https://github.com/jouellnyc/UART/assets/32470508/e877397d-98e7-4b62-88ed-4313a6334b77)
+
 You would just plug in the ESP01 and hold down the button on the programmer to put it into flash mode. That will short gpio01 to ground.
 
 Note that there are usb based esp01 'adapters' that look just like the programmer but do not have buttons on the side to connect ground to gpio0. 
