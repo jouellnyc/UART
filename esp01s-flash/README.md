@@ -10,6 +10,7 @@
 
 ## References 
 - [Reddit](https://www.reddit.com/r/esp32/comments/1dbk6d9/comment/l7s0gjd/?context=3)
+- [Espressif flash modes](https://docs.espressif.com/projects/esptool/en/latest/esp8266/esptool/flash-modes.html)
 - [MP Forum 1](https://github.com/micropython/micropython/issues/11656)
 - [MP Forum 2](https://github.com/thonny/thonny/issues/2801)
 
