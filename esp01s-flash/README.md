@@ -10,8 +10,9 @@
 The easiest way to do this is with a [Programmer](https://www.amazon.com/gp/product/B08QMMGZLB/) like this.
 You would just plug in the ESP01 and hold down the button on the programmer to put it into flash mode. That will short gpio01 to ground.
 
-That being the case, you could create your own 'programmer':
-If you connect GND to GPIO01 with some dupont jumpers you can create the same affect:
+That being the case, you could create your own programmer. Specifically, if you connect GND to GPIO01 with some dupont jumpers you can create the same affect:
+
+![image](https://github.com/jouellnyc/UART/assets/32470508/d5ebed5e-0feb-44ad-bf84-f8e8dd66a159)
 
 The downside is you may have to swap out the crossed jumpers for straight jumpers if you want to acess the REPL post your flashing. 
 
