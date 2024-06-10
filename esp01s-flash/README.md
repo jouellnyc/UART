@@ -2,9 +2,7 @@
 
 ## Prerequisites
 
-- ESP01s
-
-[These](https://www.amazon.com/dp/B08QF24GZZ) came in a pack of 5.
+- ESP01s [These](https://www.amazon.com/dp/B08QF24GZZ) came in a pack of 5.
 
 - The ability to put the ESP01 into flash mode.
 The easiest way to do this is with a [Programmer](https://www.amazon.com/gp/product/B08QMMGZLB/) like this.
