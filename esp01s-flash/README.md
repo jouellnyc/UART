@@ -34,5 +34,10 @@ It seems like it would be possible however, it take about 13k to instantiate ppp
  
 ![image](https://github.com/jouellnyc/UART/assets/32470508/7ebbb731-9511-4462-98d1-fb43423f37bf)
 
-  
+and the esp01s has about 33k available on boot:
+
+![image](https://github.com/jouellnyc/UART/assets/32470508/ab427af5-8c86-4279-8088-adbcd793bec6)
+
+Perhaps this could be compiled in. More to come if required.
+ 
 
