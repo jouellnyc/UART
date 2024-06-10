@@ -11,7 +11,15 @@ The easiest way to do this is with a [Programmer](https://www.amazon.com/gp/prod
 
 <img src="https://github.com/jouellnyc/UART/assets/32470508/e877397d-98e7-4b62-88ed-4313a6334b77" alt="Programmer" style="float: left; width: 300px; margin-right: 10px;">
 
-You would just plug in the ESP01 and hold down the button on the programmer to put it into flash mode. That will short GPIO0 to ground.
+There is a button that will short GPIO0 to ground. That puts the ESP01 into flash mode. 
+
+
+In Thonny try to install the firmware:
+
+![image](https://github.com/jouellnyc/UART/assets/32470508/7d365142-67cc-43e1-be88-771c226ee605)
+
+Hold down the button on the programmer and after you click install, let the button go.
+
 
 Note that there are usb based ESP01 'adapters' that look just like the programmer but do not have buttons on the side to connect ground to GPIO0. 
 The net effect is you can get a REPL easily, but you cannot flash the ESP01 with it.
