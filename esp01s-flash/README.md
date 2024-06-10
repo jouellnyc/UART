@@ -4,13 +4,12 @@
 
 - An ESP01s.  [These](https://www.amazon.com/dp/B08QF24GZZ) came in a pack of 5:
 
-![image](https://github.com/jouellnyc/UART/assets/32470508/fc1c23ec-50d5-4ecb-8d3f-a0b0038837d8)
+<img src="[https://github.com/jouellnyc/UART/assets/32470508/e877397d-98e7-4b62-88ed-4313a6334b77](ESP01s)" alt="ESP01s" style="float: left; width: 300px; margin-right: 10px;">
 
 - The ability to put the ESP01 into flash mode.
 The easiest way to do this is with a [Programmer](https://www.amazon.com/gp/product/B08QMMGZLB/) like this:
 
 <img src="https://github.com/jouellnyc/UART/assets/32470508/e877397d-98e7-4b62-88ed-4313a6334b77" alt="Programmer" style="float: left; width: 300px; margin-right: 10px;">
-
 
 You would just plug in the ESP01 and hold down the button on the programmer to put it into flash mode. That will short GPIO0 to ground.
 
