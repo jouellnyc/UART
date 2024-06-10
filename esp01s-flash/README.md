@@ -54,6 +54,7 @@ I took the defaults trying to flash the esp01s's.
 - Use the settings in MP Forum 1:
   
 ![image](https://github.com/jouellnyc/UART/assets/32470508/69c24751-969b-4743-935f-77e9f7e6d20c)
+
 I explicitly set the flash size to `4MB` vs `keep`.
 I also set the flash mode to `qio`, which is supposed to the most common as per Expressif.
 
