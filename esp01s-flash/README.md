@@ -4,7 +4,7 @@
 
 - An ESP01s.  [These](https://www.amazon.com/dp/B08QF24GZZ) came in a pack of 5:
 
-<img src="[https://github.com/jouellnyc/UART/assets/32470508/e877397d-98e7-4b62-88ed-4313a6334b77](ESP01s)" alt="ESP01s" style="float: left; width: 300px; margin-right: 10px;">
+<img src="https://github.com/jouellnyc/UART/assets/32470508/e877397d-98e7-4b62-88ed-4313a6334b77" alt="ESP01s" style="float: left; width: 300px; margin-right: 10px;">
 
 - The ability to put the ESP01 into flash mode.
 The easiest way to do this is with a [Programmer](https://www.amazon.com/gp/product/B08QMMGZLB/) like this:
