@@ -2,7 +2,9 @@
 
 ## Prerequisites
 
-- An ESP01s.  [These](https://www.amazon.com/dp/B08QF24GZZ) came in a pack of 5.
+- An ESP01s.  [These](https://www.amazon.com/dp/B08QF24GZZ) came in a pack of 5:
+
+![image](https://github.com/jouellnyc/UART/assets/32470508/fc1c23ec-50d5-4ecb-8d3f-a0b0038837d8)
 
 - The ability to put the ESP01 into flash mode.
 The easiest way to do this is with a [Programmer](https://www.amazon.com/gp/product/B08QMMGZLB/) like this:
