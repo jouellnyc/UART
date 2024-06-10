@@ -26,8 +26,12 @@ I took the defaults trying to flash the esp01s's.
 ![image](https://github.com/jouellnyc/UART/assets/32470508/69c24751-969b-4743-935f-77e9f7e6d20c)
 
 - esp01s's are out of date, but still fun for hobbies. No reason not to get the 4MB version.
-- esp01's are not capable of ppp. They don't have enough ram:
-  
+- esp01's are not capable of ppp. They don't have ppp available in the default image:
+
+![image](https://github.com/jouellnyc/UART/assets/32470508/e6dd2986-a7d4-4d1e-8351-2c8fa7e8d298)
+
+It seems like it would be possible however, it take about 13k to instantiate ppp in an esp32:
+ 
 ![image](https://github.com/jouellnyc/UART/assets/32470508/7ebbb731-9511-4462-98d1-fb43423f37bf)
 
   
