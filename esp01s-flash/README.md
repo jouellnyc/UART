@@ -73,12 +73,16 @@ See [ESP 01 PIN OUT](https://www.theengineeringprojects.com/wp-content/uploads/2
 
 | Board | Pins (TX, RX) |
 |---|---|
-| ESP01 | GPIO13 (TX)|GPIO3 (RX) |
-| ESP32 | GPIO1 (TX) |GPI14 (RX) |
+| ESP01 | GPIO13 (TX)|GPIO3 (RX) |GND|
+| ESP32 | GPIO1 (TX) |GPI14 (RX) |GND|
 
 ### ESP01 - I2C OLED  Connection
-| ESP01 | GPIO0| GPIO2|
-| OLED | SCL| SDA|
+| Board | Pins|
+|---|---|
+| ESP01 | GPIO0| GPIO2|GND|
+| OLED | SCL| SDA|GND|
+
+Also you'll need 3.3V power to the OLED and ESP01 and connect them to `VCC`. A [CP2102](https://www.amazon.com/HiLetgo-CP2102-Converter-Adapter-Downloader/dp/B00LODGRV8/) worked nicely.
 
 The ESP01 has a TX and RX pin. If you try to use those to connect to another device (ESP32/etc) AND use an IDE like Thonny, it's not going to work out well - a conflict will ensure.  
 
