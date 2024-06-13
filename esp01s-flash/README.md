@@ -67,7 +67,7 @@ Perhaps this could be compiled in. More to come if required.
 ## UART
 There are 8 pins on the ESP01, but it could be tricky to use them. You could use 4 of them: GPIO0,1,2,and 3.
 
-See ![image](https://www.theengineeringprojects.com/wp-content/uploads/2019/03/introduction-to-esp-01.jpg)
+See [ESP 01 PIN OUT](https://www.theengineeringprojects.com/wp-content/uploads/2019/03/introduction-to-esp-01.jpg) for a nice picture.
 
 
 ## Takeaways / Learnings
