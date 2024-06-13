@@ -3,7 +3,7 @@
 ## Prerequisites
 
 - An ESP01s.  [These](https://www.amazon.com/dp/B08QF24GZZ) came in a pack of 5:
-- <img src="https://github.com/jouellnyc/UART/assets/32470508/fc1c23ec-50d5-4ecb-8d3f-a0b0038837d8" alt="ESP01s" style="float: left; width: 300px; height: 200px; margin-right: 10px;">
+<img src="https://github.com/jouellnyc/UART/assets/32470508/fc1c23ec-50d5-4ecb-8d3f-a0b0038837d8" alt="ESP01s" style="float: left; width: 300px; height: 200px; margin-right: 10px;">
 - An ESP32 like we've been using.
   
 ### Upfront
