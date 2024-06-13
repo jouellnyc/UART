@@ -146,7 +146,7 @@ try:
 
 """
 You are going to be running 'headless'.
-It's nice to be able to get some logging when problem happen.
+It's nice to be able to get some logging when problems happen.
 """
 except Exception as e:
     with open('errors.log', 'a') as f:
