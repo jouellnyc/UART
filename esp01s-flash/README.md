@@ -66,7 +66,9 @@ Perhaps this could be compiled in. More to come if required.
 
 ## UART
 There are 8 pins on the ESP01, but it could be tricky to use them. You could use 4 of them: GPIO0,1,2,and 3.
-see ![image](https://www.theengineeringprojects.com/wp-content/uploads/2019/03/introduction-to-esp-01.jpg)
+
+See ![image](https://www.theengineeringprojects.com/wp-content/uploads/2019/03/introduction-to-esp-01.jpg)
+
 
 ## Takeaways / Learnings
 - Typically ESP01s is an updated version of the ESP01 and can have up to 4 MB of flash (vs 1 MB or 500 kb of flash)
@@ -81,4 +83,11 @@ see ![image](https://www.theengineeringprojects.com/wp-content/uploads/2019/03/i
 - [MP Forum 1](https://github.com/micropython/micropython/issues/11656)
 - [MP Forum 2](https://github.com/thonny/thonny/issues/2801)
 - [MP Download Firmware for esp8266](https://micropython.org/download/ESP8266_GENERIC/)
+- [Connecting an esp-01 to a Raspberry Pi Pico over any wire - RPi Forum](https://forums.raspberrypi.com/viewtopic.php?t=337898)
+- [Oled and Led on an esp01 - MicroPython Forum (Archive)](https://forum.micropython.org/viewtopic.php?f=16&t=12794&p=70337&hilit=modulusmath+esp01#p69536)
+- [Using the GPIO0 /GPIO2 for OUTPUT and RX for INPUT - MicroPython Forum (Archive)](https://forum.micropython.org/viewtopic.php?t=4921)
+- [Wired communication between two ESP-01's : r/esp8266](https://www.reddit.com/r/esp8266/comments/pmnib9/wired_communication_between_two_esp01s/)
+- [Setting uos.dupterm() on boot - MicroPython Forum (Archive)](https://forum.micropython.org/viewtopic.php?t=5468)
+- [ESP 01 PIN OUT](https://www.theengineeringprojects.com/wp-content/uploads/2019/03/introduction-to-esp-01.jpg)
+
 
