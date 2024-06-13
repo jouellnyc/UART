@@ -14,7 +14,7 @@ The easiest way to do this is with a [Programmer](https://www.amazon.com/gp/prod
 
 There is a button that will short GPIO0 to ground. That puts the ESP01 into flash mode.  That being the case, there are usb based esp01 'adapters' that look just like the programmer but do not have buttons on the side to connect ground to gpio0. The net effect is you can get a REPL easily, but you cannot flash the esp01 with it. 
 
-That being the case, you could modify it to be able to use burn firmware like the 'programmer' would. If you connect GND to GPIO01 with some dupont jumpers on that USB device you can create the same affect:
+That being the case, you could modify it to be able to burn firmware like the 'programmer' would. If you connect GND to GPIO01 with some dupont jumpers on that USB device you can create the same affect:
 
 ![image](https://github.com/jouellnyc/UART/assets/32470508/d5ebed5e-0feb-44ad-bf84-f8e8dd66a159)
 
