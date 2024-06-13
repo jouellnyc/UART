@@ -72,12 +72,10 @@ See [ESP 01 PIN OUT](https://www.theengineeringprojects.com/wp-content/uploads/2
 
 ![image](https://github.com/jouellnyc/UART/assets/32470508/1df32214-cdda-460a-b175-9413f6cc1b9c)
 
-|ESP32| ESP01|
+|ESP32 UART| ESP01 UART|GND|
 |---|---|
-|GPIO13 (TX) |GPIO1(RX) |GND|
-|GPIO14 (RX) |GPIO3(TX) |GND|
-
-I.E Connect RX=>TX and TX=>RX
+|GPIO13 (TX) |GPIO3(RX) |GND|
+|GPIO14 (RX) |GPIO1(TX) |GND|
 
 ### ESP01 - I2C OLED  Connection
 | Board | Pin|
