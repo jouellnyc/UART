@@ -10,11 +10,11 @@ ESP01S take a lot of extra care and patience. First we need to flash, then we ad
 
 ## ESP01s Flashing
 
-<img src="https://github.com/jouellnyc/UART/assets/32470508/fc1c23ec-50d5-4ecb-8d3f-a0b0038837d8" alt="ESP01s" style="float: left; width: 300px; height: 300px; margin-right: 10px;">
+<img src="https://github.com/jouellnyc/UART/assets/32470508/fc1c23ec-50d5-4ecb-8d3f-a0b0038837d8" alt="ESP01s" style="float: left; width: 300px; height: 200px; margin-right: 10px;">
 
 The easiest way to do this is with a [Programmer](https://www.amazon.com/gp/product/B08QMMGZLB/) like this:
 
-<img src="https://github.com/jouellnyc/UART/assets/32470508/e877397d-98e7-4b62-88ed-4313a6334b77" alt="Programmer" style="float: left; width: 300px; height: 300px; margin-right: 10px;">
+<img src="https://github.com/jouellnyc/UART/assets/32470508/e877397d-98e7-4b62-88ed-4313a6334b77" alt="Programmer" style="float: left; width: 300px; height: 200px; margin-right: 10px;">
 
 
 There is a button that will short GPIO0 to ground. That puts the ESP01 into flash mode.  That being the case, there are usb based esp01 'adapters' that look just like the programmer but do not have buttons on the side to connect ground to gpio0. The net effect is you can get a REPL easily, but you cannot flash the esp01 with it. 
