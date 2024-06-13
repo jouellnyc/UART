@@ -159,7 +159,7 @@ except Exception as e:
 - ESP01s use a dark/black PCB (not the lighter blue color).
 - Use the settings in MP Forum 1 and as above to successfully flash your esp01s:
 - ESP01s's are out of date, but still very fun for hobbies. There is really no reason not to get the 4MB version.
-- ESP01s's are not capable of ppp (see above).
+- ESP01s's are not capable of ppp with latest mp firmware (see above).
 
 ## References 
 - [Reddit](https://www.reddit.com/r/esp32/comments/1dbk6d9/comment/l7s0gjd/?context=3)
