@@ -48,13 +48,6 @@ I also set the flash mode to `qio`, which is supposed to the most common as per 
 
 Success.
 
-## Takeaways / Learnings
-- Typically ESP01s is an updated version of the ESP01 and can have up to 4 MB of flash (vs 1 MB or 500 kb of flash)
-- ESP01s use a dark/black PCB (not the lighter blue color).
-- Use the settings in MP Forum 1 and as above to successfully flash your esp01s:
-- ESP01s's are out of date, but still very fun for hobbies. There is really no reason not to get the 4MB version.
-- ESP01s's are not capable of ppp (see below).
-
 ## PPP
 
 ESP01s doesn't have ppp available in the default image:
@@ -70,7 +63,18 @@ and the ESP01s has about 33k available on boot:
 ![image](https://github.com/jouellnyc/UART/assets/32470508/ab427af5-8c86-4279-8088-adbcd793bec6)
 
 Perhaps this could be compiled in. More to come if required.
- 
+
+## UART
+There are 8 pins on the ESP01, but it could be tricky to use them. You could use 4 of them: GPIO0,1,2,and 3.
+see ![image](https://www.theengineeringprojects.com/wp-content/uploads/2019/03/introduction-to-esp-01.jpg)
+
+## Takeaways / Learnings
+- Typically ESP01s is an updated version of the ESP01 and can have up to 4 MB of flash (vs 1 MB or 500 kb of flash)
+- ESP01s use a dark/black PCB (not the lighter blue color).
+- Use the settings in MP Forum 1 and as above to successfully flash your esp01s:
+- ESP01s's are out of date, but still very fun for hobbies. There is really no reason not to get the 4MB version.
+- ESP01s's are not capable of ppp (see above).
+
 ## References 
 - [Reddit](https://www.reddit.com/r/esp32/comments/1dbk6d9/comment/l7s0gjd/?context=3)
 - [Espressif flash modes](https://docs.espressif.com/projects/esptool/en/latest/esp8266/esptool/flash-modes.html)
