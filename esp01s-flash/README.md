@@ -16,7 +16,6 @@ The easiest way to do this is with a [Programmer](https://www.amazon.com/gp/prod
 
 <img src="https://github.com/jouellnyc/UART/assets/32470508/e877397d-98e7-4b62-88ed-4313a6334b77" alt="Programmer" style="float: left; width: 300px; height: 200px; margin-right: 10px;">
 
-
 There is a button that will short GPIO0 to ground. That puts the ESP01 into flash mode.  That being the case, there are usb based esp01 'adapters' that look just like the programmer but do not have buttons on the side to connect ground to gpio0. The net effect is you can get a REPL easily, but you cannot flash the esp01 with it. 
 
 That being the case, you could modify it to be able to burn firmware like the 'programmer' would. If you connect GND to GPIO01 with some dupont jumpers on that USB device you can create the same affect:
@@ -82,7 +81,9 @@ See [ESP 01 PIN OUT](https://www.theengineeringprojects.com/wp-content/uploads/2
 | ESP01 | GPIO0| GPIO2|GND|
 | OLED | SCL| SDA|GND|
 
-Also you'll need 3.3V power to the OLED and ESP01 and connect them to `VCC`. A [CP2102](https://www.amazon.com/HiLetgo-CP2102-Converter-Adapter-Downloader/dp/B00LODGRV8/) worked nicely. 
+Also you'll need 3.3V power to the OLED and ESP01 and connect them to `VCC`. A [CP2102](https://www.amazon.com/HiLetgo-CP2102-Converter-Adapter-Downloader/dp/B00LODGRV8/) worked nicely. Not required but helpful: A [Break Out Board](https://www.amazon.com/dp/B01G6HK3KW)
+
+<img src="https://github.com/jouellnyc/UART/assets/32470508/ab140964-deca-4f16-820d-36cd1ca3670f" alt="Break Out Board" style="float: left; width: 300px; height: 200px; margin-right: 10px;">
 
 Now, the ESP01 has a TX and RX pin. If you try to use those to connect to another device (ESP32/etc) AND use an IDE like Thonny, it's not going to work out well - a conflict will ensue.  
 
