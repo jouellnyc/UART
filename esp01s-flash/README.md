@@ -78,7 +78,7 @@ See [ESP 01 PIN OUT](https://www.theengineeringprojects.com/wp-content/uploads/2
 |GPIO14 (RX) |GPIO1(TX) |GND|
 
 ### ESP01 - I2C OLED  Connection
-| Board | Pin|
+| Board | Pin 1| Pin 2|Pin 3|
 |---|---|
 | ESP01 | GPIO0| GPIO2|GND|
 | OLED | SCL| SDA|GND|
