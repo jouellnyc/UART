@@ -164,7 +164,9 @@ except Exception as e:
 - ESP01s's are not capable of ppp with latest mp firmware (see above).
 
 ## From Here
-- It should not be very difficult to 'mix and match'. I.E And ESP01 connected to an ESP01 or another ESP32 still - whether it be a simple UART connection or via RS-232, RS-485, etc.
+- It should not be very difficult to 'mix and match'. 
+
+I.E An ESP01 connected to an ESP01 or another ESP32 still - whether it be a simple UART connection or via RS-232, RS-485, etc.
 
 ## References 
 - [Reddit](https://www.reddit.com/r/esp32/comments/1dbk6d9/comment/l7s0gjd/?context=3)
