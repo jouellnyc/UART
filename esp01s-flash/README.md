@@ -46,7 +46,11 @@ I also set the flash mode to `qio`, which is supposed to the most common as per 
 - ESP01s use a dark/black PCB (not the lighter blue color).
 - Use the settings in MP Forum 1 and as above to successfully flash your esp01s:
 - ESP01s's are out of date, but still very fun for hobbies. There is really no reason not to get the 4MB version.
-- ESP01s's are not capable of ppp. They don't have ppp available in the default image:
+- ESP01s's are not capable of ppp (see below).
+
+## PPP
+
+ESP01s doesn't have ppp available in the default image:
 
 ![image](https://github.com/jouellnyc/UART/assets/32470508/e6dd2986-a7d4-4d1e-8351-2c8fa7e8d298)
 
@@ -60,9 +64,6 @@ and the ESP01s has about 33k available on boot:
 
 Perhaps this could be compiled in. More to come if required.
  
-
-
-
 ## References 
 - [Reddit](https://www.reddit.com/r/esp32/comments/1dbk6d9/comment/l7s0gjd/?context=3)
 - [Espressif flash modes](https://docs.espressif.com/projects/esptool/en/latest/esp8266/esptool/flash-modes.html)
