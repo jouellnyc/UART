@@ -72,16 +72,18 @@ See [ESP 01 PIN OUT](https://www.theengineeringprojects.com/wp-content/uploads/2
 
 ![image](https://github.com/jouellnyc/UART/assets/32470508/1df32214-cdda-460a-b175-9413f6cc1b9c)
 
-|ESP32 UART| ESP01 UART|GND|
-|---|---|
-|GPIO13 (TX) |GPIO3(RX) |GND|
-|GPIO14 (RX) |GPIO1(TX) |GND|
+| ESP01 | ESP32          |
+|------------------------|----------------|
+| GPIO1(TX) | GPIO 14 (remapped as RX)|
+| GPIO3(RX) | GPIO 13 (remapped as TX)|
+| GND   | GND   |
 
 ### ESP01 - I2C OLED  Connection
-| Board | Pin 1| Pin 2|Pin 3|
-|---|---|
-| ESP01 | GPIO0| GPIO2|GND|
-| OLED | SCL| SDA|GND|
+| ESP01 |OLED          |
+|------------------------|----------------|
+| SDA | GPIO2 |
+| SCL | GPIO0 |
+| GND | GND   | 
 
 Also you'll need 3.3V power to the OLED and ESP01 and connect them to `VCC`. 
 
