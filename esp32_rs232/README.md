@@ -28,7 +28,7 @@ RS232 to TTL Serial Female to TTL Serial Module Brush Board MAX3232 Chip
 
 ![image](https://github.com/jouellnyc/UART/assets/32470508/55b289d6-07d1-4612-a918-f569b2e734af)
   
-###  RS-232 Pins to Each ESP21
+###  RS-232 Pins to Each ESP32
 
 | RS-232 Module | ESP32          |
 |------------------------|----------------|
