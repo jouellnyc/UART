@@ -9,33 +9,19 @@
 - The ability to put the ESP01 into flash mode.
 The easiest way to do this is with a [Programmer](https://www.amazon.com/gp/product/B08QMMGZLB/) like this:
 
-<<<<<<< HEAD
-That being the case, there are usb based esp01 'adapters' that look just like the programmer but do not have buttons on the side to connect ground to gpio0.
-The net effect is you can get a REPL easily, but you cannot flash the esp01 with it. 
+There is a button that will short GPIO0 to ground. That puts the ESP01 into flash mode.  That being the case, there are usb based esp01 'adapters' that look just like the programmer but do not have buttons on the side to connect ground to gpio0. The net effect is you can get a REPL easily, but you cannot flash the esp01 with it. 
 
-That being the case, you could create your own 'programmer'. If you connect GND to GPIO01 with some dupont jumpers on that USB device you can create the same affect:
-=======
+That being the case, you could modity to be able to use burn firmware like the 'programmer' would. If you connect GND to GPIO01 with some dupont jumpers on that USB device you can create the same affect:
+
+![image](https://github.com/jouellnyc/UART/assets/32470508/d5ebed5e-0feb-44ad-bf84-f8e8dd66a159)
+
 <img src="https://github.com/jouellnyc/UART/assets/32470508/e877397d-98e7-4b62-88ed-4313a6334b77" alt="Programmer" style="float: left; width: 300px; margin-right: 10px;">
-
-There is a button that will short GPIO0 to ground. That puts the ESP01 into flash mode. 
-
 
 In Thonny try to install the firmware:
 
 ![image](https://github.com/jouellnyc/UART/assets/32470508/7d365142-67cc-43e1-be88-771c226ee605)
 
 Hold down the button on the programmer and after you click install, let the button go.
-
-
-Note that there are usb based ESP01 'adapters' that look just like the programmer but do not have buttons on the side to connect ground to GPIO0. 
-The net effect is you can get a REPL easily, but you cannot flash the ESP01 with it.
-
-That being the case, you could create your own 'programmer'. If you twist 2 jumpers together like this:
-
-![image](https://github.com/jouellnyc/UART/assets/32470508/d5ebed5e-0feb-44ad-bf84-f8e8dd66a159)
-
-You can then plug GND to GND and GPIO0 to GPIO0 from the adatper to the ESP01 and have the same effect.
->>>>>>> 5affc7383d45afce6c720e524d080b5883a9af8b
 
 The downside is you may have to swap out the crossed jumpers for straight jumpers if you want to acess the REPL post your flashing. 
 
