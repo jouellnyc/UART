@@ -69,6 +69,17 @@ There are 8 pins on the ESP01, but it could be tricky to use them. You could use
 
 See [ESP 01 PIN OUT](https://www.theengineeringprojects.com/wp-content/uploads/2019/03/introduction-to-esp-01.jpg) for a nice picture.
 
+### ESP01 - ESP32 UART Connection
+
+| Board | Pins (TX, RX) |
+|---|---|
+| ESP01 | GPIO13 (TX)|GPIO3 (RX) |
+| ESP32 | GPIO1 (TX) |GPI14 (RX) |
+
+### ESP01 - I2C OLED  Connection
+| ESP01 | GPIO0| GPIO2|
+| OLED | SCL| SDA|
+
 The ESP01 has a TX and RX pin. If you try to use those to connect to another device (ESP32/etc) AND use an IDE like Thonny, it's not going to work out well - a conflict will ensure.  
 
 If I were to paraphrase [this patch](https://github.com/micropython/micropython/commit/afd0701bf7a9dcb50c5ab46b0ae88b303fec6ed3):
