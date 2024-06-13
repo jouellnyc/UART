@@ -163,6 +163,9 @@ except Exception as e:
 - ESP01s's are out of date, but still very fun for hobbies. There is really no reason not to get the 4MB version.
 - ESP01s's are not capable of ppp with latest mp firmware (see above).
 
+## From Here
+- It should not be very difficult to 'mix and match'. I.E And ESP01 connected to an ESP01 or another ESP32 still - whether it be a simple UART connection or via RS-232, RS-485, etc.
+
 ## References 
 - [Reddit](https://www.reddit.com/r/esp32/comments/1dbk6d9/comment/l7s0gjd/?context=3)
 - [Espressif flash modes](https://docs.espressif.com/projects/esptool/en/latest/esp8266/esptool/flash-modes.html)
