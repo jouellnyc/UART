@@ -1,12 +1,17 @@
-## ESP01s Flashing
+## ESP01S to ESP32 Example Simple Example
 
 ## Prerequisites
 
 - An ESP01s.  [These](https://www.amazon.com/dp/B08QF24GZZ) came in a pack of 5:
+- An ESP32 like we've been using.
+  
+### Upfront
+ESP01S take a lot of extra care and patience. First we need to flash, then we address the UART.
+
+## ESP01s Flashing
 
 <img src="https://github.com/jouellnyc/UART/assets/32470508/fc1c23ec-50d5-4ecb-8d3f-a0b0038837d8" alt="ESP01s" style="float: left; width: 300px; margin-right: 10px;">
 
-- The ability to put the ESP01 into flash mode.
 The easiest way to do this is with a [Programmer](https://www.amazon.com/gp/product/B08QMMGZLB/) like this:
 
 <img src="https://github.com/jouellnyc/UART/assets/32470508/e877397d-98e7-4b62-88ed-4313a6334b77" alt="Programmer" style="float: left; width: 300px; margin-right: 10px;">
