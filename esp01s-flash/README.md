@@ -69,6 +69,67 @@ There are 8 pins on the ESP01, but it could be tricky to use them. You could use
 
 See [ESP 01 PIN OUT](https://www.theengineeringprojects.com/wp-content/uploads/2019/03/introduction-to-esp-01.jpg) for a nice picture.
 
+The ESP01 has a TX and RX pin. If you try to use those to connect to another device (ESP32/etc) AND use an IDE like Thonny, it's not going to work out well - a conflict will ensure.  
+
+If I were to paraphrase [this patch](https://github.com/micropython/micropython/commit/afd0701bf7a9dcb50c5ab46b0ae88b303fec6ed3):
+
+When the ESP01/etc boots and the REPL is started (on hard or soft reset) then UART(0) is automatically attached to it.
+If you execute `uos.dupterm(None, 1)` then it is not, freeing the UART for your TX/RX comms to the ESP32/etc:
+
+After that you could also use the other GPIOs for connecting for example a small OLED. Your mileage may vary in terms of what exactly could hook up to the device. Previously I failed to get more than 2 pins working in one project/program.
+
+This is a small script communicating with an ESP32 that writes the received data to the OLED:
+
+```
+try:
+
+    from machine import Pin,I2C
+    import ssd1306
+    i2c = I2C(scl=Pin(0), sda=Pin(2), freq=100000) #Init i2c
+    lcd=ssd1306.SSD1306_I2C(128,64,i2c) 
+
+    """
+       Without this sleep you may hook up the esp01 w/o the ability to connect 
+       and use it's UART for the IDE. Then you can't "Ctrl/C" and may need to reflash.
+       (Not that that happened to me or anything)
+    """
+    import time
+    time.sleep(5)
+    
+    import os
+    """
+    #Attaching
+    uart = [blah/etc]
+    uos.dupterm(uart, 1)
+    #Detaching:
+    """
+    os.dupterm(None, 1)
+
+    import machine
+    tx_pin = 1 
+    rx_pin = 3  
+    uart = machine.UART(0, baudrate=9600, tx=tx_pin, rx=rx_pin)
+
+    while True:
+        uart.write(f"hello from esp01\n".encode())
+        time.sleep(1)
+        rx_data = uart.readline()
+        if rx_data:
+            lcd.text(f"{rx_data}..",0,0)
+            lcd.show()
+            with open('/uart-data.txt','a') as file:
+                file.write(rx_data.decode())
+        time.sleep(1)
+
+"""
+You are going to be running 'headless'.
+It's nice to be able to get some logging when problem happen.
+"""
+except Exception as e:
+    with open('errors.log', 'a') as f:
+        f.write("Caught exception: {}\n".format(type(e).__name__))
+        f.write("Error message: {}\n".format(e))
+```
 
 ## Takeaways / Learnings
 - Typically ESP01s is an updated version of the ESP01 and can have up to 4 MB of flash (vs 1 MB or 500 kb of flash)
