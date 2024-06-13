@@ -21,7 +21,7 @@ There is a button that will short GPIO0 to ground. That puts the ESP01 into flas
 
 That being the case, you could modify it to be able to burn firmware like the 'programmer' would. If you connect GND to GPIO01 with some dupont jumpers on that USB device you can create the same affect:
 
-![image](https://github.com/jouellnyc/UART/assets/32470508/d5ebed5e-0feb-44ad-bf84-f8e8dd66a159)
+<img src="https://github.com/jouellnyc/UART/assets/32470508/d5ebed5e-0feb-44ad-bf84-f8e8dd66a159" alt="ESP32" style="float: left; height: 300px; margin-right: 10px;">
 
 In Thonny try to install the firmware:
 
