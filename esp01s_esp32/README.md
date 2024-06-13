@@ -64,7 +64,7 @@ and the ESP01s has about 33k available on boot:
 Perhaps this could be compiled in. More to come if required.
 
 ## UART
-There are 8 pins on the ESP01, but it could be tricky to use them. I was able to use 4 of them: GPIO0,1,2,and 3. (see References for other ideas about either their usage or adding more devices)
+There are 8 pins on the ESP01, but it could be tricky to use them. I was able to use 4 of them: GPIO0,1,2,and 3. (see References for other ideas about either their usage or adding more devices).
 
 See [ESP 01 PIN OUT](https://www.theengineeringprojects.com/wp-content/uploads/2019/03/introduction-to-esp-01.jpg) for a nice picture.
 
