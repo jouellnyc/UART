@@ -89,6 +89,7 @@ Not required but helpful: A [Break Out Board](https://www.amazon.com/dp/B01G6HK3
 
 <img src="https://github.com/jouellnyc/UART/assets/32470508/ab140964-deca-4f16-820d-36cd1ca3670f" alt="Break Out Board" style="float: left; width: 300px; height: 200px; margin-right: 10px;">
 
+### UART Problem/Solution
 Now, the ESP01 has a TX and RX pin. If you try to use those to connect to another device (ESP32/etc) AND use an IDE like Thonny, it's not going to work out well - a conflict will ensue.  
 
 If I were to paraphrase [this patch](https://github.com/micropython/micropython/commit/afd0701bf7a9dcb50c5ab46b0ae88b303fec6ed3):
