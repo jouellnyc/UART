@@ -89,5 +89,5 @@ See [ESP 01 PIN OUT](https://www.theengineeringprojects.com/wp-content/uploads/2
 - [Wired communication between two ESP-01's : r/esp8266](https://www.reddit.com/r/esp8266/comments/pmnib9/wired_communication_between_two_esp01s/)
 - [Setting uos.dupterm() on boot - MicroPython Forum (Archive)](https://forum.micropython.org/viewtopic.php?t=5468)
 - [ESP 01 PIN OUT](https://www.theengineeringprojects.com/wp-content/uploads/2019/03/introduction-to-esp-01.jpg)
-
+- [esp8266: Change UART(0) to attach to REPL via uos.dupterm interface](https://github.com/micropython/micropython/commit/afd0701bf7a9dcb50c5ab46b0ae88b303fec6ed3)
 
