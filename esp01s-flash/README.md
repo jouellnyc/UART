@@ -82,14 +82,14 @@ See [ESP 01 PIN OUT](https://www.theengineeringprojects.com/wp-content/uploads/2
 | ESP01 | GPIO0| GPIO2|GND|
 | OLED | SCL| SDA|GND|
 
-Also you'll need 3.3V power to the OLED and ESP01 and connect them to `VCC`. A [CP2102](https://www.amazon.com/HiLetgo-CP2102-Converter-Adapter-Downloader/dp/B00LODGRV8/) worked nicely.
+Also you'll need 3.3V power to the OLED and ESP01 and connect them to `VCC`. A [CP2102](https://www.amazon.com/HiLetgo-CP2102-Converter-Adapter-Downloader/dp/B00LODGRV8/) worked nicely. 
 
-The ESP01 has a TX and RX pin. If you try to use those to connect to another device (ESP32/etc) AND use an IDE like Thonny, it's not going to work out well - a conflict will ensure.  
+Now, the ESP01 has a TX and RX pin. If you try to use those to connect to another device (ESP32/etc) AND use an IDE like Thonny, it's not going to work out well - a conflict will ensue.  
 
 If I were to paraphrase [this patch](https://github.com/micropython/micropython/commit/afd0701bf7a9dcb50c5ab46b0ae88b303fec6ed3):
 
-When the ESP01/etc boots and the REPL is started (on hard or soft reset) then UART(0) is automatically attached to it.
-If you execute `uos.dupterm(None, 1)` then it is not, freeing the UART for your TX/RX comms to the ESP32/etc:
+"When the ESP01/etc boots and the REPL is started (on hard or soft reset) then UART(0) is automatically attached to it.
+If you execute `uos.dupterm(None, 1)` then it is not, freeing the UART for your TX/RX comms to the ESP32/etc"
 
 After that you could also use the other GPIOs for connecting for example a small OLED. Your mileage may vary in terms of what exactly could hook up to the device. Previously I failed to get more than 2 pins working in one project/program.
 
