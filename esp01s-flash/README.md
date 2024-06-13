@@ -70,6 +70,8 @@ See [ESP 01 PIN OUT](https://www.theengineeringprojects.com/wp-content/uploads/2
 
 ### ESP01 - ESP32 UART Connection
 
+![image](https://github.com/jouellnyc/UART/assets/32470508/1df32214-cdda-460a-b175-9413f6cc1b9c)
+
 | Board | Pins (TX, RX) |
 |---|---|
 | ESP01 | GPIO13 (TX)|GPIO3 (RX) |GND|
@@ -85,7 +87,7 @@ Also you'll need 3.3V power to the OLED and ESP01 and connect them to `VCC`.
 
 A [CP2102](https://www.amazon.com/HiLetgo-CP2102-Converter-Adapter-Downloader/dp/B00LODGRV8/) worked nicely. 
 
-Not required but helpful: A [Break Out Board](https://www.amazon.com/dp/B01G6HK3KW)
+Not required but very helpful to see the GPIOs easily: A [Break Out Board](https://www.amazon.com/dp/B01G6HK3KW)
 
 <img src="https://github.com/jouellnyc/UART/assets/32470508/ab140964-deca-4f16-820d-36cd1ca3670f" alt="Break Out Board" style="float: left; width: 300px; height: 200px; margin-right: 10px;">
 
