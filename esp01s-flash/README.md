@@ -44,7 +44,9 @@ I took the defaults trying to flash the esp01s's. However a [Thonny issue](https
 
 I explicitly set the flash size to `4MB` vs `keep`.
 
-I also set the flash mode to `qio`, which is supposed to the most common as per Expressif. Success.
+I also set the flash mode to `qio`, which is supposed to the most common as per Expressif. 
+
+Success.
 
 ## Takeaways / Learnings
 - Typically ESP01s is an updated version of the ESP01 and can have up to 4 MB of flash (vs 1 MB or 500 kb of flash)
