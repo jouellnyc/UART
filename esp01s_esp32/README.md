@@ -132,7 +132,7 @@ Interesting because I was not able to get two UARTs working and out of all the c
 
 ok tx=1 rx=3. 
 
-I would have expected the esp01s to also say UART 1 does not exist.
+I would have expected the esp01s to also say UART 1 does not exist. [Discussion raised here](https://github.com/orgs/micropython/discussions/15280)
 
 Alright then. If I were to paraphrase [this patch](https://github.com/micropython/micropython/commit/afd0701bf7a9dcb50c5ab46b0ae88b303fec6ed3):
 
