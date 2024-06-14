@@ -96,7 +96,41 @@ Not required but very helpful to see the GPIOs easily: A [Break Out Board](https
 ### UART Problem/Solution
 Now, the ESP01 has a TX and RX pin. If you try to use those to connect to another device (ESP32/etc) AND use an IDE like Thonny, it's not going to work out well - a conflict will ensue.  
 
-If I were to paraphrase [this patch](https://github.com/micropython/micropython/commit/afd0701bf7a9dcb50c5ab46b0ae88b303fec6ed3):
+For example this will hang Thonny:
+
+```
+uart = machine.UART(0, baudrate=9600, tx=tx_pin, rx=rx_pin)
+```
+
+Where as this is OK to type
+```
+uart = machine.UART(1, baudrate=9600, tx=tx_pin, rx=rx_pin)
+```
+And this leads to a DNE error:
+
+```
+uart = machine.UART(2, baudrate=9600, tx=tx_pin, rx=rx_pin)
+Traceback (most recent call last):
+  File "<stdin>", line 6, in <module>
+ValueError: UART(2) does not exist
+```
+
+Interesting because I was not able to get to UARTs working and out of all the combinations of pins the esp01s only yielded one good combination:
+
+```
+  for col in range(9):
+    print(f"tx={col} rx={row}")
+    try:
+        uart = machine.UART(1, baudrate=9600, rx=row, tx=col)
+    except ValueError:
+        pass
+    else:
+        print(f"ok tx={col} rx={row}")
+```
+
+ok tx=1 rx=3
+
+Alright then. If I were to paraphrase [this patch](https://github.com/micropython/micropython/commit/afd0701bf7a9dcb50c5ab46b0ae88b303fec6ed3):
 
 "When the ESP01/etc boots and the REPL is started (on hard or soft reset) then UART(0) is automatically attached to it.
 If you execute `uos.dupterm(None, 1)` then it is not, freeing the UART for your TX/RX comms to the ESP32/etc"
