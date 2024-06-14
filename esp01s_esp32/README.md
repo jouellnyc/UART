@@ -204,7 +204,7 @@ except Exception as e:
 ## From Here
 - It should not be very difficult to 'mix and match'. 
 
-I.E An ESP01 connected to an ESP01 or another ESP32 still - whether it be a simple UART connection or via RS-232, RS-485, etc.
+I.E An ESP01 connected to an ESP01 or another ESP32 - whether it be a simple UART connection or via RS-232, RS-485, etc - should now a straight shot. Or at least there is a path to follow for some testing or fun projects.
 
 ## References 
 - [Reddit](https://www.reddit.com/r/esp32/comments/1dbk6d9/comment/l7s0gjd/?context=3)
