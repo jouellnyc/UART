@@ -102,12 +102,14 @@ For example this will hang Thonny:
 uart = machine.UART(0, baudrate=9600, tx=tx_pin, rx=rx_pin)
 ```
 
-Where as this is OK to type
+Note: I find the following interesting:
+
+This is OK to type
 ```
 uart = machine.UART(1, baudrate=9600, tx=tx_pin, rx=rx_pin)
 ```
-And this leads to a DNE error:
 
+And this leads to a DNE error:
 ```
 uart = machine.UART(2, baudrate=9600, tx=tx_pin, rx=rx_pin)
 Traceback (most recent call last):
@@ -115,7 +117,7 @@ Traceback (most recent call last):
 ValueError: UART(2) does not exist
 ```
 
-Interesting because I was not able to get to UARTs working and out of all the combinations of pins the esp01s only yielded one good combination:
+Interesting because I was not able to get two UARTs working and out of all the combinations of pins the esp01s only yielded one good combination:
 
 ```
   for col in range(9):
@@ -128,7 +130,9 @@ Interesting because I was not able to get to UARTs working and out of all the co
         print(f"ok tx={col} rx={row}")
 ```
 
-ok tx=1 rx=3
+ok tx=1 rx=3. 
+
+I would have expected the esp01s to also say UART 1 does not exist.
 
 Alright then. If I were to paraphrase [this patch](https://github.com/micropython/micropython/commit/afd0701bf7a9dcb50c5ab46b0ae88b303fec6ed3):
 
