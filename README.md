@@ -36,7 +36,7 @@ Here are the projects:
 - This project uses multiple UARTS at once with an ESP32 in the middle. Building heavily on other projects.
 
 ## 8. [ESP01S to ESP32 - Simple Example ](esp01s_esp32/)
-- Getting an ESP01s to connect to an ESP32! Including how to flash these olders models. (Also an UART 'Easter Egg').
+- ESP01s connecting to an ESP32! Includes how to flash the olders models. (Also an UART 'Easter Egg').
 
 
 Overall Notes:
