@@ -120,8 +120,8 @@ ValueError: UART(2) does not exist
 Interesting because I was not able to get two UARTs working and out of all the combinations of pins the esp01s only yielded one good combination:
 
 ```
+for row in range(9):
   for col in range(9):
-    print(f"tx={col} rx={row}")
     try:
         uart = machine.UART(1, baudrate=9600, rx=row, tx=col)
     except ValueError:
@@ -129,7 +129,6 @@ Interesting because I was not able to get two UARTs working and out of all the c
     else:
         print(f"ok tx={col} rx={row}")
 ```
-
 ok tx=1 rx=3. 
 
 I would have expected the esp01s to also say UART 1 does not exist. [Discussion raised here](https://github.com/orgs/micropython/discussions/15280). (Spoiler: It turns out the ESP01s can send an receive on UART0 but only send on UART1).
