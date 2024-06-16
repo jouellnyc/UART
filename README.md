@@ -32,8 +32,9 @@ Here are the projects:
 - This project can also be a physical connection proxy for WPA2-Enterprise deployments using jumpers and PPP.
 - This is a full OS as server and microcontroller as client.
 
-## 7. [Multi UARTS - Raspberry Pi Zero to  ESP32 to ESP32 - UART Simple Example - with PPP ](multi_uarts/)
-- This project uses multiple UARTS are once with an ESP32 in the middle. Building heavily on other projects.
+## 7. [Multi UARTS - Raspberry Pi Zero to  ESP32 to ESP32 - UART Simple Example - with PPP ](esp32_pizero_esp32_ppp_uart/
+- This project uses multiple UARTS at once with an ESP32 in the middle. Building heavily on other projects.
+
 
 Overall Notes:
 
