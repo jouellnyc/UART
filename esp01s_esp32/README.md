@@ -197,9 +197,9 @@ except Exception as e:
 - Typically ESP01s is an updated version of the ESP01 and can have up to 4 MB of flash (vs 1 MB or 500 kb of flash)
 - ESP01s use a dark/black PCB (not the lighter blue color).
 - Use the settings in MP Forum 1 and as above to successfully flash your esp01s:
-- ESP01s's are out of date, but still very fun for hobbies. There is really no reason not to get the 4MB version.
 - ESP01s's are not capable of ppp with latest mp firmware (see above).
-- I do not reccomend ESP01 on any level - the batch I got were unable to survive single digit flashes. I believe the flash was low quality and I not aware of a source of 'high quality' ESP01s.
+- ESP01s's are out of date, but still very fun for hobbies. There is really no reason not to get the 4MB version.
+- That said, I do not reccomend ESP01 on any level - the batch I got were unable to survive single digit flashes. I believe the flash was low quality and I not aware of a source of 'high quality' ESP01s.
 
 ## From Here
 - It should not be very difficult to 'mix and match'. 
