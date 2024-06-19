@@ -200,6 +200,7 @@ except Exception as e:
 - ESP01s's are not capable of ppp with latest mp firmware (see above).
 - ESP01s's are out of date, but still very fun for hobbies. There is really no reason not to get the 4MB version.
 - That said, I do not reccomend ESP01 on any level - the batch I got were unable to survive single digit flashes. I believe the flash was low quality and I not aware of a source of 'high quality' ESP01s.
+- [These Lilygo Boards](https://www.aliexpress.us/item/3256803351740338.html?spm=a2g0o.order_list.order_list_main.35.572118029OnXnm&gatewayAdapt=glo2usa) are showing lots of promise. They are the same form factor as the ESP01, but have an ESP32C3 chip. Repeatedly powering on / off seems to have no effect (not suggesting you do that but I felt compelled to test them.) 
 
 ## From Here
 - It should not be very difficult to 'mix and match'. 
