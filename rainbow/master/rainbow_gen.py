@@ -1,5 +1,3 @@
-import time
-
 def rainbow_generator(step_size=5):
     
     red_value, green_value, blue_value = 255, 0, 0  # Start with red

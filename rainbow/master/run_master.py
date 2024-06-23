@@ -28,8 +28,8 @@ rainbow_transition(step_size=10, delay_secs=1)
 
 from rainbow_gen_ind  import rainbow_generator
 
-delay=.5
-color_gen = rainbow_generator(step_size=4)
+delay=.25
+color_gen = rainbow_generator(step_size=35)
 
 while True:
     
@@ -44,13 +44,14 @@ while True:
     next_rgb=(r2,g2,b2)
     
     uart_send(uart,bytes(next_rgb))
-    set_color(*first_rgb)
     
+    set_color(*first_rgb)
     clear()
     print(first_rgb)
     show_rgb_text(first_rgb)
     time.sleep(delay)
     
+    ##not sure what do here yet
     clear()
     print(next_rgb)
     show_rgb_text(next_rgb)
