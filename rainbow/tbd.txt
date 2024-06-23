@@ -1,0 +1,7 @@
+>>> set_color(256,255,5)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "rgb_lib.py", line 24, in set_color
+ValueError: duty_u16 must be from 0 to 65535
+
+=========
