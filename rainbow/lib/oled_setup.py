@@ -18,6 +18,7 @@ def stext(*args, **kwargs):
     oled.show()
 
 def show_rgb_text(rgb_val):
+    clear()
     stext(   'R    G    B' , 27, 17)
     stext(str(rgb_val),      25, 37)  
     
