@@ -1,7 +1,7 @@
 # UART projects
 This repository provides an examples of how to use UART with microcontrollers in various configurations.
 
-Here's a nice short video on UART (not mine) to get started if unfamiliar with UART:
+Here's a nice short video on UART (not mine, image below is the author's as well) to get started if unfamiliar with UART:
 
 https://www.youtube.com/watch?app=desktop&v=JuvWbRhhpdI
 
