@@ -41,7 +41,7 @@ Same as https://github.com/jouellnyc/UART/blob/main/esp32_pizero
 - If any connections fail, ensure line speed is the same.
 - If any connections fail, ensure a loop back test (RX to TX from the device to 'itself') .
 - This was surprisingly easy to do once the available pins were identified on the ESP32 with multiple UARTS in use ("the hub")
-- I tried to see what would happen setting up 2 esp32 physically to the pi zero's UARTs on a breadboard - the esp32's started to segfault. (Coincidence?, maybe)
+- I tried to see what would happen setting up 2 esp32 physically to the pi zero's UARTs on a breadboard - the esp32's started to segfault. (Coincidence?, maybe). I may come back to this later - I only briefly spent time here.
 
 ## References
 - [Multi PPP over UART](https://forums.raspberrypi.com/viewtopic.php?p=2212134&hilit=multiple+ppp#p2212134)
