@@ -1,6 +1,6 @@
 import machine
 import time
-from uart_conf import uart,me
+from uart_conf import uartblah as uart,me
 
 while True:
     
