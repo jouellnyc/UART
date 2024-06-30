@@ -115,7 +115,7 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 - If reading off of an infinite `while True` loop, uart.readline() performed better when using a small `time.sleep(.1)` vs letting the cpu spin %100. (See [Claude's reasoning why](why_claude.txt))
 - Given a distance of a few inches and 9600 baud, `uart_ping.py`'s lowest latency round trip was about 30 ms, but I needed to wait 5-7 ms to flip the GPIOs and also wait for the data to be send before fully flipping. This was using Dupont Jumpers. See table for other tests.
 - Was unable to get the 25 foot from AMZN/BNTECHGO to work properly. I moved away the power from the cables to lessen any other interference. This was a fail for now. Possibly how I crimped it.
-- My first test with AMZN/BNTECHGO 22 AWG Stranded Tinned Copper Wire failed. Just eyeballing a short strip to test it was not long enough to support communication.
+- My first test with AMZN/BNTECHGO 22 AWG Stranded Tinned Copper Wire failed at 8 cm . Just eyeballing a short strip to test it was not long enough to support communication. Ditto for 10 cm.
 - The Stranded wire from Temu.com crushed it at 30 feet.
 - 19200 was the highest baud I measured successfully.
 - Actually threading the Stranded cable was rough. The best bet is to get either the precise length that fits into the terminal block hole or double that and bend it back nicely:
@@ -134,7 +134,7 @@ What you'll notice if you try to send and receive in a full duplex mode is that 
 |---|---|---|---|---|
 | [Basic Dupont Jumper](https://www.amazon.com/gp/product/B07GD2BWPY/)| <table><tr><td> 29 ms </td></tr> <tr><td> 15 ms </td></tr> <tr><td> NA/Garbage </td></tr></table> | <table><tr><td> 9600 </td></tr><tr><td> 19200 </td></tr> <tr><td> 38400 </td></tr></table>| 10 cm | <img src="pics/10_cm_dp.jpg" width="100" height="100">
 | [BNTECHGO 22 AWG Stranded Tinned Copper](https://www.amazon.com/gp/product/B077XBWX8V/r)| garbage/NA  | 9600| 8 cm | <img src="pics/8cm_tp.jpg" width="100" height="100">|
-| [BNTECHGO 22 AWG Stranded Tinned Copper](https://www.amazon.com/gp/product/B077XBWX8V/r)| garbage/NA  | 9600| 10 cm | NA|
+| BNTECHGO 22 AWG Stranded Tinned Copper| garbage/NA  | 9600| 10 cm | NA|
 | BNTECHGO 22 AWG Stranded Tinned Copper        | <table><tr><td> 30 ms </td></tr> <tr><td> 15 ms </td></tr> <tr><td> NA/Garbage </td></tr></table>  | <table><tr><td> 9600 </td></tr><tr><td> 19200 </td></tr> <tr><td> 38400 </td></tr></table> | 25 cm |  <img src="pics/25cm_tp_bb.jpg" width="100" height="100">| 
 |  BNTECHGO 22 AWG Stranded Tinned Copper | garbage/NA  | 9600 -> 115200| 25 feet | <img src="pics/25ft.jpg" width="100" height="100">| 
 | [22 AWG Gauge Tinned Copper Stranded ](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099513962206&sku_id=17592200180902)  | <table><tr><td> 35  ms </td></tr> <tr><td> 20  ms </td></tr> <tr><td> NA/Garbage </td></tr></table>  | <table><tr><td> 9600 </td></tr><tr><td> 19200 </td></tr> <tr><td> 38400 </td></tr></table> |40 cm |<img src="pics/40_cm_tem.jpg" width="100" height="100"> | 
