@@ -16,7 +16,7 @@ This is similar the Simple UART example and RS-422 example, except here we add [
 - As with the RS-422 setup, a 5V wall power brick "makes ground and 5V available" on a shared bread board for the RS-485 modules.
 - Also each esp32 is still itself powered via USB.
 
-<img src="https://github.com/jouellnyc/UART/blob/main/esp32_rs485/pics/rs-485.jpg" width="200" height="200">
+<img src="https://github.com/jouellnyc/UART/blob/main/esp32_rs485/pics/rs-485.jpg" width="500" height="300">
 
 ###  Ground Pins on ESP32 
 
