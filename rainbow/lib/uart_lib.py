@@ -12,12 +12,14 @@ class Rs485Uart:
     def __init__(self):
         self.flip_de_pin_sleep=.1
         self.uart = uart_rs485
+        from uart_conf import de_pin
         self.de_pin = de_pin
+        
         
     def uart_receive(self):
         self.de_pin.value(0)
         time.sleep(self.flip_de_pin_sleep)
-        return self.uart.read()
+        return self.uart.readline()
     
     def uart_send(self, data):
         encoded_data = ','.join(map(str, data)).encode('utf-8')
@@ -33,7 +35,7 @@ class Rs232Uart:
         self.uart = uart_rs232
         
     def uart_receive(self):
-        return self.uart.read()
+        return self.uart.readline()
     
     def uart_send(self, data):
         encoded_data = ','.join(map(str, data)).encode('utf-8')

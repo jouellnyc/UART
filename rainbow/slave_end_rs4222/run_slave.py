@@ -11,9 +11,10 @@ while True:
     if rgb_tuple:
         print(f"=={rgb_tuple}==")
         set_color(*rgb_tuple)
+        time.sleep(1)
         show_rgb_text(rgb_tuple)
-        send_tuple_using_uart('rs485', rgb_tuple)
+        #send_tuple_using_uart('rs232', rgb_tuple)
     else:
-        print(f"No data")
+        print('no data ', time.localtime())
     time.sleep(1)
     
