@@ -3,7 +3,6 @@ from uart_conf import uart_rs232, uart_rs485
 
 class Rs485Uart:
     """Initialize Rs485Uart object with uart_rs485, de_pin, and sleep_time"""
-    """If you are using Rs485 you need to define it's depin and uart in uart.conf """
     def __init__(self, uart_rs485, de_pin, sleep_time):
         self.uart = uart_rs485
         self.de_pin = de_pin
@@ -17,7 +16,8 @@ class Rs485Uart:
     
     """Send data to UART"""
     def uart_send(self, rgb_tuple):
-        encoded_data = ','.join(str(value) for value in rgb_tuple).encode('utf-8')
+        encoded_data = ','.join(str(value) for value in rgb_tuple) + '\n'
+        encoded_data = encoded_data.encode('utf-8')
         self.de_pin.value(1)
         time.sleep(self.sleep_time)
         return self.uart.write(encoded_data)
@@ -34,7 +34,8 @@ class Rs232Uart:
     
     """Send data to UART"""
     def uart_send(self, rgb_tuple):
-        encoded_data = ','.join(str(value) for value in rgb_tuple).encode('utf-8')
+        encoded_data = ','.join(str(value) for value in rgb_tuple) + '\n'
+        encoded_data = encoded_data.encode('utf-8')
         time.sleep(self.sleep_time)
         return self.uart.write(encoded_data)
 
@@ -43,14 +44,6 @@ uart_classes = {
     'rs232': Rs232Uart
 }
 
-"""Convert bytes to a tuple of RGB values"""
-def bytes_to_rgb_tuple(byte_string):
-    """Decode bytes to string and split by comma
-    Convert each string value to integer and create tuple"""
-    rgb_str = byte_string.decode('utf-8').split(',')
-    return tuple(int(value) for value in rgb_str)
-    
-    
 """Get a UART instance based on the given type"""
 def get_uart_instance(uart_type):
     if uart_type == 'rs232':
@@ -66,7 +59,7 @@ def get_tuple_from_uart(uart_type):
     myuart = get_uart_instance(uart_type)
     _rgb = myuart.uart_receive()
     if _rgb:
-        print(_rgb)
+        print(f"rgb_uart: {_rgb}") 
         return bytes_to_rgb_tuple(_rgb)
     else:
         return None
@@ -75,4 +68,24 @@ def get_tuple_from_uart(uart_type):
 def send_tuple_using_uart(uart_type, rgb_tuple):
     myuart = get_uart_instance(uart_type)
     myuart.uart_send(rgb_tuple)
+
+"""Convert bytes to a tuple of RGB values"""
+def bytes_to_rgb_tuple(byte_string):
+    """Decode bytes to string and split by comma,  Convert each string value to integer and create tuple
+    
+    NOTE:
+    
+    A) >>> tuple(int(value) for value in ['255', '255', '0\n'])
+      (255, 255, 0)
+      
+    B) >>> int('0\n')
+       0
+
+    however, explicit is better than implict, so we strip() first
+    """
+    byte_string.decode('utf-8').split(',')
+    rgb_str = byte_string.decode('utf-8').split(',')
+    rgb_tuple = tuple(int(value.strip()) for value in rgb_str)
+    print(f"rgb_tuple: {rgb_tuple}")
+    return rgb_tuple
 
