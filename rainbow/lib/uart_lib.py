@@ -55,23 +55,19 @@ def get_uart_instance(uart_type):
     else:
         raise ValueError('Invalid uart type')
     
-"""Get a tuple from the UART
-def get_tuple_from_uart(uart_type):
-    myuart = get_uart_instance(uart_type)
-    _rgb = myuart.uart_receive()
-    if _rgb:
-        print(f"rgb_uart: {_rgb}") 
-        return bytes_to_rgb_tuple(_rgb)
-    else:
-        return None
-"""
-
 def get_tuple_from_uart(uart_type):
     """
     Gets a valid RGB tuple from the UART port, retrying once if needed.
-
+    
+    Decode bytes to string and split by comma,  Convert each string value to integer and create tuple
+    
+    NOTE:
+    
+    >>> tuple(int(value) for value in ['255', '255', '0\n'])
+      (255, 255, 0)
+    
     Returns:
-        tuple: A valid RGB tuple (0, 0, 0) to (255, 255, 255), or None if data is invalid or not received within a retry.
+        tuple: A valid RGB tuple (0, 0, 0) to (255, 255, 255), or None if data is invalid or not received.
     """
     myuart = get_uart_instance(uart_type)
     
@@ -79,21 +75,17 @@ def get_tuple_from_uart(uart_type):
     if _rgb:
         print(f"UART Lib got {_rgb}")
         try:
-            #See note below
             rgb_values = [int(val) for val in _rgb.decode().split(',')]
             if all(0 <= val <= 255 for val in rgb_values):
 
                 if len(rgb_values) == 3:
                     return tuple(rgb_values)
                 else:
-                    #Raise ...
                     print(f"Invalid number of values received: {len(rgb_values)} (expected 3)")
             else:
-                #Raise ...
                 print(f"Invalid RGB values: {_rgb.decode()}")
         except (ValueError, UnicodeError):
-            #Raise ...
-            print(f"Failed to convert received data: {_rgb.decode()}")
+            print(f"Failed to convert received data: {_rgb}")            
     else:
         return None
 
@@ -102,25 +94,4 @@ def get_tuple_from_uart(uart_type):
 def send_tuple_using_uart(uart_type, rgb_tuple):
     myuart = get_uart_instance(uart_type)
     myuart.uart_send(rgb_tuple)
-
-
-"""Convert bytes to a tuple of RGB values"""
-def bytes_to_rgb_tuple(byte_string):
-    """Decode bytes to string and split by comma,  Convert each string value to integer and create tuple
-    
-    NOTE:
-    
-    A) >>> tuple(int(value) for value in ['255', '255', '0\n'])
-      (255, 255, 0)
-      
-    B) >>> int('0\n')
-       0
-
-    however, explicit is better than implict, so we strip() first
-    """
-    byte_string.decode('utf-8').split(',')
-    rgb_str = byte_string.decode('utf-8').split(',')
-    rgb_tuple = tuple(int(value.strip()) for value in rgb_str)
-    print(f"rgb_tuple: {rgb_tuple}")
-    return rgb_tuple
 
