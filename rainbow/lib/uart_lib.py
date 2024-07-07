@@ -44,6 +44,7 @@ uart_classes = {
     'rs232': Rs232Uart
 }
 
+
 """Get a UART instance based on the given type"""
 def get_uart_instance(uart_type):
     if uart_type == 'rs232':
@@ -54,7 +55,7 @@ def get_uart_instance(uart_type):
     else:
         raise ValueError('Invalid uart type')
     
-"""Get a tuple from the UART"""
+"""Get a tuple from the UART
 def get_tuple_from_uart(uart_type):
     myuart = get_uart_instance(uart_type)
     _rgb = myuart.uart_receive()
@@ -63,11 +64,45 @@ def get_tuple_from_uart(uart_type):
         return bytes_to_rgb_tuple(_rgb)
     else:
         return None
+"""
+
+def get_tuple_from_uart(uart_type):
+    """
+    Gets a valid RGB tuple from the UART port, retrying once if needed.
+
+    Returns:
+        tuple: A valid RGB tuple (0, 0, 0) to (255, 255, 255), or None if data is invalid or not received within a retry.
+    """
+    myuart = get_uart_instance(uart_type)
     
+    _rgb = myuart.uart_receive()
+    if _rgb:
+        print(f"UART Lib got {_rgb}")
+        try:
+            #See note below
+            rgb_values = [int(val) for val in _rgb.decode().split(',')]
+            if all(0 <= val <= 255 for val in rgb_values):
+
+                if len(rgb_values) == 3:
+                    return tuple(rgb_values)
+                else:
+                    #Raise ...
+                    print(f"Invalid number of values received: {len(rgb_values)} (expected 3)")
+            else:
+                #Raise ...
+                print(f"Invalid RGB values: {_rgb.decode()}")
+        except (ValueError, UnicodeError):
+            #Raise ...
+            print(f"Failed to convert received data: {_rgb.decode()}")
+    else:
+        return None
+
+
 """Send a tuple to the UART"""
 def send_tuple_using_uart(uart_type, rgb_tuple):
     myuart = get_uart_instance(uart_type)
     myuart.uart_send(rgb_tuple)
+
 
 """Convert bytes to a tuple of RGB values"""
 def bytes_to_rgb_tuple(byte_string):
