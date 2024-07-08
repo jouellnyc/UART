@@ -13,7 +13,7 @@ This is almost exactly the same as the Simple UART example, except here we add [
 
 - [These](https://www.aliexpress.us/item/3256806376131903.html) worked perfectly and are labelled properly:
 
-<img src="https://github.com/jouellnyc/UART/assets/32470508/7341eac7-ee70-4c12-a573-9496083c7e90" width="500" height="350">
+<img src="https://github.com/jouellnyc/UART/assets/32470508/7341eac7-ee70-4c12-a573-9496083c7e90" width="400" height="250">
 
 but  don't fit well on a breadboard.
 
