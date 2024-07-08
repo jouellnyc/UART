@@ -69,10 +69,10 @@ Note we still use UART2 and remap as in  [simple uart](https://github.com/jouell
 
 2. **Data Line Connections**
 
-    - Connect the **Y** pin of Module 1 to the **B** pin of Module 2.
-    - Connect the **Z** pin of Module 1 to the **A** pin of Module 2.
-    - Connect the **Y** pin of Module 2 to the **B** pin of Module 1.
-    - Connect the **Z** pin of Module 2 to the **A** pin of Module 1.
+    - Connect the **Y** pin of Module 1 to the **A** pin of Module 2.
+    - Connect the **Z** pin of Module 1 to the **B** pin of Module 2.
+    - Connect the **B** pin of Module 2 to the **Z** pin of Module 1.
+    - Connect the **A** pin of Module 2 to the **Y** pin of Module 1.
     - Use jumper wires to make the connections as described above.
 
     ```
@@ -82,10 +82,10 @@ Note we still use UART2 and remap as in  [simple uart](https://github.com/jouell
     |  RS422 Module 1        RS422 Module 2   |
     |  [VCC] --+------------- [VCC]           |
     |  [GND] --+------------- [GND]           |
-    |  [ Y ] --+------------- [ B ]           |
-    |  [ Z ] --+------------- [ A ]           |
-    |  [ Y ] --+------------- [ B ]           |
-    |  [ Z ] --+------------- [ A ]           |
+    |  [ A ] --+------------- [ Y ]           |
+    |  [ B ] --+------------- [ Z ]           |
+    |  [ Z ] --+------------- [ B ]           |
+    |  [ Y ] --+------------- [ A ]           |
     +-----------------------------------------+
     ```
 
