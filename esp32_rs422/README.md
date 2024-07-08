@@ -5,9 +5,24 @@ This is almost exactly the same as the Simple UART example, except here we add [
 ## Prerequisites
 
 - Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
-- Also, 2 x RS-422 modules. [These](https://www.amazon.com/gp/product/B0C1C3VHZW/) were used.
+- 2 x RS-422 modules.
 
-![image](https://github.com/jouellnyc/UART/assets/32470508/f4835857-65de-4ce6-a21c-33ae501f3447)
+-  [These](https://www.amazon.com/gp/product/B0C1C3VHZW/) were used first but are not labelled properly.
+
+<img src="https://github.com/jouellnyc/UART/assets/32470508/0125867b-87d4-4d02-9dbe-ae240d0240d6" width="300" height="175">
+
+- [These](https://www.aliexpress.us/item/3256806376131903.html) worked perfectly and are labelled properly:
+
+<img src="https://github.com/jouellnyc/UART/assets/32470508/7341eac7-ee70-4c12-a573-9496083c7e90" width="300" height="175">
+
+but  don't fit well on a breadboard.
+
+- Also [These](https://www.aliexpress.us/item/3256802905478474.html):
+
+<img src="https://github.com/jouellnyc/UART/assets/32470508/0a380b56-c151-440d-82c3-2bd5b03afbb3" width="300" height="175">
+
+maybe they work but I couldn't get them to.
+
 
 ## Physical Connections
 
@@ -54,11 +69,14 @@ Note we still use UART2 and remap as in  [simple uart](https://github.com/jouell
 
 2. **Data Line Connections**
 
-    - Connect the **Y** pin of Module 1 to the **B** pin of Module 2.
-    - Connect the **Z** pin of Module 1 to the **A** pin of Module 2.
-    - Connect the **Y** pin of Module 2 to the **B** pin of Module 1.
-    - Connect the **Z** pin of Module 2 to the **A** pin of Module 1.
+    Jessine module with four pins:
+    
+    - Connect the **Y** pin of Module 1 to the **A** pin of Module 2.
+    - Connect the **Z** pin of Module 1 to the **B** pin of Module 2.
+    - Connect the **B** pin of Module 2 to the **Z** pin of Module 1.
+    - Connect the **A** pin of Module 2 to the **Y** pin of Module 1.
     - Use jumper wires to make the connections as described above.
+    <P>
 
     ```
     Breadboard View:
@@ -67,10 +85,10 @@ Note we still use UART2 and remap as in  [simple uart](https://github.com/jouell
     |  RS422 Module 1        RS422 Module 2   |
     |  [VCC] --+------------- [VCC]           |
     |  [GND] --+------------- [GND]           |
-    |  [ Y ] --+------------- [ B ]           |
-    |  [ Z ] --+------------- [ A ]           |
-    |  [ Y ] --+------------- [ B ]           |
-    |  [ Z ] --+------------- [ A ]           |
+    |  [ A ] --+------------- [ Y ]           |
+    |  [ B ] --+------------- [ Z ]           |
+    |  [ Z ] --+------------- [ B ]           |
+    |  [ Y ] --+------------- [ A ]           |
     +-----------------------------------------+
     ```
 
@@ -91,6 +109,7 @@ Here are more details in terms of the "Why I did it this way":
 ## Takeaways / Learnings
 - Success here was dependant on having the right power (in this case 5V external to the esp32) to the RS-422 Modules.
 - The modules (and RS-422) allowed for bi-directional sending and receiving of data due to 4 wires - one pair for sending and one for receiving without any modifications to the [simple send and receive example](https://github.com/jouellnyc/UART/blob/main/esp32_simple/send_and_receive.py).
+- Note that the Jessine modules are generally labelled backwards. I needed to connect `Tx` to `Tx` and `Rx` to `Rx` vs the opposite.
  
 ## License
 This project is licensed under the [MIT License](LICENSE).
