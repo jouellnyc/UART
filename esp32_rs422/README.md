@@ -5,17 +5,17 @@ This is almost exactly the same as the Simple UART example, except here we add [
 ## Prerequisites
 
 - Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
-- 2 x RS-422 modules. [These](https://www.amazon.com/gp/product/B0C1C3VHZW/) were used from Amazon:
+- 2 x RS-422 modules.
+
+-  [These](https://www.amazon.com/gp/product/B0C1C3VHZW/) were used first from Amazon but are not labelled properly.
 
 <img src="https://github.com/jouellnyc/UART/assets/32470508/0125867b-87d4-4d02-9dbe-ae240d0240d6">
 
-but are not labelled properly.
-
-- However [These](https://www.aliexpress.us/item/3256806376131903.html) worked perfectly and are labelled properly:
+- [These](https://www.aliexpress.us/item/3256806376131903.html) worked perfectly and are labelled properly:
 
 <img src="https://github.com/jouellnyc/UART/assets/32470508/7341eac7-ee70-4c12-a573-9496083c7e90" width="500" height="350">
 
-but they don't fit well on a breadboard.
+but  don't fit well on a breadboard.
 
 
 ## Physical Connections
