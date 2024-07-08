@@ -69,6 +69,8 @@ Note we still use UART2 and remap as in  [simple uart](https://github.com/jouell
 
 2. **Data Line Connections**
 
+    Jessine module with four pins:
+    
     - Connect the **Y** pin of Module 1 to the **A** pin of Module 2.
     - Connect the **Z** pin of Module 1 to the **B** pin of Module 2.
     - Connect the **B** pin of Module 2 to the **Z** pin of Module 1.
