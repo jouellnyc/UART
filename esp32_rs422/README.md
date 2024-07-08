@@ -91,6 +91,7 @@ Here are more details in terms of the "Why I did it this way":
 ## Takeaways / Learnings
 - Success here was dependant on having the right power (in this case 5V external to the esp32) to the RS-422 Modules.
 - The modules (and RS-422) allowed for bi-directional sending and receiving of data due to 4 wires - one pair for sending and one for receiving without any modifications to the [simple send and receive example](https://github.com/jouellnyc/UART/blob/main/esp32_simple/send_and_receive.py).
+- Note that the Jessine modules are generally labelled backwards. I needed to connect `Tx` to `Tx` and `Rx` to `Rx` vs the opposite.
  
 ## License
 This project is licensed under the [MIT License](LICENSE).
