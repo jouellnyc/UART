@@ -19,7 +19,7 @@ but  don't fit well on a breadboard.
 
 - Also [These](https://www.aliexpress.us/item/3256802905478474.html):
 
-<img src="https://github.com/jouellnyc/UART/assets/32470508/0a380b56-c151-440d-82c3-2bd5b03afbb3">
+<img src="https://github.com/jouellnyc/UART/assets/32470508/0a380b56-c151-440d-82c3-2bd5b03afbb3" width="300" height="175">
 
 maybe they work but I couldn't get them to.
 
