@@ -47,6 +47,6 @@ Overall Notes:
 
 ![image](https://github.com/jouellnyc/UART/assets/32470508/cdc2d37a-1bed-4a70-a8e8-bac5a0165541)
 
-Source - https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html
+[Image Source](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html)
 
 
