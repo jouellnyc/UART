@@ -5,9 +5,9 @@ This is almost exactly the same as the Simple UART example, except here we add [
 ## Prerequisites
 
 - Same as [simple uart](https://github.com/jouellnyc/UART/tree/main/esp32_simple)
-- 2 x RS-422 modules. [These](https://www.amazon.com/gp/product/B0C1C3VHZW/) were used:
+- 2 x RS-422 modules. [These](https://www.amazon.com/gp/product/B0C1C3VHZW/) were used from Amazon:
 
-<img src="https://github.com/jouellnyc/UART/assets/32470508/f4835857-65de-4ce6-a21c-33ae501f3447" width="500">
+<img src="https://github.com/jouellnyc/UART/assets/32470508/0125867b-87d4-4d02-9dbe-ae240d0240d6">
 
 but are not labelled properly.
 
