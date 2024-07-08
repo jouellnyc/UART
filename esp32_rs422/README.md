@@ -76,8 +76,7 @@ Note we still use UART2 and remap as in  [simple uart](https://github.com/jouell
     - Connect the **B** pin of Module 2 to the **Z** pin of Module 1.
     - Connect the **A** pin of Module 2 to the **Y** pin of Module 1.
     - Use jumper wires to make the connections as described above.
-
-
+    <P>
 
     ```
     Breadboard View:
