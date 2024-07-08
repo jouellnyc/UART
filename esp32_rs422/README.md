@@ -9,7 +9,7 @@ This is almost exactly the same as the Simple UART example, except here we add [
 
 -  [These](https://www.amazon.com/gp/product/B0C1C3VHZW/) were used first but are not labelled properly.
 
-<img src="https://github.com/jouellnyc/UART/assets/32470508/0125867b-87d4-4d02-9dbe-ae240d0240d6">
+<img src="https://github.com/jouellnyc/UART/assets/32470508/0125867b-87d4-4d02-9dbe-ae240d0240d6" width="300" height="175">
 
 - [These](https://www.aliexpress.us/item/3256806376131903.html) worked perfectly and are labelled properly:
 
