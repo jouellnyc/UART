@@ -55,11 +55,11 @@ Otherwise, the module can use the low voltage serial pins as ground and can get 
 ```
 
 ### Notes from Arduino Forum
-
+```
 **Blink every 1s:**The module is running but hasn’t made connection to the cellular network yet.
 **Blink every 2s:**The GPRS data connection you requested is active.
 **Blink every 3s:**The module has made contact with the cellular network & can send/receive voice and SMS.
-
+```
 
 ### Vendors
 I first tried with Hologram.io. I connected a few times. But only about 3 or 4 in a short window of time. Out of probably a 100 attempts over a few days.
