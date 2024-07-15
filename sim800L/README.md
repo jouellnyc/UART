@@ -63,13 +63,15 @@ Otherwise, the module can use the low voltage serial pins as ground and can get 
 
 ### Vendors
 
-## I first tried with Hologram.io.
+#### I first tried with Hologram.io.
 
 I connected a few times. But only about 3 or 4 in a short window of time. Out of probably a 100 attempts over a few days.
+
 
 Support told me it's a dice roll for now:
 
 ![image](https://github.com/user-attachments/assets/ad40d289-8f49-4145-a4d8-88a86f9c9e24)
+
 
 
 ## Full Micropython Example
