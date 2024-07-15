@@ -72,6 +72,7 @@ Support told me it's a dice roll for now:
 
 ![image](https://github.com/user-attachments/assets/ad40d289-8f49-4145-a4d8-88a86f9c9e24)
 
+NOTE: There is very little in terms of how to *actually get online* with a microcontroller using a consistent step by step process. It's mostly anecdotes here and there that you cobble together (voila!).
 
 
 ## Full Micropython Example
