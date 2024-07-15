@@ -45,14 +45,14 @@ uart = machine.UART(0, baudrate=115200, tx=machine.Pin(0), rx=machine.Pin(1))
 
 
 ### Tips from Arduino Forum
-
+```
 You should be very careful to:
 
 -  Disconnect VCC first
 -  Connect    GND first
 
 Otherwise, the module can use the low voltage serial pins as ground and can get destroyed instantly.
-
+```
 
 ### Notes from Arduino Forum
 
