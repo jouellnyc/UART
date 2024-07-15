@@ -214,6 +214,7 @@ So that was pretty cool.
 - [Hologram Forumn](https://community.hologram.io/t/getting-started-with-hologram-and-sim800l/4417/4)
 - [Hologram Forumn](https://community.hologram.io/t/registering-with-hologram-using-a-pi-pico-and-a-sim800l/4986/4)
 - [Getting GPS w/Cell data](https://www.re-innovation.co.uk/docs/find-location-with-sim800l/)
+- [Reddit Thread](https://www.reddit.com/r/IOT/comments/1e344zy/comment/ld7c2om/?context=3)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
