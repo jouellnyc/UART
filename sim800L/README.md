@@ -65,7 +65,17 @@ Otherwise, the module can use the low voltage serial pins as ground and can get 
 
 #### I first tried with Hologram.io.
 
-I connected a few times. But only about 3 or 4 in a short window of time. Out of probably a 100 attempts over a few days.
+I connected a few times. But only about 3 or 4 in a short window of time. Out of probably a 100 attempts over a few days. I put the sim800L upto my window.
+
+I tried on the roof: 
+
+![image](https://github.com/user-attachments/assets/05b6f8c8-2fc3-440b-99e0-176c2ab6f1c9)
+
+I tried being mobile in an open area:
+
+![image](https://github.com/user-attachments/assets/cc82cffb-90fe-4cbd-bbed-6da64a1ee2ee)
+
+Really never got a consistent connect.
 
 
 Support told me it's a dice roll for now:
@@ -179,7 +189,7 @@ b'AT+CENG=2\r\r\nOK\r\n\r\n+CENG: 0,"0685,57,00,310,260,16,cf00,04,00,7d73,255"
 ```
 
 
-Given the diagnostic info, I was able to find my myself on a map:
+Given the diagnostic info, I was able to find my myself on a map after following the GPS reference and converting:
 
 ```
 >>> int(0xCF00)
@@ -193,6 +203,7 @@ Given the diagnostic info, I was able to find my myself on a map:
 
 ```
 
+So that was pretty cool.
 
 
 ## Takeaways/ Learnings
@@ -201,9 +212,11 @@ Given the diagnostic info, I was able to find my myself on a map:
 ## References
 - [Arduino Forum](https://forum.arduino.cc/t/sim800l-not-registering-to-network-issue-solved/593251)
 - [Hologram Forumn](https://community.hologram.io/t/getting-started-with-hologram-and-sim800l/4417/4)
+- [Hologram Forumn](https://community.hologram.io/t/registering-with-hologram-using-a-pi-pico-and-a-sim800l/4986/4)
 - [Getting GPS w/Cell data](https://www.re-innovation.co.uk/docs/find-location-with-sim800l/)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
 Feel free to modify the content as needed, such as adding installation instructions, code examples, or any other relevant information for your project.
+
 
