@@ -3,8 +3,6 @@
 ##  BackStory
 My goal was to get a little bit more involved in Internet of Things From a cellular perspective, not spending a ton of money up front. To that end I did some research and it appeared that the SimCom sim800l module would be a perfect fit.  I went ahead and purchased five of these modules from AliExpress, knowing that a few of them weren't going to work. Sure enough three of them did not power up one of them had a bent SIM card holder but two of them did power up.
 
-![image](https://github.com/user-attachments/assets/06d5cfd3-fda4-44a4-a0ed-e998e9c1df43)
-
 Upfront lesson: Always by at least two of the items from Ali Express
 
 
