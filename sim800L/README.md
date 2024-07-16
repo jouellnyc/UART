@@ -234,7 +234,7 @@ So that was pretty cool.
 | Reddit | Discussion on SIM800L (Thread 2) | [Reddit Thread 2](https://www.reddit.com/r/embedded/comments/1e0zs95/comment/lct313d/) |
 | GitHub | Hologram AT Command Workshop | [Hologram WorkShop](https://github.com/HologramEducation/AT-Workshop) |
 | Web Resource | AT Commands Reference Manual | [AT Commands](https://sixfab.com/wp-content/uploads/2021/02/Telit_IP_Easy_User_Guide_r24.pdf) |
-
+| MicroPython Forum| What Boards are good|[MicroPython Forum](https://forum.micropython.org/viewtopic.php?t=5270|)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
