@@ -46,7 +46,7 @@ uart = machine.UART(0, baudrate=115200, tx=machine.Pin(0), rx=machine.Pin(1))
 | SIM800L VCC | 5V |
 | SIM800L GND | GND |
 
-5 Pins Total, RST and VDD were not needed. You could also connect the SIM800L VCC  to pin 39 of the Pico. 
+5 Pins Total, RST and VDD were not needed. You could also connect the SIM800L VCC  to pin 39/VSYS of the Pico. 
 
 
 ### Tips from Arduino Forum
