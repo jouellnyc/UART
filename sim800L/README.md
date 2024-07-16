@@ -210,6 +210,9 @@ Given the diagnostic info, I was able to find my myself on a map after following
 
 ```
 
+![image](https://github.com/user-attachments/assets/56e861a8-1098-4bfc-b527-65b7464581ad)
+
+
 So that was pretty cool.
 
 
