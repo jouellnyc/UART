@@ -233,7 +233,11 @@ So that was pretty cool.
 - Keep your costs low and test out vendors before commiting. They tend to believe "Everything is Awesome".
 - Not sure who to believe really. Hologram definitely worked, it should not have stopped.
 - I have had mostly good experience with Aliexpress, this is making me doubt the suppliers quite a bit more.
-  
+
+## Next Steps
+- Will try with particle.io
+- Will try with A9G Boards
+
 ## References
 
 ## SIM800L Resources
