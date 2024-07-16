@@ -13,9 +13,11 @@ This was a partial success.
 | Prerequisite | Details |
 |---|---|
 | Pi Pico | Anywhere Picos are sold|
-|Sim800L| [link](https://www.aliexpress.us/item/3256804775211999.html)|
+|Sim800L EVB Board| [link](https://www.aliexpress.us/item/3256804775211999.html)|
 
 ![image](https://github.com/user-attachments/assets/2e2227dc-60cb-489f-9f6b-476d9e145e15)
+
+The Sim800L EVB Board accepts 5V power to the VCC and does not need the odd 4.2 V like the naked 'red pcb' board.
 
 
 ## UART Pin Configuration
@@ -39,10 +41,12 @@ uart = machine.UART(0, baudrate=115200, tx=machine.Pin(0), rx=machine.Pin(1))
 
 ## Other Pins
 
-| Module | Pico |
+| Module | Wall Power |
 |---|---|
 | SIM800L VCC | 5V |
 | SIM800L GND | GND |
+
+5 Pins Total, RST and VDD were not needed. You could also connect the SIM800L VCC  to pin 39 of the Pico. 
 
 
 ### Tips from Arduino Forum
