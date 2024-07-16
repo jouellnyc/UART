@@ -232,14 +232,6 @@ So that was pretty cool.
 | Hologram AT Command Workshop | [Hologram WorkShop](https://github.com/HologramEducation/AT-Workshop) | AT  Reference Manuals | [AT Commands](https://sixfab.com/wp-content/uploads/2021/02/Telit_IP_Easy_User_Guide_r24.pdf)  and [TCPIP Note, section 8](https://cdn-shop.adafruit.com/product-files/1946/SIM800+Series_TCPIP_Application+Note_V1.01.pdf)|
 | What Boards are good | [MicroPython Forum](https://forum.micropython.org/viewtopic.php?t=5270) | PDP DEACT - Stack Overflow | [SO](https://stackoverflow.com/questions/62138595/sim800l-atciicr-always-goes-to-pdp-deact-state) |
 
-## Resources for SIM800L
-
-| Forum/Resource | Description |
-|---|---|
-| Arduino Forum | SIM800L Network Registration Issue Solved |
-| Hologram Forum | Getting Started with Hologram and SIM800L |
-
-
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
