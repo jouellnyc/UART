@@ -46,8 +46,7 @@ uart = machine.UART(0, baudrate=115200, tx=machine.Pin(0), rx=machine.Pin(1))
 | SIM800L VCC | 5V |
 | SIM800L GND | GND |
 
-5 Pins Total, RST and VDD were not needed. You could also connect the SIM800L VCC  to pin 39/VSYS of the Pico. 
-
+5 Pins Total, RST and VDD were not needed to be connected. I used a 5V/3A wall power supply and also 4 X 1.2 V AA Enerloop batteries in a pack for the mobile setup to power the pico (with the latter I connected SIM800L VCC  to pin 39/VSYS of the Pico).
 
 ### Tips from Arduino Forum
 ```
@@ -228,7 +227,6 @@ So that was pretty cool.
 - Keep your costs low and test out vendors before commiting. They tend to believe "Everything is Awesome".
 - Not sure who to believe really. Hologram definitely worked, it should not have stopped.
 - I have had mostly good experience with Aliexpress, this is making me doubt the suppliers quite a bit more.
-- 
   
 ## References
 
