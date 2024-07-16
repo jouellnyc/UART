@@ -218,8 +218,9 @@ So that was pretty cool.
 
 ## Takeaways/ Learnings
 - Keep your costs low and test out vendors before commiting. They tend to believe "Everything is Awesome".
-
-
+- Not sure who to believe really. Hologram definitely worked, it should not have stopped.
+- I have had mostly good experience with Aliexpress, this is making me doubt the suppliers quite a bit more.
+  
 ## References
 
 ## SIM800L Resources
