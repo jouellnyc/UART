@@ -230,7 +230,7 @@ So that was pretty cool.
 | Registering with Hologram using a Pi Pico and a SIM800L | [Hologram Forum](https://community.hologram.io/t/registering-with-hologram-using-a-pi-pico-and-a-sim800l/4986/4) | Getting GPS with Cell Data (SIM800L) | [Getting GPS w/Cell data](https://www.re-innovation.co.uk/docs/find-location-with-sim800l/) |
 | Discussion on SIM800L (Thread 1) | [Reddit Thread 1](https://www.reddit.com/r/IOT/comments/1e344zy/comment/ld7c2om/?context=3) | Discussion on SIM800L (Thread 2) | [Reddit Thread 2](https://www.reddit.com/r/embedded/comments/1e0zs95/comment/lct313d/) |
 | Hologram AT Command Workshop | [Hologram WorkShop](https://github.com/HologramEducation/AT-Workshop) | AT Commands Reference Manual | [AT Commands](https://sixfab.com/wp-content/uploads/2021/02/Telit_IP_Easy_User_Guide_r24.pdf) |
-| What Boards are good | [MicroPython Forum](https://forum.micropython.org/viewtopic.php?t=5270|) | PDP DEACT | [SO](https://stackoverflow.com/questions/62138595/sim800l-atciicr-always-goes-to-pdp-deact-state) |
+| What Boards are good | [MicroPython Forum](https://forum.micropython.org/viewtopic.php?t=5270) | PDP DEACT - Stack Overflow | [SO](https://stackoverflow.com/questions/62138595/sim800l-atciicr-always-goes-to-pdp-deact-state) |
 
 ## Resources for SIM800L
 
