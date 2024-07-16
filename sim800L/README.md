@@ -65,24 +65,32 @@ Otherwise, the module can use the low voltage serial pins as ground and can get 
 
 #### I first tried with Hologram.io.
 
-I connected a few times. But only about 3 or 4 in a short window of time. Out of probably a 100 attempts over a few days. I put the sim800L upto my window.
+I tried first by putting  the sim800L upto near my  window using USB power to the pico and 5V wall power for the simb00l.
+
+I connected a few times. But only about 3 or 4 in a short window of time. Out of probably a 100 attempts over a few days.
+
 
 I tried on the roof: 
 
 ![image](https://github.com/user-attachments/assets/05b6f8c8-2fc3-440b-99e0-176c2ab6f1c9)
 
+
 I tried being mobile in an open area:
 
 ![image](https://github.com/user-attachments/assets/cc82cffb-90fe-4cbd-bbed-6da64a1ee2ee)
 
-Really never got a consistent connect.
+
+Really never got a consistent connect after the first few times.
 
 
 Support told me it's a dice roll for now:
 
 ![image](https://github.com/user-attachments/assets/ad40d289-8f49-4145-a4d8-88a86f9c9e24)
 
-NOTE: There is very little in terms of how to *actually get online* with a microcontroller using a consistent step by step process. It's mostly anecdotes here and there that you cobble together (voila!).
+NOTE: There is very little in terms of how to *actually get online* with a microcontroller using a consistent step by step process. 
+
+It's mostly anecdotes here and there that you cobble together (voila!).
+
 
 
 ## Full Micropython Example
@@ -207,7 +215,8 @@ So that was pretty cool.
 
 
 ## Takeaways/ Learnings
--
+- Keep your costs low and test out vendors before commiting. They tend to believe "Everything is Awesome".
+
 
 ## References
 - [Arduino Forum](https://forum.arduino.cc/t/sim800l-not-registering-to-network-issue-solved/593251)
@@ -215,6 +224,7 @@ So that was pretty cool.
 - [Hologram Forumn](https://community.hologram.io/t/registering-with-hologram-using-a-pi-pico-and-a-sim800l/4986/4)
 - [Getting GPS w/Cell data](https://www.re-innovation.co.uk/docs/find-location-with-sim800l/)
 - [Reddit Thread](https://www.reddit.com/r/IOT/comments/1e344zy/comment/ld7c2om/?context=3)
+- [Hologram WorkShop](https://github.com/HologramEducation/AT-Workshop)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
