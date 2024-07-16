@@ -182,7 +182,6 @@ This was pretty cool. I actually connected:
 >>> uart.write(b"AT+CNETSCAN\r\n"); time.sleep(5); print(uart.read())
 13
 b'\r\nOperator:"T-Mobile USA",MCC:310,MNC:260,Rxlev:53,Cellid:CF00,Arfcn:1709\r\n\r\nOK\r\n'
-```
 
 >>> uart.write(b"AT+CENG=2\r\n"); time.sleep(5); print(uart.read())
 11
