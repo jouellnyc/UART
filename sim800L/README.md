@@ -17,7 +17,9 @@ This was a partial success.
 
 ![image](https://github.com/user-attachments/assets/2e2227dc-60cb-489f-9f6b-476d9e145e15)
 
-The Sim800L EVB Board accepts 5V power to the VCC and does not need the odd 4.2 V like the naked 'red pcb' board.
+The Sim800L EVB Board accepts 5V power to the VCC and does not need the odd 4.2 V like the naked 'red pcb' board. See power reference below.
+
+I'd suggest getting a board that handles power and bypassing the worry about the power to the chip.
 
 
 ## UART Pin Configuration
@@ -239,7 +241,7 @@ So that was pretty cool.
 | Discussion on SIM800L (Thread 1) | [Reddit Thread 1](https://www.reddit.com/r/IOT/comments/1e344zy/comment/ld7c2om/?context=3) | Discussion on SIM800L (Thread 2) | [Reddit Thread 2](https://www.reddit.com/r/embedded/comments/1e0zs95/comment/lct313d/) |
 | Hologram AT Command Workshop | [Hologram WorkShop](https://github.com/HologramEducation/AT-Workshop) | AT  Reference Manuals | [AT Commands](https://sixfab.com/wp-content/uploads/2021/02/Telit_IP_Easy_User_Guide_r24.pdf)  and [TCPIP Note, section 8](https://cdn-shop.adafruit.com/product-files/1946/SIM800+Series_TCPIP_Application+Note_V1.01.pdf)|
 | What Boards are good | [MicroPython Forum](https://forum.micropython.org/viewtopic.php?t=5270) | PDP DEACT - Stack Overflow | [SO](https://stackoverflow.com/questions/62138595/sim800l-atciicr-always-goes-to-pdp-deact-state) |
-| Pico Datasheet| [link](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf)|Power to the sim800L|[AF](https://forum.arduino.cc/t/the-sim800l-that-is-not-5v-tolerant-powering-it-from-5v-in-arduino/914229/3)|
+| Pico Datasheet| [link](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf)|Power to the sim800L|[AF](https://forum.arduino.cc/t/the-sim800l-that-is-not-5v-tolerant-powering-it-from-5v-in-arduino/914229/3) and [Reddit](https://www.reddit.com/r/arduino/comments/9mozam/best_way_to_power_a_sim800l_gsm_module/)|
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
