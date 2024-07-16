@@ -12,8 +12,8 @@ This was a partial success.
 
 | Prerequisite | Details |
 |---|---|
-| Pi Pico |
-|Sim800L| Anywhere on AliExpress| Just grab one|
+| Pi Pico | Anywhere Picos are sold|
+|Sim800L| [link](https://www.aliexpress.us/item/3256804775211999.html)|
 
 ![image](https://github.com/user-attachments/assets/2e2227dc-60cb-489f-9f6b-476d9e145e15)
 
