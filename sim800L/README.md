@@ -224,18 +224,22 @@ So that was pretty cool.
 
 ## SIM800L Resources
 
-| Platform | Topic | Link |
-|---|---|---|
-| Arduino Forum | SIM800L Network Registration Issue Solved | [Arduino Forum](https://forum.arduino.cc/t/sim800l-not-registering-to-network-issue-solved/593251) |
-| Hologram Forum | Getting Started with Hologram and SIM800L | [Hologram Forum](https://community.hologram.io/t/getting-started-with-hologram-and-sim800l/4417/4) |
-| Hologram Forum | Registering with Hologram using a Pi Pico and a SIM800L | [Hologram Forum](https://community.hologram.io/t/registering-with-hologram-using-a-pi-pico-and-a-sim800l/4986/4) |
-| Web Tutorial | Getting GPS with Cell Data (SIM800L) | [Getting GPS w/Cell data](https://www.re-innovation.co.uk/docs/find-location-with-sim800l/) |
-| Reddit | Discussion on SIM800L (Thread 1) | [Reddit Thread 1](https://www.reddit.com/r/IOT/comments/1e344zy/comment/ld7c2om/?context=3) |
-| Reddit | Discussion on SIM800L (Thread 2) | [Reddit Thread 2](https://www.reddit.com/r/embedded/comments/1e0zs95/comment/lct313d/) |
-| GitHub | Hologram AT Command Workshop | [Hologram WorkShop](https://github.com/HologramEducation/AT-Workshop) |
-| Web Resource | AT Commands Reference Manual | [AT Commands](https://sixfab.com/wp-content/uploads/2021/02/Telit_IP_Easy_User_Guide_r24.pdf) |
-| MicroPython Forum| What Boards are good|[MicroPython Forum](https://forum.micropython.org/viewtopic.php?t=5270|)
-|stackoverflow| PDP DEACT| [SO](https://stackoverflow.com/questions/62138595/sim800l-atciicr-always-goes-to-pdp-deact-state)|
+| Topic | Link | Topic | Link |
+|---|---|---|---|
+| SIM800L Network Registration Issue Solved | [Arduino Forum](https://forum.arduino.cc/t/sim800l-not-registering-to-network-issue-solved/593251) | Getting Started with Hologram and SIM800L | [Hologram Forum](https://community.hologram.io/t/getting-started-with-hologram-and-sim800l/4417/4) |
+| Registering with Hologram using a Pi Pico and a SIM800L | [Hologram Forum](https://community.hologram.io/t/registering-with-hologram-using-a-pi-pico-and-a-sim800l/4986/4) | Getting GPS with Cell Data (SIM800L) | [Getting GPS w/Cell data](https://www.re-innovation.co.uk/docs/find-location-with-sim800l/) |
+| Discussion on SIM800L (Thread 1) | [Reddit Thread 1](https://www.reddit.com/r/IOT/comments/1e344zy/comment/ld7c2om/?context=3) | Discussion on SIM800L (Thread 2) | [Reddit Thread 2](https://www.reddit.com/r/embedded/comments/1e0zs95/comment/lct313d/) |
+| Hologram AT Command Workshop | [Hologram WorkShop](https://github.com/HologramEducation/AT-Workshop) | AT Commands Reference Manual | [AT Commands](https://sixfab.com/wp-content/uploads/2021/02/Telit_IP_Easy_User_Guide_r24.pdf) |
+| What Boards are good | [MicroPython Forum](https://forum.micropython.org/viewtopic.php?t=5270|) | PDP DEACT | [SO](https://stackoverflow.com/questions/62138595/sim800l-atciicr-always-goes-to-pdp-deact-state) |
+
+## Resources for SIM800L
+
+| Forum/Resource | Description |
+|---|---|
+| Arduino Forum | SIM800L Network Registration Issue Solved |
+| Hologram Forum | Getting Started with Hologram and SIM800L |
+
+
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
