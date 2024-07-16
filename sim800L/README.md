@@ -22,9 +22,10 @@ This was a partial success.
 
 | Module | Pico |
 |---|---|
-| SIM800L TX | GPIO 01 |
-| SIM800L RX | GPIO 00 |
+| SIM800L RX | GPIO 01 (PICO TX)|
+| SIM800L TX | GPIO 00 (PICO RX)|
 | SIM800L GND | GND|
+
 
 Pretty Straight Forward in terms of connections:
 
