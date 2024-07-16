@@ -226,6 +226,7 @@ So that was pretty cool.
 - [Reddit Thread](https://www.reddit.com/r/IOT/comments/1e344zy/comment/ld7c2om/?context=3)
 - [Hologram WorkShop](https://github.com/HologramEducation/AT-Workshop)
 - [AT Commands](https://sixfab.com/wp-content/uploads/2021/02/Telit_IP_Easy_User_Guide_r24.pdf)
+- [Another users's attempt](https://www.scipress.io/post/iyql0IbOAzsk87MCH9P1/Raspberry_Pi_Pico_W)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
