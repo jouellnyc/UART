@@ -205,7 +205,10 @@ b'AT+CENG=2\r\r\nOK\r\n\r\n+CENG: 0,"0685,57,00,310,260,16,cf00,04,00,7d73,255"
 ```
 
 
-Given the diagnostic info, I was able to find my myself on a map after following the GPS reference and converting:
+Given the diagnostic info, I was able to find my myself on a map after following the "Getting GPS w/Cell data" reference and converting the relevant values.
+
+I had REPL handy: 
+
 
 ```
 >>> int(0xCF00)
@@ -218,6 +221,7 @@ Given the diagnostic info, I was able to find my myself on a map after following
 32115
 
 ```
+
 
 ![image](https://github.com/user-attachments/assets/56e861a8-1098-4bfc-b527-65b7464581ad)
 
