@@ -235,6 +235,7 @@ So that was pretty cool.
 | GitHub | Hologram AT Command Workshop | [Hologram WorkShop](https://github.com/HologramEducation/AT-Workshop) |
 | Web Resource | AT Commands Reference Manual | [AT Commands](https://sixfab.com/wp-content/uploads/2021/02/Telit_IP_Easy_User_Guide_r24.pdf) |
 | MicroPython Forum| What Boards are good|[MicroPython Forum](https://forum.micropython.org/viewtopic.php?t=5270|)
+|stackoverflow| PDP DEACT| [SO](https://stackoverflow.com/questions/62138595/sim800l-atciicr-always-goes-to-pdp-deact-state)|
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
