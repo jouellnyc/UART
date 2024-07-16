@@ -225,6 +225,7 @@ So that was pretty cool.
 - [Getting GPS w/Cell data](https://www.re-innovation.co.uk/docs/find-location-with-sim800l/)
 - [Reddit Thread](https://www.reddit.com/r/IOT/comments/1e344zy/comment/ld7c2om/?context=3)
 - [Hologram WorkShop](https://github.com/HologramEducation/AT-Workshop)
+- [AT Commands](https://sixfab.com/wp-content/uploads/2021/02/Telit_IP_Easy_User_Guide_r24.pdf)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
