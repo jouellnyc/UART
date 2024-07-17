@@ -230,13 +230,15 @@ So that was pretty cool.
 
 
 ## Takeaways/ Learnings
-- Keep your costs low and test out vendors before commiting. They tend to believe "Everything is Awesome".
+- Keep your costs low and test out vendors before commiting. They tend to promote "Everything is Awesome" marketing.
 - Not sure who to believe really. Hologram definitely worked, it should not have stopped.
-- I have had mostly good experience with Aliexpress, this is making me doubt the suppliers quite a bit more.
-
+- Hologram is a MNVO and consolidates coverage and roaming in it's SIMs, the coverage depends on the upstream provider. The SIM800L is 2G device only. It will not work with NB-IOT, which is not fulled rolled out yet. T-Mobile's 2G network seems to have  officially shut down on April 2, 2024, but I was able to get an IP address after that date. I found that odd. Also odd that Hologram advertises 2G networks for the US.
+    
 ## Next Steps
-- Will try with particle.io
+- Will try the sim800L with particle.io, just for fun.
 - Will try with A9G Boards
+- Will try with a SIMCOM SIM7000A Board
+- Will try with a SIMCOM A7670E 
 
 ## References
 
