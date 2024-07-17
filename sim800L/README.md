@@ -17,10 +17,9 @@ This was a partial success.
 
 ![image](https://github.com/user-attachments/assets/2e2227dc-60cb-489f-9f6b-476d9e145e15)
 
-The Sim800L EVB Board accepts 5V power to the VCC and does not need the odd 4.2 V like the naked 'red pcb' board. See power reference below.
-
+The Sim800L EVB Board accepts 5V power to the VCC and does not need the odd 4.2 V like the naked 'red pcb' board. 
 I'd suggest getting a board that handles power and bypassing the worry about the power to the chip.
-
+See power reference below.
 
 ## UART Pin Configuration
 
