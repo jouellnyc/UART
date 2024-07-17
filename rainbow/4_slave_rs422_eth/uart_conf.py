@@ -1,8 +1,8 @@
 import machine
 from machine import Pin
 
-tx_pin0 = 0
-rx_pin0 = 1
+tx_pin0 = 12
+rx_pin0 = 13
 #uart_rs232 = machine.UART(1, baudrate=9600, tx=Pin(tx_pin0), rx=Pin(rx_pin0, pull=Pin.PULL_UP))
 #uart_rs232 = machine.UART(1, baudrate=9600, tx=tx_pin0, rx=rx_pin, pull=Pin.PULL_UP)
 uart_rs232 = machine.UART(0, baudrate=9600, tx=tx_pin0, rx=rx_pin0)

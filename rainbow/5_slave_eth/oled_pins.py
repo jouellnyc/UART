@@ -1,3 +1,3 @@
 from machine import Pin
-scl=Pin(6)
-sda=Pin(7)
+sda=Pin(8)
+scl=Pin(9)
