@@ -14,20 +14,34 @@ async def read_uart():
     while True:
         rgb_tuple = get_tuple_from_uart("rs232")
         if rgb_tuple:
-            print(f"== GOT {rgb_tuple}===")
-            print(f"==Setting Color on Oled ==")
+            print(f"===== Received {rgb_tuple} ======")
+            print(f"== Setting Color on Oled ==")
             set_color(*rgb_tuple)
-            print(f"==Setting Color on RGB led ==")
+            print(f"== Setting Color on RGB led ==")
             show_rgb_text(rgb_tuple)
-            print(f"==sleeping 1 sec ==")
-            time.sleep(1)
-        await asyncio.sleep(0.1)
+            print(f"== sleeping 1 sec ==")
+        await asyncio.sleep(1)
 
 app = Microdot()
 @app.route('/')
 async def index(request):
     return f"{rgb_tuple}"
 
+
+async def main():
+    print("Starting server...")
+
+    try:
+        asyncio.create_task(read_uart())
+        await app.start_server(port=port)
+    except Exception as e:
+        print(f"An error occurred: {e}")
+    finally:
+        print(f"MicroDot stopped on port {port}")
+
+asyncio.run(main())
+
+"""
 async def main():
     print("Starting server...")
     asyncio.create_task(read_uart())
@@ -35,3 +49,7 @@ async def main():
 
 print(f"MicroDot Starting on port {port}")
 asyncio.run(main())
+
+"""
+
+

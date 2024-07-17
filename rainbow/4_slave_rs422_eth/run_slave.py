@@ -14,8 +14,6 @@ while True:
         show_rgb_text(rgb_tuple)
         print(f"==sleeping 1 sec ==")
         time.sleep(1)
-        #print(f"== Sending {rgb_tuple}===")
-        #send_tuple_using_uart("rs232", rgb_tuple)
     else:
         print("No data at ", time.localtime())
         time.sleep(1)
