@@ -234,6 +234,71 @@ I had REPL handy:
 
 So that was pretty cool.
 
+### Victory!
+
+After many days of trying, I got another IP address and - using my new friend claude.ai, we connected using a clever series of AT commands: 
+
+```
+def send_at(command, wait=1):
+    uart.write(command + '\r\n')
+    time.sleep(wait)
+    response = b''
+    while uart.any():
+        response += uart.read()
+    print(f"Sent: {command}")
+    print(f"Received: {response.decode('utf-8')}")
+    return response
+
+def connect_to_google():
+    send_at('AT+CIPSTART="TCP","google.com","80"', wait=5)
+    send_at('AT+CIPSEND')
+    request = (
+        'GET / HTTP/1.1\r\n'
+        'Host: google.com\r\n'
+        'Connection: close\r\n'
+        '\r\n'
+    )
+    uart.write(request)
+    uart.write(b'\x1A')  # Ctrl+Z to send
+    time.sleep(5)
+    while uart.any():
+        print(uart.read().decode('utf-8'), end='')
+connect_to_google()
+
+```
+
+The output being:
+
+```
+37
+Sent: AT+CIPSTART="TCP","google.com","80"
+Received: AT+CIPSTART="TCP","google.com","80"
+OK
+
+CONNECT OK
+
+b'AT+CIPSTART="TCP","google.com","80"\r\r\nOK\r\n\r\nCONNECT OK\r\n'
+12
+Sent: AT+CIPSEND
+Received: AT+CIPSEND
+> 
+b'AT+CIPSEND\r\r\n> '
+55
+1
+GET / HTTP/1.1
+Host: google.com
+Connection: close
+
+
+SEND OK
+HTTP/1.1 301 Moved Permanently
+Location: http://www.google.com/
+Content-Type: text/html; charset=UTF-8
+Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-tqAwNqazLDu9rWtYPLwovA' 's
+```
+
+That was pretty exciting! A full blown TCP/IP connection on a 2G Network in NYC after they deco'ed 2G!
+
 
 ## Takeaways/ Learnings
 - Keep your costs low and test out vendors before commiting. They tend to promote "Everything is Awesome" marketing.
