@@ -237,6 +237,7 @@ So that was pretty cool.
 ### Victory!
 
 After many days of trying, I got another IP address and - using my new friend claude.ai, we connected using a clever series of AT commands: 
+Clever because the timing and usage of the CIPSEND needs to be precise - it appears to expect a Control Z and possibly a human to be 'at the keyboard'.
 
 ```
 def send_at(command, wait=1):
@@ -298,6 +299,23 @@ Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-sr
 ```
 
 That was pretty exciting! A full blown TCP/IP connection on a 2G Network in NYC after they deco'ed 2G!
+
+NOTE: The HTTP AT command sequence did not work:
+
+```
+uart.write(b"AT+HTTPINIT\r\n")                ; get()
+uart.write(b"AT+HTTPPARA=\"CID\",1\r\n")      ; get()
+uart.write(b"AT+HTTPPARA=\"URL\",\"http://www.google.com:80/\"\r\n") ; get()
+uart.write(b"AT+HTTPACTION=0\r\n")            ; get()
+uart.write(b"AT+HTTPREAD\r\n")                ; get()
+uart.write(b"AT+HTTPTERM\r\n")                ; get()
+uart.write(b"AT+CIPSHUT\r\n")                 ; get()
+
+```
+
+ but now we have a way forward for connectivity! 
+ 
+
 
 
 ## Takeaways/ Learnings
