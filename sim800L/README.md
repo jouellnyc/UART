@@ -101,6 +101,8 @@ It's mostly anecdotes here and there that you cobble together (voila!).
 ## Full Micropython Example
 
 ```
+See https://support.hologram.io/hc/en-us/articles/360035697393-Modem-SIM-annotated-diagnostic-test?source=search for more commands
+
 import time
 from gsmuart import uart
 
@@ -150,6 +152,11 @@ uart.write(b'AT+CGREG\r\n')          ; get()
 #Checks which network you are connected to.
 uart.write(b'AT+COPS?\r\n')       ; get()
 #I.E +COPS: 0,0,"T-Mobile USA"
+
+uart.write(b'AT+COPS=?\r\n')            ; get()
+# Networks In Reach - can take up to 3 min to run
+# I got this before:  +COPS: (2,"T-Mobile USA","TMO","310260"),,(0-4),(0-2)
+
 
 #Check the time - just to see what happens
 uart.write(b'AT+CCLK?\r\n')          ; get()
