@@ -236,8 +236,7 @@ So that was pretty cool.
 
 ### Victory!
 
-After many days of trying, I got another IP address and - using my new friend claude.ai, we connected using a clever series of AT commands: 
-Clever because the timing and usage of the CIPSEND needs to be precise - it appears to expect a Control Z and possibly a human to be 'at the keyboard'.
+After many days of trying, I got another IP address and - using my new friend claude.ai, we connected using a clever series of AT commands. Clever because the timing and usage of the CIPSEND needs to be precise - it appears to expect a Control Z and possibly a human to be 'at the keyboard':
 
 ```
 def send_at(command, wait=1):
