@@ -40,7 +40,6 @@ TBD
 - This was quite the undertaking. Don't try unless you have lots of patience.
 
 ## References
-## Resources
 
 | Title | Description | Link |
 |---|---|---|
