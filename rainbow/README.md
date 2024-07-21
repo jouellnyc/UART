@@ -39,7 +39,7 @@ All these parts are the same as the previous except the Wiznet Modules:
 
 ## UART2 Pin Configurations
 - These are all using the same type of configs as the individual projects.
--The only difference is they are all connected together.
+- The only difference is they are all connected together.
 
 ## Full Micropython Examples
 See above - The ordering of the MCUs are just like the ascii diagram - You could just it up to however you like however.
