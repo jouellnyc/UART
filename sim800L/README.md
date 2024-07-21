@@ -325,12 +325,9 @@ uart.write(b"AT+CIPSHUT\r\n")                 ; get()
 - [TMobile 2Gg](https://www.t-mobile.com/support/coverage/t-mobile-network-evolution) has NOT sunset/decoe'd it's 2G network...yet.
 - Finally, I brought my mobile setup (pico/sim800L/battery pack) to the city and was able to get an IP address and connect to the internet at 23rd Street, K-Town and up at 7th Avenue and 57th, so that says that T-Mobile still has 2G coverage in the city…
 
-![image](https://github.com/user-attachments/assets/889c48e5-b842-4596-8f54-46ed6db70818)
-
 Sure enough, connected in the city:
 
 ![image](https://github.com/user-attachments/assets/8e61b6f6-0e99-4915-93c0-018ba5be8854)
-
 
 ![image](https://github.com/user-attachments/assets/7ac353fc-b169-4783-b931-fb7b6dc3951f)
 
