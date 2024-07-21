@@ -101,8 +101,6 @@ It's mostly anecdotes here and there that you cobble together (voila!).
 ## Full Micropython Example
 
 ```
-See https://support.hologram.io/hc/en-us/articles/360035697393-Modem-SIM-annotated-diagnostic-test?source=search for more commands
-
 import time
 from gsmuart import uart
 
