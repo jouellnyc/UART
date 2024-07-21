@@ -39,6 +39,11 @@ TBD
 ## Takeaways/ Learnings
 - This was quite the undertaking. Don't try unless you have lots of patience.
 
+[These modules](https://www.aliexpress.us/item/3256804674673261.html?spm=a2g0o.order_list.order_list_main.119.7ace18021LkpOf) on Aliexpress are literally the same module as the Wiznet 5500, just a different form factor:
+
+![image](https://github.com/user-attachments/assets/9b41f1cf-f282-400d-a84e-f4f0d8e41d4f)
+
+
 ## References
 
 | Title | Description | Link |
