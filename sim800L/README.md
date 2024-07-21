@@ -338,6 +338,7 @@ uart.write(b"AT+CIPSHUT\r\n")                 ; get()
 | Hologram AT Command Workshop | [Hologram WorkShop](https://github.com/HologramEducation/AT-Workshop) | AT  Reference Manuals | [AT Commands](https://sixfab.com/wp-content/uploads/2021/02/Telit_IP_Easy_User_Guide_r24.pdf)  and [TCPIP Note, section 8](https://cdn-shop.adafruit.com/product-files/1946/SIM800+Series_TCPIP_Application+Note_V1.01.pdf)|
 | What Boards are good | [MicroPython Forum](https://forum.micropython.org/viewtopic.php?t=5270) | PDP DEACT - Stack Overflow | [SO](https://stackoverflow.com/questions/62138595/sim800l-atciicr-always-goes-to-pdp-deact-state) |
 | Pico Datasheet| [link](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf)|Power to the sim800L|[AF](https://forum.arduino.cc/t/the-sim800l-that-is-not-5v-tolerant-powering-it-from-5v-in-arduino/914229/3) and [Reddit](https://www.reddit.com/r/arduino/comments/9mozam/best_way_to_power_a_sim800l_gsm_module/)|
+|[Modem & SIM annotated diagnostic test](https://support.hologram.io/hc/en-us/articles/360035697393-Modem-SIM-annotated-diagnostic-test?source=search)|[Automated modem diagnostics using Python](https://support.hologram.io/hc/en-us/articles/4417363338647-Automated-modem-diagnostics-using-Python)|
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
