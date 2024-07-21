@@ -44,7 +44,7 @@ TBD
 
 | Title | Description | Link |
 |---|---|---|
-| **Using Micropython to connect Wiznet W5500 Pico Pis over Ethernet** | Official guide from Wiznet on connecting W5500 Pico Pis with Micropython | [https://github.com/Wiznet/RP2040-HAT-MicroPython/blob/main/Ethernet%20Example%20Getting%20Started%20%5BMicropython%5D.md] |
+| **Using Micropython to connect Wiznet W5500 Pico Pis over Ethernet** | Official guide from Wiznet on connecting W5500 Pico Pis with Micropython | https://github.com/Wiznet/RP2040-HAT-MicroPython/blob/main/Ethernet%20Example%20Getting%20Started%20%5BMicropython%5D.md |
 | **MicroPython - Python for microcontrollers (Wiznet vendor page)** | Official Micropython download page with Wiznet specific options | https://micropython.org/download/?vendor=Wiznet |
 | **MicroPython - Python for microcontrollers (W5500_EVB_PICO download)** | Download page for Micropython for W5500 EVB and Pico specifically | https://micropython.org/download/W5500_EVB_PICO/ |
 | **Using Micropython with W5500: An Introduction** | Blog post by Stephan Hennion on introducing Micropython with W5500 | https://sjhennion.github.io/jekyll/update/2023/09/22/w5500-intro.html |
