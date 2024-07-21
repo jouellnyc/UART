@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/9b0a7d3d-c27a-4945-87ca-22bb7c01c19d)
 
-- MCU1 sends an RGB tuple to MCU2, so on down the line via a different signalling protocol/connection:
+- Working through ROYGBIV, MCU1 sends an RGB tuple to MCU2, so on down the line via a different signalling protocol/connection:
 
 ````
  
