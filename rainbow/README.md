@@ -1,0 +1,32 @@
+## Rainbow UART
+
+##  Prerequisites
+
+| Prerequisite | Details |
+|---|---|
+| 3 x ESP32 boards |  [ESP32-S3-DevKitC-1 (S3-N16R8)](https://www.aliexpress.us/item/3256806014820995.html) from AliExpress |
+| 2 x  Pi Picos | Picos from anywhere|
+| 2 x RS-232 modules|
+| 2 x RS-422 modules|
+| 2 x RS-485 modules|
+| 2 x WizNet RJ-45 modules|
+
+![image](https://github.com/jouellnyc/UART/assets/32470508/a54d2c90-bbec-4d85-8390-7a130d5624d1)
+
+## UART2 Pin Configurations
+- These are all using the same type of configs as the individual projects.
+-The only difference is they are all connected together.
+
+## Full Micropython Examples
+TBD
+
+## Takeaways/ Learnings
+- This was quite the undertaking. Don't try unless you have lots of patience.
+
+## References
+- [link](https://link)
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+Feel free to modify the content as needed, such as adding installation instructions, code examples, or any other relevant information for your project.
+
