@@ -74,7 +74,7 @@ Otherwise, the module can use the low voltage serial pins as ground and can get 
 
 I tried first by putting  the sim800L upto near my  window using USB power to the pico and 5V wall power for the simb00l.
 
-I connected a few times. But only about 3 or 4 in a short window of time. Out of probably a 100 attempts over a few days.
+I connected a few times. But only about 3 or 4 in a short window of time. Out of probably a 25 attempts over a few days.
 
 
 I tried on the roof: 
