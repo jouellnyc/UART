@@ -28,10 +28,9 @@
 | 2 x RS-232 modules|
 | 2 x RS-422 modules|
 | 2 x RS-485 modules|
-
-All these parts are the same as the previous except:
-
 | 2 x WizNet RJ-45 modules|
+
+All these parts are the same as the previous except the Wiznet Modules:
 
 [These modules](https://www.aliexpress.us/item/3256804674673261.html?spm=a2g0o.order_list.order_list_main.119.7ace18021LkpOf) on Aliexpress are literally the same module as the Wiznet 5500, and work the same way including connections to the pico, just a different form factor:
 
