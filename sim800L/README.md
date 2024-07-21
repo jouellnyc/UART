@@ -319,12 +319,11 @@ uart.write(b"AT+CIPSHUT\r\n")                 ; get()
 - Keep your costs low and test out vendors before commiting. 
 - At first I was not sure who to believe, really. Hologram definitely worked, but then seems to stop working.
 - Hologram is a MNVO and consolidates coverage and roaming in it's SIMs, the coverage depends on the upstream provider. The SIM800L is 2G device only. It will not work with NB-IOT at all, but also know NB-IOT is not fully rolled out yet. T-Mobile's 2G network seems to have  officially shut down on April 2, 2024, but I was able to get an IP address after that date. I found that odd. Also odd that Hologram advertises 2G networks for the US.
-```
-  EDIT:
-  [Particle 2g link](https://www.particle.io/blog/t-mobile-sunset-2g)  
-  [TMobile 2g link](https://www.t-mobile.com/support/coverage/t-mobile-network-evolution) <= T-mobile has not sunset/decoe'd it's 2G network.
-```  
+- [TMobile 2g link](https://www.t-mobile.com/support/coverage/t-mobile-network-evolution) T-mobile has NOT sunset/decoe'd it's 2G network.
 - Finally, I brought my mobile setup (pico/sim800L/battery pack) to the city and was able to get an IP address and connect to the internet at 23rd Street, K-Town and up at 7th Avenue and 57th, so that says that T-Mobile still has 2G coverage in the city…
+
+![image](https://github.com/user-attachments/assets/889c48e5-b842-4596-8f54-46ed6db70818)
+
   
 ## Next Steps
 - Will try the sim800L with particle.io, just for fun.
