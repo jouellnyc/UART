@@ -22,7 +22,7 @@
 ##  Prerequisites
 
 | Prerequisite |
-|---|---|
+|---|
 | 3 x ESP32 boards |  
 | 2 x  Pi Picos |
 | 2 x RS-232 modules|
