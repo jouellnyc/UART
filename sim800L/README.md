@@ -327,6 +327,10 @@ uart.write(b"AT+CIPSHUT\r\n")                 ; get()
 
 ![image](https://github.com/user-attachments/assets/889c48e5-b842-4596-8f54-46ed6db70818)
 
+Sure enough, connected in the city:
+
+![image](https://github.com/user-attachments/assets/8e61b6f6-0e99-4915-93c0-018ba5be8854)
+
   
 ## Next Steps
 - Will try the sim800L with particle.io, just for fun.
