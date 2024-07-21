@@ -331,6 +331,9 @@ Sure enough, connected in the city:
 
 ![image](https://github.com/user-attachments/assets/8e61b6f6-0e99-4915-93c0-018ba5be8854)
 
+
+![image](https://github.com/user-attachments/assets/7ac353fc-b169-4783-b931-fb7b6dc3951f)
+
   
 ## Next Steps
 - Will try the sim800L with particle.io, just for fun.
