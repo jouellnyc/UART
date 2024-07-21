@@ -42,7 +42,8 @@ All these parts are the same as the previous except the Wiznet Modules:
 - The only difference is they are all connected together.
 
 ## Full Micropython Examples
-See above - The ordering of the MCUs are just like the ascii diagram - You could just it up to however you like however.
+- -See the repos's code - The ordering of the MCUs are just like the ascii diagram and each MCU's directory starts with an integer. Apart from that you just need to upload the 'lib' directory.
+- You could change the order to however you like as well, but you'd need to be mindful of the UART connections.
 
 ## Takeaways/ Learnings
 - This was quite the undertaking. Don't try unless you have lots of patience.
