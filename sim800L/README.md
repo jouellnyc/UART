@@ -295,7 +295,8 @@ Content-Type: text/html; charset=UTF-8
 Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-tqAwNqazLDu9rWtYPLwovA' 's
 ```
 
-That was pretty exciting! A full blown TCP/IP connection on a 2G Network in NYC after they deco'ed 2G!
+That was pretty exciting! A full blown TCP/IP connection on a 2G Network in NYC after (edit: (I thought)) they deco'ed 2G!
+...but exciting non the less...
 
 NOTE: The HTTP AT command sequence did not work:
 
