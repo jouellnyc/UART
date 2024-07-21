@@ -1,5 +1,23 @@
-## Rainbow UART
+## Rainbow Chaser UART
 
+![image](https://github.com/user-attachments/assets/9b0a7d3d-c27a-4945-87ca-22bb7c01c19d)
+
+- Working through ROYGBIV, MCU1 sends an RGB tuple to MCU2, so on down the line via a different signalling protocol/connection:
+
+````
+ 
+  +---------------------+-------------------------+-------------+----------- -+-----------+--------------+---------+
+  |  MCU1  |            |    MCU2    |            |     MCU3    |             |   MCU4    |              |  MCU5   |
+  |  (TX)  | RS232 -->  |  (RX)(TX)  |  RS485 --> |   (RX)(TX)  |  RS422 -->  | (RX)(TX)  | ETH/RJ45-->  |  (TX)   |
+  +---------------+---------------+---------------+-------------+-------------+-----------+--------------+---------+
+
+
+```
+
+- Each MCU picks up the RGB tuple and sets the color on it's RGB LED
+- Each MCU then sets the text of the RGB tuple on it's  OLED
+
+  
 ##  Prerequisites
 
 | Prerequisite | Details |
@@ -10,8 +28,6 @@
 | 2 x RS-422 modules|
 | 2 x RS-485 modules|
 | 2 x WizNet RJ-45 modules|
-
-![image](https://github.com/jouellnyc/UART/assets/32470508/a54d2c90-bbec-4d85-8390-7a130d5624d1)
 
 ## UART2 Pin Configurations
 - These are all using the same type of configs as the individual projects.
