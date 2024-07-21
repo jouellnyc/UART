@@ -9,14 +9,13 @@ To that end I did some research and it appeared that the SimCom sim800l module w
 ##  Upfront lesson:
 Always by at least two of the items from Ali Express
 
-##  Spoiler Alert
-This was a partial success. 
+##  Prerequisites
 
-
-| Prerequisite | Details |
+| Item | Details |
 |---|---|
 | Pi Pico | Anywhere Picos are sold|
 |Sim800L EVB Board| [link](https://www.aliexpress.us/item/3256804775211999.html)|
+|Battery pack if mobile| 4 x 1.2V will work or a [5V battery pack](https://www.amazon.com/gp/product/B07XFBN7HX/)|
 
 ![image](https://github.com/user-attachments/assets/2e2227dc-60cb-489f-9f6b-476d9e145e15)
 
