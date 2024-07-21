@@ -1,5 +1,7 @@
 ## Rainbow UART
 
+![image](https://github.com/user-attachments/assets/9b0a7d3d-c27a-4945-87ca-22bb7c01c19d)
+
 ##  Prerequisites
 
 | Prerequisite | Details |
@@ -10,8 +12,6 @@
 | 2 x RS-422 modules|
 | 2 x RS-485 modules|
 | 2 x WizNet RJ-45 modules|
-
-![image](https://github.com/jouellnyc/UART/assets/32470508/a54d2c90-bbec-4d85-8390-7a130d5624d1)
 
 ## UART2 Pin Configurations
 - These are all using the same type of configs as the individual projects.
