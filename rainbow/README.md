@@ -20,28 +20,32 @@
   
 ##  Prerequisites
 
-| Prerequisite | Details |
+| Prerequisite |
 |---|---|
-| 3 x ESP32 boards |  [ESP32-S3-DevKitC-1 (S3-N16R8)](https://www.aliexpress.us/item/3256806014820995.html) from AliExpress |
-| 2 x  Pi Picos | Picos from anywhere|
+| 3 x ESP32 boards |  
+| 2 x  Pi Picos |
 | 2 x RS-232 modules|
 | 2 x RS-422 modules|
 | 2 x RS-485 modules|
+
+All these parts are the same as the previous except:
+
 | 2 x WizNet RJ-45 modules|
+
+[These modules](https://www.aliexpress.us/item/3256804674673261.html?spm=a2g0o.order_list.order_list_main.119.7ace18021LkpOf) on Aliexpress are literally the same module as the Wiznet 5500, and work the same way including connections to the pico, just a different form factor:
+
+![image](https://github.com/user-attachments/assets/9b41f1cf-f282-400d-a84e-f4f0d8e41d4f)
+
 
 ## UART2 Pin Configurations
 - These are all using the same type of configs as the individual projects.
 -The only difference is they are all connected together.
 
 ## Full Micropython Examples
-TBD
+See above - The ordering of the MCUs are just like the ascii diagram - You could just it up to however you like however.
 
 ## Takeaways/ Learnings
 - This was quite the undertaking. Don't try unless you have lots of patience.
-- [These modules](https://www.aliexpress.us/item/3256804674673261.html?spm=a2g0o.order_list.order_list_main.119.7ace18021LkpOf) on Aliexpress are literally the same module as the Wiznet 5500, and work the same way including connections to the pico, just a different form factor:
-
-![image](https://github.com/user-attachments/assets/9b41f1cf-f282-400d-a84e-f4f0d8e41d4f)
-
 
 ## References
 
