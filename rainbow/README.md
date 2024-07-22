@@ -33,7 +33,7 @@
 - All these connections have been documented under the previous individual UART projects, so there are less details are here, but all the code is updated for a larger project (using some abstractions and configs and libraries to make things easier (comments/contributions very welcome).
 
 - All these parts are the same as the previous except the Wiznet Modules. 
-You can follow [this](https://github.com/jouellnyc/micropython_ethernet/)  to set those up:
+You can follow [this](https://github.com/jouellnyc/micropython_ethernet/)  to set those up.
 
 ## UART2 Pin Configurations
 - These are all using the same type of configs as all of the previous individual UART projects, the only difference is they are all connected together now.
