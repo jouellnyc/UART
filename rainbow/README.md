@@ -35,11 +35,13 @@
 - All these parts are the same as the previous except the Wiznet Modules. 
 You can follow [this](https://github.com/jouellnyc/micropython_ethernet/)  to set those up.
 
-## UART Pin Configurations
+## UART, RGB, and OLED Pin Configurations
 - These are all using the same type of configs as all of the previous individual UART projects, the only difference is they are all connected together now.
-
+- Each MCU will have it's own 'local' config for UART UART, RGB, and OLED Pins, but everything in `lib` should not need to be modified, in general.
+ 
 ## Full Micropython Examples
-- See this repos's code. The ordering of the MCUs are just like the ascii diagram and each MCU's directory starts with an integer. Apart from that you just need to upload the 'lib' directory.
+- The ordering of the MCUs are just like the ascii diagram and each MCU's directory starts with an integer.
+- Apart from that you just need to upload the 'lib' directory.
 - You could change the order to however you like as well, but you'd need to be mindful of the UART connections.
 
 ## Takeaways/ Learnings
