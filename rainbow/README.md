@@ -30,16 +30,13 @@
 | 2 x RS-485 modules|
 | 2 x WizNet RJ-45 modules|
 
-All these parts are the same as the previous except the Wiznet Modules:
+- All these connections have been documented under the previous individual UART projects, so there are less details are here, but all the code is updated for a larger project (using some abstractions and configs and libraries to make things easier (comments/contributions very welcome).
 
-[These modules](https://www.aliexpress.us/item/3256804674673261.html?spm=a2g0o.order_list.order_list_main.119.7ace18021LkpOf) on Aliexpress are literally the same module as the Wiznet 5500, and work the same way including connections to the pico, just a different form factor:
-
-![image](https://github.com/user-attachments/assets/9b41f1cf-f282-400d-a84e-f4f0d8e41d4f)
-
+- All these parts are the same as the previous except the Wiznet Modules. 
+You can follow [this](https://github.com/jouellnyc/micropython_ethernet/)  to set those up:
 
 ## UART2 Pin Configurations
-- These are all using the same type of configs as the individual projects.
-- The only difference is they are all connected together.
+- These are all using the same type of configs as all of the previous individual UART projects, the only difference is they are all connected together now.
 
 ## Full Micropython Examples
 - -See the repos's code - The ordering of the MCUs are just like the ascii diagram and each MCU's directory starts with an integer. Apart from that you just need to upload the 'lib' directory.
@@ -61,4 +58,3 @@ All these parts are the same as the previous except the Wiznet Modules:
 ## License
 This project is licensed under the [MIT License](LICENSE).
 Feel free to modify the content as needed, such as adding installation instructions, code examples, or any other relevant information for your project.
-
