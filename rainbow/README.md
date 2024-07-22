@@ -35,7 +35,7 @@
 - All these parts are the same as the previous except the Wiznet Modules. 
 You can follow [this](https://github.com/jouellnyc/micropython_ethernet/)  to set those up.
 
-## UART2 Pin Configurations
+## UART Pin Configurations
 - These are all using the same type of configs as all of the previous individual UART projects, the only difference is they are all connected together now.
 
 ## Full Micropython Examples
