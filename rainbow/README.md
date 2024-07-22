@@ -39,7 +39,7 @@ You can follow [this](https://github.com/jouellnyc/micropython_ethernet/)  to se
 - These are all using the same type of configs as all of the previous individual UART projects, the only difference is they are all connected together now.
 
 ## Full Micropython Examples
-- -See the repos's code - The ordering of the MCUs are just like the ascii diagram and each MCU's directory starts with an integer. Apart from that you just need to upload the 'lib' directory.
+- See this repos's code. The ordering of the MCUs are just like the ascii diagram and each MCU's directory starts with an integer. Apart from that you just need to upload the 'lib' directory.
 - You could change the order to however you like as well, but you'd need to be mindful of the UART connections.
 
 ## Takeaways/ Learnings
