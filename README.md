@@ -39,7 +39,7 @@ Here are the projects:
 - ESP01s connecting to an ESP32! Includes how to flash the olders models. (Also an UART 'Easter Egg').
 
 ## 9. [Rainbow Chaser UART](rainbow/)
-- Rainbow Chaser UART - a motley collection / culmination of all the UART protocols
+- Rainbow Chaser UART - a motley collection / culmination of all the UART examples.
 
 Overall Notes:
 
