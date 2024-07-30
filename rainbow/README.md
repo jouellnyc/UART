@@ -30,8 +30,8 @@
 | 2 x RS-485 modules|
 | 2 x WizNet RJ-45 modules|
 
-- All these connections have been documented under the previous individual UART projects, so there are less details are here, but all the code is updated for a larger project (using some abstractions and configs and libraries to make things easier (comments/contributions very welcome).
-
+- All these connections have been documented under the previous individual UART projects, so there are less details are here.
+- All the code is updated for a larger project (using some abstractions and configs and libraries to make things easier (comments/contributions very welcome).
 - All these parts are the same as the previous except the Wiznet Modules. 
 You can follow [this](https://github.com/jouellnyc/micropython_ethernet/)  to set those up.
 
