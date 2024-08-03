@@ -1,5 +1,5 @@
 ## ESP32 Rapberry Pico Zero  Example
-This is similar the  [pizero to pizero](https://github.com/jouellnyc/UART/tree/main/pizero_simple) example, here we we add an esp32.
+This is similar to the  [pizero to pizero](https://github.com/jouellnyc/UART/tree/main/pizero_pizero_ppp) example, here we we add an esp32.
 
 ## Prerequisites
 
