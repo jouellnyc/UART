@@ -130,6 +130,14 @@ This was pretty straight forward in terms of the hardware. Really did not hit an
 
 [ PPP HOWTO - def route ](https://tldp.org/HOWTO/PPP-HOWTO/x452.html)
 
+[BCM vs BOARD GPIO](https://raspberrypi.stackexchange.com/questions/12966/what-is-the-difference-between-board-and-bcm-for-gpio-pin-numbering)
+
+[Zero pinout](https://pinout.xyz/pinout/serial_pi_zero)
+
+[GPIO Details](https://raspberrypi.stackexchange.com/questions/54479/what-is-the-difference-between-the-gpio-pins-bcm-14-and-bcm-18)
+
+[GPIO setup](https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3-4/)
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
 Feel free to modify the content as needed, such as adding installation instructions, code examples, or any other relevant information for your project.
