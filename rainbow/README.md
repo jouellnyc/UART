@@ -18,6 +18,9 @@
 - Each MCU then sets the text of the RGB tuple on it's  OLED
 - Each MCU then passes the tuple to the next MCU
 
+<P>
+Add on a https://www.dfrobot.com/product-2665.html and you get voice control!
+
   
 ##  Prerequisites
 
