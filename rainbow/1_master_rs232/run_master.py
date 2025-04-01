@@ -8,6 +8,7 @@ from rb import voice_sensor, setup, get_cmd_id
 # Constants
 HOLD_LED_TIME = 1
 WAIT_FOR_NEW_CMD_TIME = 1
+WAIT_DURING_SPEECH_CMDS = 10 
 
 # Command IDs
 CMD_CYCLE_COLORS = 115 # "Color Mode"
@@ -57,8 +58,8 @@ def show_all(rgb_tuple):
 
 def cycle_colors():
     """Cycle through all predefined colors."""
-    print("Starting color cycle sequence")
     try:
+        print("Starting color cycle sequence")
         for rgb_tuple in colors:
             show_all(rgb_tuple)
     except Exception as e:
@@ -76,29 +77,30 @@ def main():
             
             print('Listening for voice commands...')
             cmd_id = get_cmd_id(sensor=voice_sensor)
-            
-            if isinstance(cmd_id, int):
-                if cmd_id == CMD_CYCLE_COLORS:
-                    cycle_colors()
-                    time.sleep(3)
-                elif cmd_id == 2:
-                    pass
-                elif cmd_id == 255:
-                    print('No Command Received')
-                    #cycle_colors()
-                elif cmd_id == 45:
-                    """ CLEAR SCREEN """ 
-                    clear()
-                    send_tuple_using_uart('rs232', (9,9,9))
+            if cmd_id:
+                if isinstance(cmd_id, int):
+                    if cmd_id == CMD_CYCLE_COLORS:
+                        cycle_colors()
+                        time.sleep(3)
+                    elif cmd_id == 2:
+                        pass
+                    elif cmd_id == 255:
+                        print('No command, cycling colors')
+                        cycle_colors()
+                    elif cmd_id == 45:
+                        """ CLEAR SCREEN """ 
+                        clear()
+                        send_tuple_using_uart('rs232', (9,9,9))
+                        time.sleep(WAIT_DURING_SPEECH_CMDS)
+                    else:
+                        print(f'Command received: {cmd_id}')
+                        rgb_tuple = COLOR_MAPPINGS.get(cmd_id, (0, 0, 0))
+                        print(f'Selected color: {rgb_tuple}')
+                        show_all(rgb_tuple)
+                        time.sleep(WAIT_DURING_SPEECH_CMDS)
                 else:
-                    print(f'Command received: {cmd_id}')
-                    rgb_tuple = COLOR_MAPPINGS.get(cmd_id, (0, 0, 0))
-                    print(f'Selected color: {rgb_tuple}')
-                    show_all(rgb_tuple)
-                    time.sleep(5)
-            else:
-                print('Invalid command, cycling colors')
-                cycle_colors()
+                    print('Invalid command, cycling colors')
+                    cycle_colors()
                 
             print(f'Waiting {WAIT_FOR_NEW_CMD_TIME} seconds for next command...')
             time.sleep(WAIT_FOR_NEW_CMD_TIME)
