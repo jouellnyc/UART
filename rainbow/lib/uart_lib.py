@@ -93,7 +93,7 @@ def data_from_uart_is_valid(data):
             print(f"Invalid number of values received: {len(data)} (expected 3)")
             return None
     else:
-        print(f"Invalid RGB values: {data.decode()}")
+        print(f"Invalid RGB values for {data}")
         return None
         
 
