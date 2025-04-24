@@ -13,10 +13,14 @@ def http_tuple(rgb_tuple_string):
     if rgb_tuple_string == 'None':
         return None
     else:
-        rgb_tuple_string = rgb_tuple_string.strip('()')
-        rgb_tuple_values = rgb_tuple_string.split(',')
-        rgb_tuple = tuple(int(value) for value in rgb_tuple_values)
-        return rgb_tuple
+        try:
+            rgb_tuple_string = rgb_tuple_string.strip('()')
+            rgb_tuple_values = rgb_tuple_string.split(',')
+            rgb_tuple = tuple(int(value) for value in rgb_tuple_values)
+        except ValueError as e:
+            print(f"Invalid value {rgb_tuple_string} - Error: {e}")
+        else:
+            return rgb_tuple
 
 def get_rgb_from_http(url, verbose=True, timeout=3):
     try:
@@ -31,9 +35,9 @@ def get_rgb_from_http(url, verbose=True, timeout=3):
         print(f"Unhandled Error: {e}")
         return None
     else:
-        ht = http_tuple(rgb_tuple)
         if verbose:
             print(f"HTTP RGB TUPLE: {rgb_tuple}", type(rgb_tuple))
+        ht = http_tuple(rgb_tuple)
         return ht
     
     
