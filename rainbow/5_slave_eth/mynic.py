@@ -8,7 +8,6 @@ spi=SPI(0,2_000_000, mosi=Pin(19),miso=Pin(16),sck=Pin(18))
 nic = network.WIZNET5K(spi,Pin(17),Pin(20)) #spi,cs,reset pin
 nic.active(True)
 nic.ifconfig((myip, '255.255.255.0', '192.168.0.197', '8.8.8.8'))
-#nic.ifconfig('dhcp')
 time.sleep(2)
 print(nic.isconnected())
 print(nic.regs())
