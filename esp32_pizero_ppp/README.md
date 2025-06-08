@@ -113,6 +113,8 @@ The connections are very straight forward. Here's a photo just the same:
 
 [TI forum re: Baud](https://e2e.ti.com/support/microcontrollers/msp-low-power-microcontrollers-group/msp430/f/msp-low-power-microcontroller-forum/832781/ccs-msp430fr5994-what-is-the-max-uart-spi-baud-rates-using-only-dco)
 
+[Failure with Actual Connectivity](https://github.com/orgs/micropython/discussions/15881)
+ 
 ## License
 This project is licensed under the [MIT License](LICENSE).
 Feel free to modify the content as needed, such as adding installation instructions, code examples, or any other relevant information for your project.
