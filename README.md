@@ -24,7 +24,7 @@ Here are the projects:
 ## 4. [ESP32 to ESP32 - UART - RS-232 Example](esp32_rs232/)
 - RS-232 poised a few challenges, but we overcame them.
 
-## 5. [Raspberry Pi Zero to Pi Zero - UART Simple Example with PPP ](pizero_simple/)
+## 5. [Raspberry Pi Zero to Pi Zero - UART Simple Example with PPP ](pizero_pizero_ppp/)
 - This project can be a physical connection proxy for WPA2-Enterprise deployments
 - This is a full OS and more details are needed than just a simple script to properly deploy.
 
