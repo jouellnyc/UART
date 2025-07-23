@@ -106,8 +106,8 @@ And the Requisite Ascii:
                     ┌──────▼──────┐
                     │ Raspberry   │ (NAT 1)
                     │ Pi Zero     │
-                    │192.168.0.247│
-                    │  10.0.5.1   │
+                    │192.168.0.247│ eth0
+                    │  10.0.5.1   │ ppp0
                     └──────┬──────┘
                            │ UART/PPP
                            │ Jumper Wires:
@@ -117,7 +117,7 @@ And the Requisite Ascii:
                            │
                     ┌──────▼──────┐
                     │  ESP32/     │
-                    │ T-Display-S3│
+                    │ T-Display-S3│ ppp
                     │  10.0.5.3   │
                     └─────────────┘
 
