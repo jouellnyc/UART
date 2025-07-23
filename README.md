@@ -28,7 +28,7 @@ Here are the projects:
 - This project can be a physical connection proxy for WPA2-Enterprise deployments
 - This is a full OS and more details are needed than just a simple script to properly deploy.
 
-## 6. [Raspberry Pi Zero to ESP32 - UART Simple Example - with PPP ](esp32_pizero/)
+## 6. [Raspberry Pi Zero to ESP32 - UART Simple Example - with PPP ](esp32_pizero_ppp/)
 - This project can also be a physical connection proxy for WPA2-Enterprise deployments using jumpers and PPP.
 - This is a full OS as server and microcontroller as client.
 
