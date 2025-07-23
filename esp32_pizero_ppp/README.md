@@ -86,6 +86,60 @@ pppd /dev/ttyAMA0 1000000 10.0.5.1:10.0.5.2 proxyarp local noauth debug nodetach
 The connections are very straight forward. Here's a photo just the same:
 ![image](https://github.com/jouellnyc/UART/assets/32470508/ef3294ae-32ff-4389-a5f1-02386e8969a1)
 
+And the Requisite Ascii:
+
+                    ┌─────────────┐
+                    │  INTERNET   │
+                    └──────┬──────┘
+                           │
+                    ┌──────▼──────┐
+                    │ Cable Modem │
+                    └──────┬──────┘
+                           │ Ethernet
+                    ┌──────▼──────┐
+                    │     IP      │ (NAT 2)
+                    │   Router    │
+                    │ 192.168.0.x │
+                    └──────┬──────┘
+                           │ 
+                           │ Ethernet
+                    ┌──────▼──────┐
+                    │ Raspberry   │ (NAT 1)
+                    │ Pi Zero     │
+                    │192.168.0.247│
+                    │  10.0.5.1   │
+                    └──────┬──────┘
+                           │ UART/PPP
+                           │ Jumper Wires:
+                           │  - GND to GND
+                           │  - GPIO14(TX) to RX
+                           │  - GPIO15(RX) to TX
+                           │
+                    ┌──────▼──────┐
+                    │  ESP32/     │
+                    │ T-Display-S3│
+                    │  10.0.5.3   │
+                    └─────────────┘
+
+Connection Details:
+┌─────────────────────────────────────────────────────────┐
+│ Pi Zero ←→ ESP32 UART Connection:                       │
+│                                                         │
+│ Pi Zero    Jumper Wire    ESP32 T-Display-S3           │
+│ ├─ GND   ←─────────────→  GND                          │
+│ ├─ TX    ←─────────────→  GPIO15 (RX)                  │
+│ └─ RX    ←─────────────→  GPIO14 (TX)                  │
+│                                                         │
+│ PPP Network: 10.0.5.0/24                               │
+│ - Pi Zero: 10.0.5.1 (Gateway)                          │
+│ - ESP32:   10.0.5.3 (Client)                           │
+└─────────────────────────────────────────────────────────┘
+
+Traffic Flow:
+ESP32 → UART → Pi Zero (NAT1) → WiFi → Router (NAT 2) → Cable Modem → Internet
+
+
+
 ## Takeaways/ Learnings
 - Make sure both sides have the same line speed (`pppd /dev/ttyAMA0 9600` or whatever baud you choose). It's easy to forget that!
 - Everything works without the esp32 needing to call ppp.ifconfig(()) to set anything at all. It picked up the details from the 'server'.
