@@ -37,7 +37,7 @@ This is another physically connected alternative to wifi-based [wpa-ent-mschapv2
 
 These are again remapped because of SPIRAM usage and to remove any pin conflicts for the UART. Modify if needed. 
 
-| ESP32 Pin | Description |
+| Pi Zero | Description |
 |---|---|
 | TX | GPIO 14 |
 | RX | GPIO 15 |
