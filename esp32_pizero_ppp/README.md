@@ -22,6 +22,7 @@ This is another physically connected alternative to wifi-based [wpa-ent-mschapv2
 - Setup the Pi Zero to [allow Serial Communications](https://learn.adafruit.com/raspberry-pi-zero-creation/enable-uart)
 - see [config.txt](config.txt)
 - see [cmdline.txt](cmdline.txt)
+- Setup NAT with [rules.v4](rules.v4)
 
 ## Physical Connections / Pins 
 
