@@ -122,7 +122,7 @@ And the Requisite Ascii:
                     └─────────────┘
 
 Traffic Flow:
-ESP32 → UART → Pi Zero (NAT1) → WiFi → Router (NAT 2) → Cable Modem → Internet
+ESP32 =>  UART =>  Pi Zero (NAT1) =>  WiFi => Router (NAT 2) => Cable Modem => Internet
 
 
 
