@@ -121,21 +121,6 @@ And the Requisite Ascii:
                     │  10.0.5.3   │
                     └─────────────┘
 
-Connection Details:
-
-┌─────────────────────────────────────────────────────────┐
-│ Pi Zero ←→ ESP32 UART Connection:                       │
-│                                                         │
-│ Pi Zero    Jumper Wire    ESP32 T-Display-S3           │
-│ ├─ GND   ←─────────────→  GND                          │
-│ ├─ TX    ←─────────────→  GPIO15 (RX)                  │
-│ └─ RX    ←─────────────→  GPIO14 (TX)                  │
-│                                                         │
-│ PPP Network: 10.0.5.0/24                               │
-│ - Pi Zero: 10.0.5.1 (Gateway)                          │
-│ - ESP32:   10.0.5.3 (Client)                           │
-└─────────────────────────────────────────────────────────┘
-
 Traffic Flow:
 ESP32 → UART → Pi Zero (NAT1) → WiFi → Router (NAT 2) → Cable Modem → Internet
 
