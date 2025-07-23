@@ -122,6 +122,7 @@ And the Requisite Ascii:
                     └─────────────┘
 
 Connection Details:
+
 ┌─────────────────────────────────────────────────────────┐
 │ Pi Zero ←→ ESP32 UART Connection:                       │
 │                                                         │
